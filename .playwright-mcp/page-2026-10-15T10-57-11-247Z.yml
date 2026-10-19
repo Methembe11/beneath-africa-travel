@@ -1,0 +1,206 @@
+- generic [active] [ref=f13e1]:
+  - banner:
+    - link "Beneath Africa Travel & Tours, home" [ref=f13e2] [cursor=pointer]:
+      - /url: /
+      - generic [aria-hidden] [ref=f13e3]: BA
+      - generic [ref=f13e4]: Beneath Africa
+    - button "Open menu" [ref=f13e5] [cursor=pointer]:
+      - generic [ref=f13e6]: Menu
+  - main [ref=f13e11]:
+    - generic [ref=f13e12]:
+      - img "Sunset cruise on the Zambezi" [ref=f13e14]
+      - generic [ref=f13e16]:
+        - generic [ref=f13e17]: Experience · River
+        - heading "Cruises & River Experiences" [level=1] [ref=f13e18]
+        - paragraph [ref=f13e19]: Breakfast, lunch, sunset and dinner cruises on the Zambezi — the quietest hours of the Falls day.
+    - generic [ref=f13e21]:
+      - paragraph [ref=f13e22]: The Zambezi runs through the Falls, and the cruise is the part of the day that slows everything else down. We arrange breakfast, lunch, sunset and dinner cruises, along with the transfers to and from the river.
+      - paragraph [ref=f13e23]: A sunset cruise is also a common inclusion on school trips, where it fits neatly into an afternoon that has already covered the Falls and the crocodile farm.
+    - generic [ref=f13e26]:
+      - generic [ref=f13e27]:
+        - heading "Sunset Cruise" [level=3] [ref=f13e28]
+        - paragraph [ref=f13e29]: The best-known of the four, and the easiest to add to a day.
+      - generic [ref=f13e30]:
+        - heading "Breakfast Cruise" [level=3] [ref=f13e31]
+        - paragraph [ref=f13e32]: An early start on the water before the day's activities.
+      - generic [ref=f13e33]:
+        - heading "Lunch & Dinner Cruises" [level=3] [ref=f13e34]
+        - paragraph [ref=f13e35]: Midday and evening options, arranged as needed.
+      - generic [ref=f13e36]:
+        - heading "Transfers Included" [level=3] [ref=f13e37]
+        - paragraph [ref=f13e38]: Road transfers arranged to and from the river.
+    - generic [ref=f13e41]:
+      - heading "The Four Cruises" [level=2] [ref=f13e42]
+      - list [ref=f13e43]:
+        - listitem [ref=f13e44]:
+          - generic [ref=f13e50]: Breakfast cruise
+        - listitem [ref=f13e51]:
+          - generic [ref=f13e57]: Lunch cruise
+        - listitem [ref=f13e58]:
+          - generic [ref=f13e64]: Sunset cruise
+        - listitem [ref=f13e65]:
+          - generic [ref=f13e71]: Dinner cruise
+    - generic [ref=f13e74]:
+      - heading "River Houseboats" [level=2] [ref=f13e75]
+      - paragraph [ref=f13e76]: Houseboats on Lake Kariba are arranged separately from the Falls cruises, because the two are different waterways and different kinds of trip.
+    - generic [ref=f13e78]:
+      - generic [ref=f13e79]:
+        - generic [ref=f13e80]: Where To Next
+        - heading "Related Pages" [level=2] [ref=f13e81]
+        - paragraph [ref=f13e82]: Arranged from the same office, so the connections between them are already in place.
+      - navigation "Related pages" [ref=f13e83]:
+        - link [ref=f13e85] [cursor=pointer]:
+          - /url: /destinations/victoria-falls
+          - img "Victoria Falls" [ref=f13e87]
+          - generic [ref=f13e89]:
+            - heading "Victoria Falls" [level=3] [ref=f13e90]
+            - paragraph [ref=f13e91]: Our home in Zimbabwe
+        - link [ref=f13e95] [cursor=pointer]:
+          - /url: /experiences/houseboats
+          - img "Houseboats" [ref=f13e97]
+          - generic [ref=f13e99]:
+            - heading "Houseboats" [level=3] [ref=f13e100]
+            - paragraph [ref=f13e101]: Lake Kariba
+        - link [ref=f13e105] [cursor=pointer]:
+          - /url: /travel/water-transfers
+          - img "Water Transfers" [ref=f13e107]
+          - generic [ref=f13e109]:
+            - heading "Water Transfers" [level=3] [ref=f13e110]
+            - paragraph [ref=f13e111]: River and lake logistics
+        - link [ref=f13e115] [cursor=pointer]:
+          - /url: /educational-trips
+          - img "Educational Trips" [ref=f13e117]
+          - generic [ref=f13e119]:
+            - heading "Educational Trips" [level=3] [ref=f13e120]
+            - paragraph [ref=f13e121]: School trips arranged from Victoria Falls
+    - generic [ref=f13e126]:
+      - generic [ref=f13e127]:
+        - heading "Ready to talk it through?" [level=2] [ref=f13e128]
+        - paragraph [ref=f13e129]: Send us your dates, group size and what you have in mind. An individual offer is prepared on request, with no obligation.
+      - link "Contact Us" [ref=f13e130] [cursor=pointer]:
+        - /url: /contact
+    - generic [ref=f13e133]:
+      - generic [ref=f13e135]:
+        - generic [ref=f13e136]:
+          - generic [ref=f13e137]: Victoria Falls
+          - generic [ref=f13e138]: ✦
+        - generic [ref=f13e139]:
+          - generic [ref=f13e140]: Zimbabwe · Zambia · Botswana · Namibia
+          - generic [ref=f13e141]: ✦
+        - generic [ref=f13e142]:
+          - generic [ref=f13e143]: Established 2013
+          - generic [ref=f13e144]: ✦
+        - generic [ref=f13e145]:
+          - generic [ref=f13e146]: Road & water transfers
+          - generic [ref=f13e147]: ✦
+        - generic [ref=f13e148]:
+          - generic [ref=f13e149]: Safaris · Cruises · Houseboats
+          - generic [ref=f13e150]: ✦
+        - generic [ref=f13e151]:
+          - generic [ref=f13e152]: Victoria Falls
+          - generic [ref=f13e153]: ✦
+        - generic [ref=f13e154]:
+          - generic [ref=f13e155]: Zimbabwe · Zambia · Botswana · Namibia
+          - generic [ref=f13e156]: ✦
+        - generic [ref=f13e157]:
+          - generic [ref=f13e158]: Established 2013
+          - generic [ref=f13e159]: ✦
+        - generic [ref=f13e160]:
+          - generic [ref=f13e161]: Road & water transfers
+          - generic [ref=f13e162]: ✦
+        - generic [ref=f13e163]:
+          - generic [ref=f13e164]: Safaris · Cruises · Houseboats
+          - generic [ref=f13e165]: ✦
+      - generic [ref=f13e166]:
+        - generic [ref=f13e167]:
+          - generic [ref=f13e168]:
+            - paragraph [ref=f13e169]: Stay in touch
+            - heading "Letters from Victoria Falls." [level=2] [ref=f13e170]:
+              - text: Letters from
+              - generic [ref=f13e171]: Victoria Falls.
+            - paragraph [ref=f13e172]: Journey notes, new experiences and the occasional invitation. Sent rarely, by hand.
+            - generic [ref=f13e173]:
+              - generic [ref=f13e174]:
+                - generic [ref=f13e175]: Email address
+                - textbox "Email address" [ref=f13e176]:
+                  - /placeholder: Your email
+                - button "Subscribe" [ref=f13e177] [cursor=pointer]
+              - status [ref=f13e178]
+            - generic [ref=f13e179]:
+              - generic [ref=f13e180]:
+                - generic [ref=f13e181]: Local time
+                - generic [ref=f13e182]: 08:00:00
+              - generic [ref=f13e183]:
+                - generic [ref=f13e184]: Based in
+                - generic [ref=f13e185]: Victoria Falls
+              - generic [ref=f13e186]:
+                - generic [ref=f13e187]: Founded
+                - generic [ref=f13e188]: "2013"
+          - generic [ref=f13e189]:
+            - generic [ref=f13e190]:
+              - paragraph [ref=f13e191]: Discover
+              - list [ref=f13e192]:
+                - listitem [ref=f13e193]:
+                  - link "Victoria Falls" [ref=f13e194] [cursor=pointer]:
+                    - /url: /destinations/victoria-falls
+                - listitem [ref=f13e195]:
+                  - link "Zimbabwe" [ref=f13e196] [cursor=pointer]:
+                    - /url: /destinations/zimbabwe
+                - listitem [ref=f13e197]:
+                  - link "Zambia" [ref=f13e198] [cursor=pointer]:
+                    - /url: /destinations/zambia
+                - listitem [ref=f13e199]:
+                  - link "Botswana" [ref=f13e200] [cursor=pointer]:
+                    - /url: /destinations/botswana
+                - listitem [ref=f13e201]:
+                  - link "Namibia" [ref=f13e202] [cursor=pointer]:
+                    - /url: /destinations/namibia
+            - generic [ref=f13e203]:
+              - paragraph [ref=f13e204]: Plan
+              - list [ref=f13e205]:
+                - listitem [ref=f13e206]:
+                  - link "Road transfers" [ref=f13e207] [cursor=pointer]:
+                    - /url: /travel/road-transfers
+                - listitem [ref=f13e208]:
+                  - link "Water transfers" [ref=f13e209] [cursor=pointer]:
+                    - /url: /travel/water-transfers
+                - listitem [ref=f13e210]:
+                  - link "Cross-border" [ref=f13e211] [cursor=pointer]:
+                    - /url: /travel/cross-border
+                - listitem [ref=f13e212]:
+                  - link "Accommodation" [ref=f13e213] [cursor=pointer]:
+                    - /url: /travel/accommodation
+                - listitem [ref=f13e214]:
+                  - link "Educational trips" [ref=f13e215] [cursor=pointer]:
+                    - /url: /educational-trips
+            - generic [ref=f13e216]:
+              - paragraph [ref=f13e217]: Company
+              - list [ref=f13e218]:
+                - listitem [ref=f13e219]:
+                  - link "Our story" [ref=f13e220] [cursor=pointer]:
+                    - /url: /about/story
+                - listitem [ref=f13e221]:
+                  - link "Our team" [ref=f13e222] [cursor=pointer]:
+                    - /url: /about/team
+                - listitem [ref=f13e223]:
+                  - link "Testimonials" [ref=f13e224] [cursor=pointer]:
+                    - /url: /about/testimonials
+                - listitem [ref=f13e225]:
+                  - link "Contact" [ref=f13e226] [cursor=pointer]:
+                    - /url: /contact
+        - generic [ref=f13e228]: Beneath Africa
+        - generic [ref=f13e229]:
+          - list "Connect" [ref=f13e230]:
+            - listitem [ref=f13e231]:
+              - link "WhatsApp" [ref=f13e232] [cursor=pointer]:
+                - /url: https://wa.me/263778130264
+            - listitem [ref=f13e236]:
+              - link "Email" [ref=f13e237] [cursor=pointer]:
+                - /url: mailto:reservations@beneathafricatravel.co.zw
+            - listitem [ref=f13e241]:
+              - link "Instagram" [ref=f13e242] [cursor=pointer]:
+                - /url: https://www.instagram.com/
+          - button "Back to top" [ref=f13e246] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f13e248]: ↑
+        - paragraph [ref=f13e250]: © 2013–2026 Beneath Africa Travel and Tours. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f13e256] [cursor=pointer]

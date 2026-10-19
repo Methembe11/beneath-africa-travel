@@ -1,0 +1,395 @@
+- generic [ref=f6e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - link "Villa Aurelia on Awwwards" [ref=f6e4] [cursor=pointer]:
+    - /url: https://www.awwwards.com/sites/villa-aurelia
+  - generic [ref=f6e9]:
+    - button "Müziği çal" [ref=f6e10] [cursor=pointer]
+    - banner [ref=f6e15]:
+      - generic [ref=f6e16]:
+        - navigation [ref=f6e17]:
+          - link "ODALAR" [ref=f6e18] [cursor=pointer]:
+            - /url: /odalar
+          - link "GASTRONOMİ" [ref=f6e19] [cursor=pointer]:
+            - /url: /gastronomi
+          - link "DENEYİMLER" [ref=f6e20] [cursor=pointer]:
+            - /url: /deneyimler
+          - link "JOURNAL" [ref=f6e21] [cursor=pointer]:
+            - /url: /journal
+        - link [ref=f6e22] [cursor=pointer]:
+          - /url: "#top"
+          - img "Villa Aurelia" [ref=f6e24]
+        - navigation [ref=f6e25]:
+          - link "DÜĞÜNLER" [ref=f6e26] [cursor=pointer]:
+            - /url: /dugunler
+          - link "REZERVASYON" [ref=f6e27] [cursor=pointer]:
+            - /url: /rezervasyon
+          - button "Toggle language" [ref=f6e28] [cursor=pointer]:
+            - generic [ref=f6e29]: TR
+            - generic [ref=f6e30]: /
+            - generic [ref=f6e31]: EN
+          - button "Sezonu değiştir" [ref=f6e32] [cursor=pointer]:
+            - generic [ref=f6e39]: YAZ
+            - generic: Nisan – Ekim
+    - generic [ref=f6e40]:
+      - generic [ref=f6e43]:
+        - heading "L a d o l c e v i t a" [level=1] [ref=f6e44]:
+          - generic [ref=f6e45]: L
+          - generic [ref=f6e47]: a
+          - generic [ref=f6e51]: d
+          - generic [ref=f6e53]: o
+          - generic [ref=f6e55]: l
+          - generic [ref=f6e57]: c
+          - generic [ref=f6e59]: e
+          - generic [ref=f6e62]: v
+          - generic [ref=f6e64]: i
+          - generic [ref=f6e66]: t
+          - generic [ref=f6e68]: a
+        - generic [ref=f6e70]:
+          - generic [ref=f6e71]: Sezon seçimi
+          - tablist "Sezon seçimi" [ref=f6e72]:
+            - tab "Yaz Sezonu Nisan – Ekim" [selected] [ref=f6e73] [cursor=pointer]:
+              - generic [ref=f6e80]: Yaz Sezonu
+              - generic: Nisan – Ekim
+            - tab "Kış Sezonu Kasım – Mart" [ref=f6e81] [cursor=pointer]:
+              - generic [ref=f6e87]: Kış Sezonu
+              - generic: Kasım – Mart
+      - generic [ref=f6e88]: Keşfet
+      - generic:
+        - generic:
+          - img "Villa Aurelia"
+    - generic [ref=f6e90]:
+      - img "Villa Aurelia interior detail" [ref=f6e92]
+      - img "Villa Aurelia living space" [ref=f6e94]
+      - generic [ref=f6e95]:
+        - heading "Özenle işlenmiş, titizlikle tasarlanmış." [level=2] [ref=f6e96]:
+          - generic [ref=f6e97]:
+            - generic [ref=f6e98]: Özenle
+            - generic [ref=f6e99]: işlenmiş,
+          - generic [ref=f6e100]:
+            - generic [ref=f6e101]: titizlikle
+            - generic [ref=f6e102]: tasarlanmış.
+        - paragraph [ref=f6e103]: Villa Aurelia; mimariye, ışığa ve orada yaşanan hayata duyulan derin bir saygıyla tasarlandı. Her oda; doğal dokular, dingin tonlar ve özenle seçilmiş parçalarla katman katman kuruluyor. Dengeye ve ayrıntıya olan bağlılığımız, villanın her köşesini hem rafine hem de tamamen konforlu kılıyor; Antalya kıyısında sessiz bir sığınak.
+    - generic [ref=f6e106]:
+      - img "Süit" [ref=f6e107]
+      - img "Süit" [ref=f6e108]
+      - img "Süit" [ref=f6e109]
+      - generic [ref=f6e110]: ODALAR & SÜİTLER
+      - generic:
+        - heading "Dinlenmek ve huzur bulmak için ideal yer" [level=2]:
+          - generic: Dinlenmek
+          - generic: ve
+          - generic:
+            - generic: huzur
+            - generic: bulmak
+            - generic: için
+            - generic: ideal
+            - generic: yer
+      - generic [ref=f6e112]:
+        - button "SÜIT" [ref=f6e113] [cursor=pointer]
+        - button "DELUXE" [ref=f6e114] [cursor=pointer]
+        - button "BAHÇELI VILLA" [ref=f6e115] [cursor=pointer]
+        - button "İMPERIAL SÜIT" [ref=f6e116] [cursor=pointer]
+      - button "Previous image" [ref=f6e117] [cursor=pointer]:
+        - generic [ref=f6e118]: ÖNCEKİ
+      - button "Next image" [ref=f6e123] [cursor=pointer]:
+        - generic [ref=f6e128]: SONRAKİ
+      - generic [ref=f6e129]:
+        - heading "Süit" [level=3] [ref=f6e130]
+        - generic [ref=f6e131]: Yatak sayısı — 2Banyo — 1
+        - generic [ref=f6e132]: DAHİL
+        - generic [ref=f6e133]:
+          - generic [ref=f6e134]: Deniz manzarası
+          - generic [ref=f6e135]: Klima
+          - generic [ref=f6e136]: King yatak
+          - generic [ref=f6e137]: Giyinme odası
+          - generic [ref=f6e138]: Wi-Fi
+          - generic [ref=f6e139]: Espresso barı
+      - generic [ref=f6e140]:
+        - text: "01"
+        - generic [ref=f6e141]: /03
+      - generic [ref=f6e142]:
+        - button "Image 1" [ref=f6e143] [cursor=pointer]
+        - button "Image 2" [ref=f6e144] [cursor=pointer]
+        - button "Image 3" [ref=f6e145] [cursor=pointer]
+      - generic: Oda Rezerve Et
+    - generic [ref=f6e147]:
+      - generic [ref=f6e148]:
+        - generic [ref=f6e149]: DENEYİMLER
+        - heading "Küçük ritüellerden oluşan bir mevsim." [level=2] [ref=f6e151]:
+          - generic [ref=f6e152]: Küçük
+          - generic [ref=f6e153]: ritüellerden
+          - generic [ref=f6e154]:
+            - generic [ref=f6e155]: oluşan
+            - generic [ref=f6e156]: bir
+            - generic [ref=f6e157]: mevsim.
+        - paragraph [ref=f6e158]: Sahilde gün doğumundan denizin kıyısındaki müzikli akşamlara kadar — Villa Aurelia'da her gün, yavaşça yaşanmak ve içtenlikle hatırlanmak üzere kurgulanmış anlardan oluşuyor.
+      - generic [ref=f6e160]:
+        - article [ref=f6e161]:
+          - img "Yüzme Havuzu" [ref=f6e163]
+          - generic: "01"
+          - generic [ref=f6e164]: 01 / 10
+          - generic [ref=f6e165]:
+            - heading "Yüzme Havuzu" [level=3] [ref=f6e166]
+            - paragraph [ref=f6e167]: Akdeniz'in ufkuyla buluşan sonsuzluk havuzu. Şezlonglar, özenli servis ve yaz öğleden sonralarının yavaş ritmi bir arada.
+        - article [ref=f6e169]:
+          - img "Özel Plaj" [ref=f6e171]
+          - generic: "02"
+          - generic [ref=f6e172]: 02 / 10
+          - generic [ref=f6e173]:
+            - heading "Özel Plaj" [level=3] [ref=f6e174]
+            - paragraph [ref=f6e175]: Yalnızca misafirlerimize ayrılmış, ince kumlu ve turkuaz sulu sakin bir sahil. Kabanalar, plaj butlerları ve sessiz kaçamaklar sizi bekliyor.
+        - article [ref=f6e177]:
+          - img "Golf Sahası" [ref=f6e179]
+          - generic: "03"
+          - generic [ref=f6e180]: 03 / 10
+          - generic [ref=f6e181]:
+            - heading "Golf Sahası" [level=3] [ref=f6e182]
+            - paragraph [ref=f6e183]: Selvilerle çevrili yeşil sahalar arasında on sekiz delik. Şafakta, çimenlerden yükselen sisin ve uzaktaki dağların eşliğinde oyununuza başlayın.
+        - article [ref=f6e185]:
+          - img "Canlı Konserler" [ref=f6e187]
+          - generic: "04"
+          - generic [ref=f6e188]: 04 / 10
+          - generic [ref=f6e189]:
+            - heading "Canlı Konserler" [level=3] [ref=f6e190]
+            - paragraph [ref=f6e191]: Yıldızlı gökyüzü altında yaylı sazlar, caz ve dingin akustik setlerle geçen açık hava akşamları. Gecenin bir parçası olan müzik.
+        - article [ref=f6e193]:
+          - img "Kokteyl Bar" [ref=f6e195]
+          - generic: "05"
+          - generic [ref=f6e196]: 05 / 10
+          - generic [ref=f6e197]:
+            - heading "Kokteyl Bar" [level=3] [ref=f6e198]
+            - paragraph [ref=f6e199]: Amber ışıklar, mermer tezgâhlar ve her gece hazırlanan imza kokteyller. Oyalanmak, müziği dinlemek ve akşamın ağır ağır açılışını izlemek için ideal.
+        - article [ref=f6e201]:
+          - img "İkindi Çayı" [ref=f6e203]
+          - generic: "06"
+          - generic [ref=f6e204]: 06 / 10
+          - generic [ref=f6e205]:
+            - heading "İkindi Çayı" [level=3] [ref=f6e206]
+            - paragraph [ref=f6e207]: Katlı porselenler, bahçe manzarası ve özenle seçilmiş çay çeşitleri. Terasta ev yapımı hamur işleriyle sunulan günlük bir ritüel.
+        - article [ref=f6e209]:
+          - img "Hamam & Spa" [ref=f6e211]
+          - generic: "07"
+          - generic [ref=f6e212]: 07 / 10
+          - generic [ref=f6e213]:
+            - heading "Hamam & Spa" [level=3] [ref=f6e214]
+            - paragraph [ref=f6e215]: Mum ışığında taş odalar, ılık mermer ve yüzyılların Akdeniz geleneğinden süzülen ritüeller. Beden ve zihin için sessiz bir yenilenme.
+        - article [ref=f6e217]:
+          - img "Gün Batımı Yelken" [ref=f6e219]
+          - generic: "08"
+          - generic [ref=f6e220]: 08 / 10
+          - generic [ref=f6e221]:
+            - heading "Gün Batımı Yelken" [level=3] [ref=f6e222]
+            - paragraph [ref=f6e223]: Altın saatlerde Antalya kıyısı boyunca özel yat turları. Şampanya, sakin denizler ve akşama doğru yavaş bir sürüklenme.
+        - article [ref=f6e225]:
+          - img "Gün Doğumu Yogası" [ref=f6e227]
+          - generic: "09"
+          - generic [ref=f6e228]: 09 / 10
+          - generic [ref=f6e229]:
+            - heading "Gün Doğumu Yogası" [level=3] [ref=f6e230]
+            - paragraph [ref=f6e231]: Keten perdeler, denizin üzerinde ahşap bir güverte ve dalgaların ritmine göre şekillenen bir sabah pratiği.
+        - article [ref=f6e233]:
+          - img "Teras Yemeği" [ref=f6e235]
+          - generic: "10"
+          - generic [ref=f6e236]: 10 / 10
+          - generic [ref=f6e237]:
+            - heading "Teras Yemeği" [level=3] [ref=f6e238]
+            - paragraph [ref=f6e239]: Zeytin ağaçlarının altında mum ışığında masalar, yerel ürünlerden hazırlanan tadım menüsü ve Akdeniz akşamının sıcak sessizliği.
+    - generic [ref=f6e244]:
+      - generic [ref=f6e245]: ÖĞLE YEMEĞİ, İKİNDİ ÇAYI VE AKŞAM YEMEĞİ
+      - heading "Büyük Salon" [level=2] [ref=f6e246]:
+        - generic [ref=f6e247]: Büyük
+        - generic [ref=f6e248]: Salon
+      - generic [ref=f6e249]:
+        - img "Büyük Salon" [ref=f6e250]
+        - img "Teras" [ref=f6e251]
+        - img "Aurelia Bar" [ref=f6e252]
+      - paragraph [ref=f6e253]: Geniş manzarası, uluslararası mutfağı, kokteylleri ve hafif tabaklarıyla efsanevi Büyük Salon, Antalya'nın “oturma odası” olarak bilinir. Villa Aurelia'nın terasında canlı piyano eşliğinde sunulan ikindi çayında gerçek zarafeti deneyimleyin.
+      - generic [ref=f6e254]:
+        - button "Go to venue 1" [ref=f6e255] [cursor=pointer]
+        - button "Go to venue 2" [ref=f6e256] [cursor=pointer]
+        - button "Go to venue 3" [ref=f6e257] [cursor=pointer]
+      - link "KEŞFET" [ref=f6e258] [cursor=pointer]:
+        - /url: "#menu"
+    - generic [ref=f6e260]:
+      - img "Bride and groom at Villa Aurelia" [ref=f6e263]
+      - generic [ref=f6e264]:
+        - generic [ref=f6e265]: DÜĞÜNLER & KUTLAMALAR
+        - heading "Zamansız bir zarafetle “Evet” deyin." [level=2] [ref=f6e267]:
+          - generic [ref=f6e268]: Zamansız
+          - generic [ref=f6e269]: bir
+          - generic [ref=f6e270]: zarafetle
+          - generic [ref=f6e271]:
+            - generic [ref=f6e272]: “Evet”
+            - generic [ref=f6e273]: deyin.
+        - paragraph [ref=f6e274]: Villa Aurelia; olağanüstü bir başlangıç arayan çiftlere bahçelerini, teraslarını ve balo salonlarını açar. Selvi ağaçları altındaki mahrem törenlerden mum ışığındaki avizelerin altında düzenlenen büyük resepsiyonlara kadar her ayrıntı, misafirlerimize gösterdiğimiz özenle kurgulanır. Adanmış organizatörler, özenle hazırlanmış menüler ve özel bir malikâne hissi veren bir mekân — bir günlüğüne size ait, sonsuza dek hatırlanacak.
+        - generic [ref=f6e276]:
+          - heading "Bir bakışta" [level=4] [ref=f6e277]
+          - generic [ref=f6e278]:
+            - paragraph [ref=f6e279]: "Kapasite: 80 – 120 misafir"
+            - paragraph [ref=f6e280]: "Mekânlar: Bahçe, Teras & Balo Salonu"
+            - paragraph [ref=f6e281]: "Mevsimler: İlkbahar–Sonbahar"
+    - generic [ref=f6e283]:
+      - generic [ref=f6e284]:
+        - generic [ref=f6e285]: REZERVASYONLAR
+        - heading "Konaklamanızı Villa Aurelia'da ayırtın." [level=2] [ref=f6e287]:
+          - generic [ref=f6e288]: Konaklamanızı
+          - generic [ref=f6e289]:
+            - generic [ref=f6e290]: Villa
+            - generic [ref=f6e291]: Aurelia'da
+            - generic [ref=f6e292]: ayırtın.
+        - paragraph [ref=f6e293]: Gelişinizi biz hazırlayalım. Tarihlerinizi ve tercihlerinizi paylaşın; misafir ilişkileri ekibimiz 24 saat içinde rezervasyonunuzu onaylasın.
+      - generic [ref=f6e294]:
+        - generic [ref=f6e295]:
+          - generic [ref=f6e296]: Tarihler
+          - button "Giriş ve çıkış tarihi seçin" [ref=f6e297] [cursor=pointer]
+        - generic [ref=f6e301]:
+          - generic [ref=f6e302]: Yetişkin
+          - combobox [ref=f6e303] [cursor=pointer]:
+            - generic: "2"
+          - combobox [aria-hidden] [ref=f6e306]
+        - generic [ref=f6e307]:
+          - generic [ref=f6e308]: Çocuk
+          - combobox [ref=f6e309] [cursor=pointer]
+          - combobox [aria-hidden] [ref=f6e312]
+        - generic [ref=f6e313]:
+          - generic [ref=f6e314]: Oda Tercihi
+          - combobox [ref=f6e315] [cursor=pointer]:
+            - generic: Oda tipi seçin
+          - combobox [aria-hidden] [ref=f6e318]
+        - generic [ref=f6e319]:
+          - generic [ref=f6e320]: Ad Soyad
+          - textbox "Adınız" [ref=f6e321]
+        - generic [ref=f6e322]:
+          - generic [ref=f6e323]: E-posta Adresi
+          - textbox "your@email.com" [ref=f6e324]
+        - generic [ref=f6e325]:
+          - generic [ref=f6e326]: Telefon
+          - textbox "+90 5XX XXX XXXX" [ref=f6e327]
+        - generic [ref=f6e328]:
+          - generic [ref=f6e329]: Özel İstekler
+          - textbox "Özel bir gün, diyet gereksinimi veya oda tercihi belirtebilirsiniz…" [ref=f6e330]
+        - button "Rezervasyon Talep Et" [ref=f6e332] [cursor=pointer]
+    - generic [ref=f6e334]:
+      - img "Pool & palms" [ref=f6e336]
+      - img "Serene interior" [ref=f6e338]
+      - img "Open-air bar" [ref=f6e340]
+      - img "Stone arch view" [ref=f6e342]
+      - generic [ref=f6e343]:
+        - heading "Hazır mısınız? Aurelia'yı deneyimlemeye." [level=2] [ref=f6e344]:
+          - generic [ref=f6e345]: Hazır
+          - generic [ref=f6e346]: mısınız?
+          - generic [ref=f6e347]:
+            - generic [ref=f6e348]: Aurelia'yı
+            - generic [ref=f6e349]: deneyimlemeye.
+        - paragraph [ref=f6e350]: Konaklamanızı bugün ayırtın; Antalya kıyısında deniz kenarı lüksünü, nefes kesici manzaraları ve unutulmaz anları keşfedin.
+    - contentinfo [ref=f6e351]:
+      - generic [ref=f6e353]:
+        - generic [ref=f6e354]:
+          - generic [ref=f6e355]:
+            - generic [ref=f6e356]: La dolce vita
+            - generic [aria-hidden] [ref=f6e357]: ✦
+          - generic [ref=f6e358]:
+            - generic [ref=f6e359]: Antalya · Türkiye
+            - generic [aria-hidden] [ref=f6e360]: ✦
+          - generic [ref=f6e361]:
+            - generic [ref=f6e362]: Kuruluş MMXXVI
+            - generic [aria-hidden] [ref=f6e363]: ✦
+          - generic [ref=f6e364]:
+            - generic [ref=f6e365]: Deniz Kıyısında Lüks
+            - generic [aria-hidden] [ref=f6e366]: ✦
+          - generic [ref=f6e367]:
+            - generic [ref=f6e368]: Akdeniz Ruhu
+            - generic [aria-hidden] [ref=f6e369]: ✦
+          - generic [ref=f6e370]:
+            - generic [ref=f6e371]: Özel Konsiyerj
+            - generic [aria-hidden] [ref=f6e372]: ✦
+        - generic [ref=f6e373]:
+          - generic [ref=f6e374]:
+            - generic [ref=f6e375]: La dolce vita
+            - generic [aria-hidden] [ref=f6e376]: ✦
+          - generic [ref=f6e377]:
+            - generic [ref=f6e378]: Antalya · Türkiye
+            - generic [aria-hidden] [ref=f6e379]: ✦
+          - generic [ref=f6e380]:
+            - generic [ref=f6e381]: Kuruluş MMXXVI
+            - generic [aria-hidden] [ref=f6e382]: ✦
+          - generic [ref=f6e383]:
+            - generic [ref=f6e384]: Deniz Kıyısında Lüks
+            - generic [aria-hidden] [ref=f6e385]: ✦
+          - generic [ref=f6e386]:
+            - generic [ref=f6e387]: Akdeniz Ruhu
+            - generic [aria-hidden] [ref=f6e388]: ✦
+          - generic [ref=f6e389]:
+            - generic [ref=f6e390]: Özel Konsiyerj
+            - generic [aria-hidden] [ref=f6e391]: ✦
+      - generic [ref=f6e392]:
+        - generic [ref=f6e393]:
+          - generic [ref=f6e394]:
+            - paragraph [ref=f6e395]: İletişimde kalın
+            - heading "Akdeniz'den mektuplar." [level=3] [ref=f6e396]:
+              - text: Akdeniz'den
+              - generic [ref=f6e397]: mektuplar.
+            - paragraph [ref=f6e398]: Sezon açılışları, özel tadımlar ve villadaki akşamlara davetler. Nadiren, elle yazılarak gönderilir.
+            - generic [ref=f6e399]:
+              - generic [ref=f6e400]:
+                - textbox "your@email.com" [ref=f6e401]
+                - button "Abone ol" [ref=f6e402] [cursor=pointer]
+              - generic [ref=f6e407]: Teşekkürler — karşılama mektubunuz yolda.
+            - generic [ref=f6e408]:
+              - generic [ref=f6e409]:
+                - generic [ref=f6e410]: Antalya yerel saati
+                - generic [ref=f6e411]: 15:43:20
+              - generic [ref=f6e412]:
+                - generic [ref=f6e413]: Şu anda
+                - generic [ref=f6e414]: 28° · Açık
+              - generic [ref=f6e415]:
+                - generic [ref=f6e416]: Resepsiyon
+                - generic [ref=f6e417]: 24 saat açık
+          - generic [ref=f6e418]:
+            - generic [ref=f6e419]:
+              - paragraph [ref=f6e420]: Keşfet
+              - list [ref=f6e421]:
+                - listitem [ref=f6e422]:
+                  - link "Hikâyemiz" [ref=f6e423] [cursor=pointer]:
+                    - /url: /#our-story
+                - listitem [ref=f6e425]:
+                  - link "Odalar & Süitler" [ref=f6e426] [cursor=pointer]:
+                    - /url: /#stay
+                - listitem [ref=f6e428]:
+                  - link "Restoranlar" [ref=f6e429] [cursor=pointer]:
+                    - /url: /#dine
+                - listitem [ref=f6e431]:
+                  - link "Deneyimler" [ref=f6e432] [cursor=pointer]:
+                    - /url: /#experiences
+                - listitem [ref=f6e434]:
+                  - link "Düğünler" [ref=f6e435] [cursor=pointer]:
+                    - /url: /#weddings
+            - generic [ref=f6e437]:
+              - paragraph [ref=f6e438]: Planlama
+              - list [ref=f6e439]:
+                - listitem [ref=f6e440]:
+                  - link "Rezervasyonlar" [ref=f6e441] [cursor=pointer]:
+                    - /url: /#book
+                - listitem [ref=f6e443]:
+                  - link "Journal" [ref=f6e444] [cursor=pointer]:
+                    - /url: /journal
+        - generic [ref=f6e447]:
+          - generic [ref=f6e448]: A
+          - generic [ref=f6e449]: u
+          - generic [ref=f6e450]: r
+          - generic [ref=f6e451]: e
+          - generic [ref=f6e452]: l
+          - generic [ref=f6e453]: i
+          - generic [ref=f6e454]: a
+        - generic [ref=f6e456]:
+          - list [ref=f6e457]:
+            - listitem [ref=f6e458]:
+              - link "Instagram @villaaureliahotel" [ref=f6e459] [cursor=pointer]:
+                - /url: https://www.instagram.com/villaaureliahotel/
+                - generic [ref=f6e463]: Instagram
+                - generic: "@villaaureliahotel"
+          - button "Back to top" [ref=f6e464] [cursor=pointer]:
+            - generic [ref=f6e465]: Başa dön
+        - paragraph [ref=f6e471]: © 2026 Villa Aurelia. Tüm hakları saklıdır.

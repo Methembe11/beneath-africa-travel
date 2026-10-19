@@ -1,0 +1,311 @@
+/* ============================================================
+   EditorialCarousel — a full-width editorial carousel: one
+   article shown beside an overlapping portrait image, on a
+   forest-green ground. Adapted from the supplied spec; the two
+   duplicated (hover-less) rules have been given :hover /
+   :focus-visible states so the controls do not sit in a permanent
+   hover look.
+   ============================================================ */
+
+.editorialCarousel {
+  --forest: #28551b;
+  position: relative;
+  width: 100%;
+  height: 596px;
+  min-height: 560px;
+  overflow: hidden;
+  isolation: isolate;
+  background: #18351b;
+  font-family: var(--font-sans, Arial, Helvetica, sans-serif);
+}
+
+.carouselBackground {
+  position: absolute;
+  inset: 0;
+  z-index: -3;
+  background-position: center;
+  background-size: cover;
+  will-change: opacity, transform;
+}
+
+.carouselShade {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.27) 0%,
+    rgba(0, 0, 0, 0.06) 48%,
+    rgba(0, 0, 0, 0.04) 100%
+  );
+}
+
+.carouselCopyright {
+  position: absolute;
+  top: 43px;
+  left: 2.5%;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.carouselInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* --- left copy column --------------------------------------- */
+
+.carouselCopy {
+  position: absolute;
+  top: 50%;
+  left: 5.8%;
+  width: 33%;
+  max-width: 460px;
+  color: #ffffff;
+  transform: translateY(-50%);
+}
+
+.carouselEyebrow {
+  margin: 0;
+  font-family: var(--font-display, Georgia, "Times New Roman", serif);
+  font-size: clamp(25px, 2vw, 34px);
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.carouselTitle {
+  margin: 1px 0 25px;
+  font-size: clamp(20px, 1.45vw, 27px);
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.carouselProgress {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  height: 3px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.38);
+}
+
+.carouselProgress span {
+  display: block;
+  height: 100%;
+  background: #ffffff;
+  transition: width 0.45s ease;
+}
+
+.carouselControls {
+  display: flex;
+  gap: 33px;
+  margin-top: 25px;
+}
+
+.carouselControls button {
+  display: grid;
+  width: 51px;
+  height: 51px;
+  place-items: center;
+  padding: 0;
+  color: #ffffff;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(5px);
+  transition: color 0.25s ease, background 0.25s ease, transform 0.25s ease;
+}
+
+.carouselControls button:hover {
+  color: var(--forest);
+  background: #ffffff;
+  transform: scale(1.06);
+}
+
+.carouselControls button:focus-visible,
+.featureLink:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 5px;
+}
+
+.carouselControls svg {
+  width: 23px;
+  height: 23px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* --- right feature panel ------------------------------------ */
+
+.carouselFeature {
+  position: absolute;
+  top: 50%;
+  right: 9%;
+  width: 41.2%;
+  min-height: 410px;
+  box-sizing: border-box;
+  padding: 130px 33px 34px;
+  background: #ffffff;
+  transform: translateY(-50%);
+}
+
+.featureContent {
+  width: 100%;
+}
+
+.featureRule {
+  width: 50%;
+  height: 4px;
+  margin-bottom: 134px;
+  background: var(--forest);
+}
+
+.featureTitle {
+  margin: 0 0 8px;
+  font-family: var(--font-display, Georgia, "Times New Roman", serif);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--forest);
+}
+
+.featureText {
+  margin: 0 0 19px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #353535;
+}
+
+.featureLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  color: #333333;
+  font-size: 13px;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.featureArrow {
+  color: var(--forest);
+  font-size: 25px;
+  line-height: 1;
+  transition: transform 0.25s ease;
+}
+
+.featureLink:hover {
+  color: var(--forest);
+}
+
+.featureLink:hover .featureArrow {
+  transform: translateX(5px);
+}
+
+.featureImage {
+  position: absolute;
+  top: -101px;
+  right: 4.1%;
+  z-index: 2;
+  width: 36%;
+  height: 336px;
+  box-sizing: border-box;
+  padding: 4px;
+  border: 1px solid var(--forest);
+  background: var(--forest);
+}
+
+.featureImageInner {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.featureImageInner img {
+  object-position: center;
+}
+
+/* --- responsive --------------------------------------------- */
+
+@media (max-width: 1100px) {
+  .editorialCarousel {
+    height: auto;
+    min-height: 0;
+    padding: 90px 0 70px;
+  }
+
+  .carouselCopy {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 78%;
+    max-width: none;
+    margin: 0 auto 60px;
+    transform: none;
+  }
+
+  .carouselFeature {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 78%;
+    max-width: none;
+    min-height: 0;
+    margin: 0 auto;
+    padding: 90px 33px 34px;
+    transform: none;
+  }
+
+  .featureImage {
+    top: -70px;
+  }
+}
+
+@media (max-width: 700px) {
+  .carouselCopy,
+  .carouselFeature {
+    width: 88%;
+  }
+
+  .carouselProgress {
+    max-width: 100%;
+  }
+
+  .carouselControls {
+    gap: 18px;
+  }
+
+  .featureRule {
+    margin-bottom: 70px;
+  }
+
+  .featureImage {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 260px;
+    margin-bottom: 28px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carouselProgress span,
+  .carouselControls button,
+  .featureArrow,
+  .featureLink {
+    transition: none;
+  }
+}

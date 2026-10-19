@@ -1,0 +1,504 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - button "Menu" [ref=e4] [cursor=pointer]
+      - link "Beneath Africa Travel & Tours, home" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Beneath Africa" [ref=e11]
+        - generic [ref=e12]: Beneath Africa
+      - link "Enquire" [ref=e14] [cursor=pointer]:
+        - /url: /contact
+  - generic [ref=e15]:
+    - region "Introduction" [ref=e16]:
+      - img "Mist rising off the Victoria Falls where the Zambezi drops into the Batoka Gorge." [ref=e18]
+      - generic [ref=e20]:
+        - generic [ref=e21]: Victoria Falls, Zimbabwe · Since 2013
+        - heading "Southern Africa, thoughtfully connected." [level=1] [ref=e23]:
+          - generic [ref=e24]: Southern Africa,
+          - generic [ref=e25]:
+            - text: thoughtfully
+            - emphasis [ref=e26]: connected.
+        - paragraph [ref=e27]: A Victoria Falls travel company arranging road and water transfers, safaris, cruises, houseboats and tailor-made journeys across Zimbabwe, Zambia, Botswana and Namibia.
+        - generic [ref=e28]:
+          - link "Plan Your Journey" [ref=e29] [cursor=pointer]:
+            - /url: /contact
+          - link "Explore Our Experiences" [ref=e33] [cursor=pointer]:
+            - /url: /experiences
+      - generic [ref=e36]:
+        - generic [ref=e37]: Trading since 2013
+        - generic [ref=e38]: Victoria Falls, Zimbabwe
+        - generic [ref=e39]: Multi-destination specialists
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - figure [ref=e44]:
+          - img "Sunrise over the Zambezi river with wooded banks in silhouette." [ref=e45]
+        - figure [ref=e46]:
+          - img "Ranjis Nyakusengwa at work, pouring wine during a Beneath Africa journey." [ref=e47]
+      - generic [ref=e48]:
+        - generic [aria-hidden] [ref=e49]: "01"
+        - generic [ref=e50]: About Beneath Africa
+        - heading "A Victoria Falls company, built for the journey." [level=2] [ref=e51]:
+          - generic [ref=e52]: A Victoria Falls company,
+          - generic [ref=e53]:
+            - text: built for the
+            - emphasis [ref=e54]: journey.
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: Beneath Africa Travel and Tours was established in 2013 by Naume Ndoro, Bruce and Ranjisi Nyakusengwa as a tourism company based in Victoria Falls, Zimbabwe, with a vision to grow within Zimbabwe.
+          - paragraph [ref=e57]: We specialise in road and water transfers, educational school trips, and tours around Botswana, Namibia, Zambia and Zimbabwe — with accommodation in hotels, lodges and camps, camping, houseboats on Lake Kariba, Chobe day trips and other activities in and around Victoria Falls.
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - generic [ref=e60]: "2013"
+            - generic [ref=e61]: Founded
+          - generic [ref=e62]:
+            - generic [ref=e63]: Victoria Falls
+            - generic [ref=e64]: Home
+          - generic [ref=e65]:
+            - generic [ref=e66]: Four
+            - generic [ref=e67]: Countries
+        - link "Discover Our Story" [ref=e69] [cursor=pointer]:
+          - /url: /about/story
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - generic [aria-hidden] [ref=e77]: "02"
+        - generic [ref=e78]:
+          - generic [ref=e79]: Discover Our Destinations
+          - heading "Four countries, one connected journey." [level=2] [ref=e80]:
+            - generic [ref=e81]: Four countries,
+            - generic [ref=e82]:
+              - text: one
+              - emphasis [ref=e83]: connected journey.
+        - paragraph [ref=e85]: We work across Zimbabwe, Zambia, Botswana and Namibia, and treat the borders between them as part of the itinerary rather than an interruption to it.
+      - generic [ref=e86]:
+        - article [ref=e87]:
+          - link "Wildlife, landscapes & culture Zimbabwe Discover Zimbabwe's most beautiful places — with tours arranged around the Victoria Falls, Hwange and the Zambezi. Explore" [ref=e88] [cursor=pointer]:
+            - /url: /destinations/zimbabwe
+            - figure [ref=e89]:
+              - img "Zimbabwean landscape" [ref=e90]
+              - generic [ref=e91]: "01"
+            - generic [ref=e92]:
+              - generic [ref=e93]: Wildlife, landscapes & culture
+              - heading "Zimbabwe" [level=3] [ref=e94]
+              - paragraph [ref=e95]: Discover Zimbabwe's most beautiful places — with tours arranged around the Victoria Falls, Hwange and the Zambezi.
+              - generic [ref=e96]: Explore
+        - article [ref=e99]:
+          - link "River, wildlife & adventure Zambia Zambia is routed together with Zimbabwe and Botswana, so the borders on the map stay decisions rather than problems. Explore" [ref=e100] [cursor=pointer]:
+            - /url: /destinations/zambia
+            - figure [ref=e101]:
+              - img "Sunrise over the Zambezi" [ref=e102]
+              - generic [ref=e103]: "02"
+            - generic [ref=e104]:
+              - generic [ref=e105]: River, wildlife & adventure
+              - heading "Zambia" [level=3] [ref=e106]
+              - paragraph [ref=e107]: Zambia is routed together with Zimbabwe and Botswana, so the borders on the map stay decisions rather than problems.
+              - generic [ref=e108]: Explore
+        - article [ref=e111]:
+          - link "Chobe & wildlife journeys Botswana Chobe day trips and Chobe River journeys, reached by road from a Victoria Falls base. Explore" [ref=e112] [cursor=pointer]:
+            - /url: /destinations/botswana
+            - figure [ref=e113]:
+              - img "Chobe River in Botswana" [ref=e114]
+              - generic [ref=e115]: "03"
+            - generic [ref=e116]:
+              - generic [ref=e117]: Chobe & wildlife journeys
+              - heading "Botswana" [level=3] [ref=e118]
+              - paragraph [ref=e119]: Chobe day trips and Chobe River journeys, reached by road from a Victoria Falls base.
+              - generic [ref=e120]: Explore
+        - article [ref=e123]:
+          - link "Cross-border arrangements Namibia Cross-border arrangements that carry you into Namibia and leave the rest of the itinerary intact. Explore" [ref=e124] [cursor=pointer]:
+            - /url: /destinations/namibia
+            - figure [ref=e125]:
+              - img "Sunset over bush country" [ref=e126]
+              - generic [ref=e127]: "04"
+            - generic [ref=e128]:
+              - generic [ref=e129]: Cross-border arrangements
+              - heading "Namibia" [level=3] [ref=e130]
+              - paragraph [ref=e131]: Cross-border arrangements that carry you into Namibia and leave the rest of the itinerary intact.
+              - generic [ref=e132]: Explore
+    - generic [ref=e136]:
+      - generic [ref=e137]:
+        - generic [aria-hidden] [ref=e139]: "03"
+        - generic [ref=e140]:
+          - generic [ref=e141]: Transfers & Travel Services
+          - heading "The quiet work that makes a journey hold." [level=2] [ref=e142]:
+            - generic [ref=e143]: The quiet work that
+            - generic [ref=e144]:
+              - text: makes a journey
+              - emphasis [ref=e145]: hold.
+        - paragraph [ref=e147]: Most of what we do is the part of a journey nobody photographs — a vehicle on time, a border cleared, a boat ready at the jetty. It is also the part that decides whether the rest works.
+      - generic [ref=e148]:
+        - article [ref=e149]:
+          - figure [ref=e151]:
+            - img "Beneath Africa transfer vehicle" [ref=e152]
+          - generic [ref=e153]:
+            - generic [ref=e154]: "01"
+            - heading "Road Transfers" [level=3] [ref=e155]
+            - paragraph [ref=e156]: Road transfers planned daily, with vehicles serviced, fuelled and licensed.
+            - link "View service" [ref=e157] [cursor=pointer]:
+              - /url: /travel/road-transfers
+        - article [ref=e161]:
+          - figure [ref=e163]:
+            - img "Sunrise over the Zambezi" [ref=e164]
+          - generic [ref=e165]:
+            - generic [ref=e166]: "02"
+            - heading "Water Transfers" [level=3] [ref=e167]
+            - paragraph [ref=e168]: Water transfers, Chobe River cruises and houseboats on Lake Kariba, arranged as one piece of logistics.
+            - link "View service" [ref=e169] [cursor=pointer]:
+              - /url: /travel/water-transfers
+        - article [ref=e173]:
+          - figure [ref=e175]:
+            - img "Landscape along a regional route" [ref=e176]
+          - generic [ref=e177]:
+            - generic [ref=e178]: "03"
+            - heading "Cross-Border Arrangements" [level=3] [ref=e179]
+            - paragraph [ref=e180]: Customs and border patrol handled as part of the arrangement, not as an interruption to it.
+            - link "View service" [ref=e181] [cursor=pointer]:
+              - /url: /travel/cross-border
+        - article [ref=e185]:
+          - figure [ref=e187]:
+            - img "Guide on a Beneath Africa journey" [ref=e188]
+          - generic [ref=e189]:
+            - generic [ref=e190]: "04"
+            - heading "Driver-Guided Travel" [level=3] [ref=e191]
+            - paragraph [ref=e192]: Itineraries with a driver guide, so the journey has someone responsible on the ground for its whole length.
+            - link "View service" [ref=e193] [cursor=pointer]:
+              - /url: /travel/driver-guided
+      - link "Explore Our Services" [ref=e198] [cursor=pointer]:
+        - /url: /travel
+    - generic [ref=e203]:
+      - generic [ref=e204]:
+        - generic [aria-hidden] [ref=e206]: "04"
+        - generic [ref=e207]:
+          - generic [ref=e208]: Curated Experiences
+          - heading "Days worth arranging the rest of the trip around." [level=2] [ref=e209]:
+            - generic [ref=e210]: Days worth arranging
+            - generic [ref=e211]:
+              - text: the rest of the trip
+              - emphasis [ref=e212]: around.
+        - paragraph [ref=e214]: Guided Falls tours, river cruises, game drives, Chobe day trips, cultural visits and Lake Kariba houseboats — all arranged through the same office as the transfers.
+      - generic [ref=e215]:
+        - generic [ref=e216]:
+          - link "01 Victoria Falls Guided tours of the Falls and the activities around it, arranged from a Victoria Falls base." [ref=e217] [cursor=pointer]:
+            - /url: /experiences/victoria-falls
+            - generic [ref=e218]: "01"
+            - generic [ref=e219]:
+              - generic [ref=e220]: Victoria Falls
+              - generic [ref=e221]: Guided tours of the Falls and the activities around it, arranged from a Victoria Falls base.
+          - link "02 Safaris & Game Drives Game drives, lion walks and wildlife time, arranged across Zimbabwe, Botswana and Namibia." [ref=e224] [cursor=pointer]:
+            - /url: /experiences/safaris
+            - generic [ref=e225]: "02"
+            - generic [ref=e226]:
+              - generic [ref=e227]: Safaris & Game Drives
+              - generic [ref=e228]: Game drives, lion walks and wildlife time, arranged across Zimbabwe, Botswana and Namibia.
+          - link "03 Cruises & River Experiences Breakfast, lunch, sunset and dinner cruises on the Zambezi — the quietest hours of the Falls day." [ref=e231] [cursor=pointer]:
+            - /url: /experiences/cruises
+            - generic [ref=e232]: "03"
+            - generic [ref=e233]:
+              - generic [ref=e234]: Cruises & River Experiences
+              - generic [ref=e235]: Breakfast, lunch, sunset and dinner cruises on the Zambezi — the quietest hours of the Falls day.
+          - link "04 Chobe Chobe day trips from Victoria Falls, with river time and game drives on the Botswana side." [ref=e238] [cursor=pointer]:
+            - /url: /experiences/chobe
+            - generic [ref=e239]: "04"
+            - generic [ref=e240]:
+              - generic [ref=e241]: Chobe
+              - generic [ref=e242]: Chobe day trips from Victoria Falls, with river time and game drives on the Botswana side.
+          - link "05 Cultural Experiences Village experiences, local meals and a boma dinner — the parts of a trip that people remember longest." [ref=e245] [cursor=pointer]:
+            - /url: /experiences/cultural
+            - generic [ref=e246]: "05"
+            - generic [ref=e247]:
+              - generic [ref=e248]: Cultural Experiences
+              - generic [ref=e249]: Village experiences, local meals and a boma dinner — the parts of a trip that people remember longest.
+          - link "06 Houseboats Houseboat time on Lake Kariba, arranged alongside the Zimbabwe itineraries that reach it." [ref=e252] [cursor=pointer]:
+            - /url: /experiences/houseboats
+            - generic [ref=e253]: "06"
+            - generic [ref=e254]:
+              - generic [ref=e255]: Houseboats
+              - generic [ref=e256]: Houseboat time on Lake Kariba, arranged alongside the Zimbabwe itineraries that reach it.
+        - generic [ref=e259]:
+          - figure [ref=e260]:
+            - img "Mist rising from the Victoria Falls" [ref=e261]
+          - generic [ref=e262]: Victoria Falls
+      - link "Explore All Experiences" [ref=e264] [cursor=pointer]:
+        - /url: /experiences
+    - generic [ref=e270]:
+      - figure [ref=e272]:
+        - img "A school group on an educational trip in Victoria Falls." [ref=e273]
+      - generic [ref=e274]:
+        - generic [aria-hidden] [ref=e275]: "05"
+        - generic [ref=e276]: Educational & School Trips
+        - heading "School trips that have to run to a schedule." [level=2] [ref=e277]:
+          - generic [ref=e278]: School trips that have
+          - generic [ref=e279]:
+            - text: to run to a
+            - emphasis [ref=e280]: schedule.
+        - paragraph [ref=e281]: We arrange educational school trips out of Victoria Falls. A typical programme as we have presented it to schools includes an overnight stay in Hwange, a guided tour of the Falls, a sunset cruise and a visit to a crocodile farm.
+        - paragraph [ref=e282]: Our objective, in our own words, is to give you the opportunity to focus on your other core activities while your educational trip is fully satisfied. Where a school has a particular focus, we adapt the programme rather than offering a fixed package.
+        - list [ref=e283]:
+          - listitem [ref=e284]:
+            - generic [ref=e285]: "01"
+            - generic [ref=e286]:
+              - generic [ref=e287]: Overnight In Hwange
+              - generic [ref=e288]: A sleepover in Hwange as part of the programme.
+          - listitem [ref=e289]:
+            - generic [ref=e290]: "02"
+            - generic [ref=e291]:
+              - generic [ref=e292]: Guided Falls Tour
+              - generic [ref=e293]: A guided tour of the Victoria Falls.
+          - listitem [ref=e294]:
+            - generic [ref=e295]: "03"
+            - generic [ref=e296]:
+              - generic [ref=e297]: Sunset Cruise
+              - generic [ref=e298]: A cruise on the Zambezi to close the day.
+          - listitem [ref=e299]:
+            - generic [ref=e300]: "04"
+            - generic [ref=e301]:
+              - generic [ref=e302]: Crocodile Farm
+              - generic [ref=e303]: A visit to a crocodile farm.
+        - link "Plan a School Trip" [ref=e305] [cursor=pointer]:
+          - /url: /educational-trips
+    - generic [ref=e311]:
+      - generic [ref=e312]:
+        - generic [aria-hidden] [ref=e313]: "06"
+        - generic [ref=e314]: Stays & Accommodation
+        - heading "Somewhere right to sleep, on the route you're taking." [level=2] [ref=e315]:
+          - generic [ref=e316]: Somewhere right to sleep,
+          - generic [ref=e317]:
+            - text: on the route you're
+            - emphasis [ref=e318]: taking.
+        - paragraph [ref=e319]: Accommodation is one of our quality products, not an afterthought booked once the rest of the trip is fixed. We arrange it, and we place it so the transfers between stops still make sense.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - term [ref=e322]: Hotels
+            - definition [ref=e323]: City and resort hotels arranged to fit the programme.
+          - generic [ref=e324]:
+            - term [ref=e325]: Lodges
+            - definition [ref=e326]: Lodges placed close to the activities being planned.
+          - generic [ref=e327]:
+            - term [ref=e328]: Self-Catering
+            - definition [ref=e329]: Self-catering options for longer stays and groups.
+          - generic [ref=e330]:
+            - term [ref=e331]: Camping
+            - definition [ref=e332]: Camping arranged as part of the itinerary.
+          - generic [ref=e333]:
+            - term [ref=e334]: Houseboats
+            - definition [ref=e335]: Houseboats on Lake Kariba for time off the road.
+        - link "Explore Accommodation" [ref=e337] [cursor=pointer]:
+          - /url: /travel/accommodation
+      - figure [ref=e342]:
+        - img "Sunset over bush country in southern Africa." [ref=e343]
+    - generic [ref=e345]:
+      - generic [ref=e346]:
+        - generic [aria-hidden] [ref=e348]: "07"
+        - generic [ref=e349]:
+          - generic [ref=e350]: Meet the Team
+          - heading "The people behind the arrangements." [level=2] [ref=e351]:
+            - generic [ref=e352]: The people behind
+            - generic [ref=e353]:
+              - text: the
+              - emphasis [ref=e354]: arrangements.
+        - paragraph [ref=e356]: A small company by design. It means the person you speak to when you ask about a border is the person who arranges them.
+      - generic [ref=e357]:
+        - article [ref=e358]:
+          - figure [ref=e359]:
+            - img "Ranjis Nyakusengwa, founder and Managing Director of Beneath Africa Travel and Tours." [ref=e360]
+          - generic [ref=e361]:
+            - generic [ref=e362]: Managing Director / Secretary
+            - heading "Ranjis Nyakusengwa" [level=3] [ref=e363]
+            - paragraph [ref=e364]: Twenty-nine years in the industry, from lodge management to regional operations and cruise operations — including Cruise Director of the Zambezi Queen on the Chobe River. Co-founder of the company in 2013.
+        - article [ref=e365]:
+          - figure [ref=e366]:
+            - generic [aria-hidden] [ref=e367]: BN
+          - generic [ref=e368]:
+            - generic [ref=e369]: Operations Director
+            - heading "Bruce Nyakusengwa" [level=3] [ref=e370]
+            - paragraph [ref=e371]: Responsible for the operations department and the daily planning of road transfers, including vehicle log books, servicing, repairs, fuelling and all vehicle licensing.
+        - article [ref=e372]:
+          - figure [ref=e373]:
+            - generic [aria-hidden] [ref=e374]: NN
+          - generic [ref=e375]:
+            - generic [ref=e376]: Director · Co-founder
+            - heading "Naume Ndoro" [level=3] [ref=e377]
+            - paragraph [ref=e378]: Co-founder of the company in 2013 and a director of Zeresh Trading Company Private Limited.
+      - link "Meet Our Team" [ref=e380] [cursor=pointer]:
+        - /url: /about/team
+    - generic [ref=e386]:
+      - generic [ref=e387]:
+        - generic [aria-hidden] [ref=e388]: "08"
+        - generic [ref=e389]: Our Experience & Recognition
+        - heading "Since 2013, and a paper trail." [level=2] [ref=e390]:
+          - generic [ref=e391]: Since 2013,
+          - generic [ref=e392]:
+            - text: and a
+            - emphasis [ref=e393]: paper trail.
+        - paragraph [ref=e394]: Beneath Africa is a registered Zimbabwean tourism company that has been trading since 2013. The work we are asked to do most often is the work nobody photographs — which is exactly why the record matters.
+        - generic [ref=e395]:
+          - generic [ref=e396]: "2019"
+          - generic [ref=e397]:
+            - generic [ref=e398]: Best First-Time Exhibitor Stand Award
+            - generic [ref=e399]: Sanganai / Hlanganani World Tourism Expo
+        - generic [ref=e400]:
+          - generic [ref=e401]:
+            - term [ref=e402]: Registered name
+            - definition [ref=e403]: Zeresh Trading Company Private Limited
+          - generic [ref=e404]:
+            - term [ref=e405]: Company number
+            - definition [ref=e406]: 845/2013
+          - generic [ref=e407]:
+            - term [ref=e408]: Established
+            - definition [ref=e409]: "2013"
+          - generic [ref=e410]:
+            - term [ref=e411]: Based
+            - definition [ref=e412]: Victoria Falls, Zimbabwe
+          - generic [ref=e413]:
+            - term [ref=e414]: Countries worked
+            - definition [ref=e415]: Zimbabwe, Zambia, Botswana, Namibia
+      - figure [ref=e417]:
+        - img "The Beneath Africa Travel and Tours office in Victoria Falls." [ref=e418]
+    - generic [ref=e420]:
+      - generic [ref=e421]:
+        - generic [aria-hidden] [ref=e423]: "09"
+        - generic [ref=e424]:
+          - generic [ref=e425]: Client References & Partnerships
+          - heading "We find fulfilment in a job well done." [level=2] [ref=e426]:
+            - generic [ref=e427]: We find fulfilment in
+            - generic [ref=e428]:
+              - text: a job
+              - emphasis [ref=e429]: well done.
+        - paragraph [ref=e431]: Ask our clients. These references were supplied to us by our partners and travellers, and are reproduced as written.
+      - generic [ref=e432]:
+        - generic [aria-hidden]: “
+        - blockquote [ref=e433]:
+          - paragraph [ref=e434]: We worked with Flame of Africa since 2013, providing all road transfers to their clients in Botswana, Zambia and Zimbabwe, getting in to solve problems and communicating effectively and efficiently with various hotels and other venues for their scattered tour.
+          - generic [ref=e435]: Brett McDonald, Flame of Africa, South Africa
+      - tablist "References" [ref=e436]:
+        - tab "Reference 1 of 4" [selected] [ref=e437] [cursor=pointer]
+        - tab "Reference 2 of 4" [ref=e438] [cursor=pointer]
+        - tab "Reference 3 of 4" [ref=e439] [cursor=pointer]
+        - tab "Reference 4 of 4" [ref=e440] [cursor=pointer]
+      - list "Partners and references" [ref=e441]:
+        - listitem [ref=e442]: Theron Safaris, South Africa
+        - listitem [ref=e443]: Flame of Africa, South Africa
+        - listitem [ref=e444]: Dr. Rebecca Becky Howell, USA
+        - listitem [ref=e445]: EU Travel Expo, Singapore
+        - listitem [ref=e446]: Safari 24, Namibia
+        - listitem [ref=e447]: Lani, South Africa
+        - listitem [ref=e448]: Isabel Pinero, Spain
+    - generic [ref=e449]:
+      - img "Hippos standing in the shallows of the Zambezi at first light." [ref=e451]
+      - generic [ref=e454]:
+        - generic [ref=e455]: Plan With Us
+        - heading "Your journey starts here." [level=2] [ref=e456]:
+          - generic [ref=e457]: Your journey
+          - emphasis [ref=e459]: starts here.
+        - paragraph [ref=e460]: Leisure travellers, families, groups and schools. Tell us the dates and who is travelling, and we will tell you honestly whether we are the right company for it.
+        - generic [ref=e461]:
+          - link "Plan Your Journey" [ref=e462] [cursor=pointer]:
+            - /url: /contact
+          - link "Contact Our Team" [ref=e466] [cursor=pointer]:
+            - /url: mailto:reservations@beneathafricatravel.co.zw
+    - contentinfo [ref=e468]:
+      - generic [ref=e469]:
+        - generic [ref=e470]:
+          - img "Beneath Africa" [ref=e471]
+          - paragraph [ref=e472]: Victoria Falls, ZimbabweSince 2013
+          - list "Connect" [ref=e473]:
+            - listitem [ref=e474]:
+              - link "WhatsApp" [ref=e475] [cursor=pointer]:
+                - /url: https://wa.me/263778130264
+            - listitem [ref=e478]:
+              - link "Email" [ref=e479] [cursor=pointer]:
+                - /url: mailto:reservations@beneathafricatravel.co.zw
+        - navigation "Footer" [ref=e482]:
+          - generic [ref=e483]:
+            - heading "Destinations" [level=2] [ref=e484]
+            - list [ref=e485]:
+              - listitem [ref=e486]:
+                - link "Zimbabwe" [ref=e487] [cursor=pointer]:
+                  - /url: /destinations/zimbabwe
+              - listitem [ref=e488]:
+                - link "Zambia" [ref=e489] [cursor=pointer]:
+                  - /url: /destinations/zambia
+              - listitem [ref=e490]:
+                - link "Botswana" [ref=e491] [cursor=pointer]:
+                  - /url: /destinations/botswana
+              - listitem [ref=e492]:
+                - link "Namibia" [ref=e493] [cursor=pointer]:
+                  - /url: /destinations/namibia
+          - generic [ref=e494]:
+            - heading "Travel" [level=2] [ref=e495]
+            - list [ref=e496]:
+              - listitem [ref=e497]:
+                - link "Road transfers" [ref=e498] [cursor=pointer]:
+                  - /url: /travel/road-transfers
+              - listitem [ref=e499]:
+                - link "Water transfers" [ref=e500] [cursor=pointer]:
+                  - /url: /travel/water-transfers
+              - listitem [ref=e501]:
+                - link "Accommodation" [ref=e502] [cursor=pointer]:
+                  - /url: /travel/accommodation
+              - listitem [ref=e503]:
+                - link "Driver-guided travel" [ref=e504] [cursor=pointer]:
+                  - /url: /travel/driver-guided
+              - listitem [ref=e505]:
+                - link "Cross-border" [ref=e506] [cursor=pointer]:
+                  - /url: /travel/cross-border
+          - generic [ref=e507]:
+            - heading "Experiences" [level=2] [ref=e508]
+            - list [ref=e509]:
+              - listitem [ref=e510]:
+                - link "Victoria Falls" [ref=e511] [cursor=pointer]:
+                  - /url: /experiences/victoria-falls
+              - listitem [ref=e512]:
+                - link "Safaris" [ref=e513] [cursor=pointer]:
+                  - /url: /experiences/safaris
+              - listitem [ref=e514]:
+                - link "Cruises" [ref=e515] [cursor=pointer]:
+                  - /url: /experiences/cruises
+              - listitem [ref=e516]:
+                - link "Chobe" [ref=e517] [cursor=pointer]:
+                  - /url: /experiences/chobe
+              - listitem [ref=e518]:
+                - link "Cultural" [ref=e519] [cursor=pointer]:
+                  - /url: /experiences/cultural
+          - generic [ref=e520]:
+            - heading "About" [level=2] [ref=e521]
+            - list [ref=e522]:
+              - listitem [ref=e523]:
+                - link "Our story" [ref=e524] [cursor=pointer]:
+                  - /url: /about/story
+              - listitem [ref=e525]:
+                - link "Ranjis Nyakusengwa" [ref=e526] [cursor=pointer]:
+                  - /url: /about/ranjis
+              - listitem [ref=e527]:
+                - link "Our team" [ref=e528] [cursor=pointer]:
+                  - /url: /about/team
+              - listitem [ref=e529]:
+                - link "Testimonials" [ref=e530] [cursor=pointer]:
+                  - /url: /about/testimonials
+              - listitem [ref=e531]:
+                - link "Educational trips" [ref=e532] [cursor=pointer]:
+                  - /url: /educational-trips
+          - generic [ref=e533]:
+            - heading "Contact" [level=2] [ref=e534]
+            - list [ref=e535]:
+              - listitem [ref=e536]:
+                - link "+263 77 813 0264" [ref=e537] [cursor=pointer]:
+                  - /url: tel:+263778130264
+              - listitem [ref=e538]:
+                - link "+263 71 666 9887" [ref=e539] [cursor=pointer]:
+                  - /url: tel:+263716669887
+              - listitem [ref=e540]:
+                - link "ranjis@beneathafricatravel.co.zw" [ref=e541] [cursor=pointer]:
+                  - /url: mailto:ranjis@beneathafricatravel.co.zw
+              - listitem [ref=e542]:
+                - link "reservations@beneathafricatravel.co.zw" [ref=e543] [cursor=pointer]:
+                  - /url: mailto:reservations@beneathafricatravel.co.zw
+              - listitem [ref=e544]:
+                - generic [ref=e545]: 483 Jacaranda Crescent, P.O. Box 262, Victoria Falls, Zimbabwe
+        - generic [ref=e546]:
+          - paragraph [ref=e547]: Zeresh Trading Company Private Limited · 845/2013
+          - paragraph [ref=e548]: Best First-Time Exhibitor Stand Award, Sanganai / Hlanganani World Tourism Expo, 2019
+          - navigation "Legal" [ref=e549]:
+            - link "Privacy" [ref=e550] [cursor=pointer]:
+              - /url: /privacy
+            - link "Terms" [ref=e551] [cursor=pointer]:
+              - /url: /terms
+  - button "Open Next.js Dev Tools" [ref=e557] [cursor=pointer]

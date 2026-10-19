@@ -1,0 +1,320 @@
+[    3259ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    3412ms] [LOG] [HMR] connected @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  123360ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  123601ms] [LOG] [Fast Refresh] done in 175ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  187817ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  187917ms] [LOG] [HMR] connected @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  188509ms] [WARNING] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  188811ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  189003ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <Page>
+                    <Home>
+                      <div className="Home-modul...">
+                        <section className="Home-modul..." aria-label="Introduction">
+                          <div>
+                          <div>
+                          <div>
+                          <span>
+                          <span>
+                          <BirdInk>
+                          <div className="Home-modul...">
+                            <motion.span className="kicker Hom..." initial={false} animate={{opacity:1,y:0}} ...>
+                              <span
+                                className="kicker Home-module__Cpz-Ta__heroKicker"
+                                style={{
++                                 opacity: 1
+-                                 opacity: "0"
++                                 transform: "none"
+-                                 transform: "translateY(14px)"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
++                               Victoria Falls, Zimbabwe · Since 2013
+                            <HeroTitle lines={[...]}>
+                              <h1 className="Home-modul...">
+                                <span className="Home-modul..." aria-hidden="false">
+                                  <motion.span className="Home-modul..." initial={false} animate={{y:0,opacity:1}} ...>
+                                    <span
+                                      className="Home-module__Cpz-Ta__heroWord"
+                                      style={{
++                                       opacity: 1
+-                                       opacity: "0"
++                                       transform: "none"
+-                                       transform: "translateY(115%)"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
++                                     Southern
+                                <span className="Home-modul..." aria-hidden="false">
+                                  <motion.span className="Home-modul..." initial={false} animate={{y:0,opacity:1}} ...>
+                                    <span
+                                      className="Home-module__Cpz-Ta__heroWord"
+                                      style={{
++                                       opacity: 1
+-                                       opacity: "0"
++                                       transform: "none"
+-                                       transform: "translateY(115%)"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
++                                     Africa,
+                                <span className="Home-modul..." aria-hidden="false">
+                                  <motion.span className="Home-modul..." initial={false} animate={{y:0,opacity:1}} ...>
+                                    <span
+                                      className="Home-module__Cpz-Ta__heroWord"
+                                      style={{
++                                       opacity: 1
+-                                       opacity: "0"
++                                       transform: "none"
+-                                       transform: "translateY(115%)"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
++                                     thoughtfully
+                                <span className="Home-modul..." aria-hidden="false">
+                                  <motion.span className="Home-modul..." initial={false} animate={{y:0,opacity:1}} ...>
+                                    <span
+                                      className="Home-module__Cpz-Ta__heroWord Home-module__Cpz-Ta__heroWordItalic"
+                                      style={{
++                                       opacity: 1
+-                                       opacity: "0"
++                                       transform: "none"
+-                                       transform: "translateY(115%)"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
++                                     connected.
+                            <motion.p className="Home-modul..." initial={false} animate={{opacity:1,y:0}} ...>
+                              <p
+                                className="Home-module__Cpz-Ta__heroBody"
+                                style={{
++                                 opacity: 1
+-                                 opacity: "0"
++                                 transform: "none"
+-                                 transform: "translateY(18px)"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
++                               A Victoria Falls travel company arranging road and water transfers, safaris, cruises, h...
+                            <motion.div className="Home-modul..." initial={false} animate={{opacity:1,y:0}} ...>
+                              <div
+                                className="Home-module__Cpz-Ta__heroActions"
+                                style={{
++                                 opacity: 1
+-                                 opacity: "0"
++                                 transform: "none"
+-                                 transform: "translateY(18px)"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          ...
+                        ...
+                ...
+              ...
+ @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  189850ms] [LOG] [Fast Refresh] done in 1145ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  315902ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  316479ms] [LOG] [Fast Refresh] done in 641ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  316833ms] ReferenceError: useReducedMotion is not defined
+    at Home (http://localhost:3100/_next/static/chunks/app_05zuukt._.js?id=%255Bproject%255D/app/components/home/Home.tsx+%255Bapp-client%255D+(ecmascript):497:20)
+    at Object.react_stack_bottom_frame (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:14894:24)
+    at renderWithHooks (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:4425:24)
+    at updateFunctionComponent (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:5892:21)
+    at beginWork (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6493:540)
+    at runWithFiberInDEV (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:761:74)
+    at performUnitOfWork (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9385:97)
+    at workLoopSync (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9279:40)
+    at renderRootSync (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9263:13)
+    at performWorkOnRoot (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:8928:47)
+    at performSyncWorkOnRoot (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10093:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10009:316)
+    at processRootScheduleInMicrotask (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10030:106)
+    at http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10104:158
+[  317178ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  317241ms] [LOG] [Fast Refresh] done in 176ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  330031ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  330282ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  330350ms] ReferenceError: useReducedMotion is not defined
+    at Home (http://localhost:3100/_next/static/chunks/app_05zuukt._.js?id=%255Bproject%255D/app/components/home/Home.tsx+%255Bapp-client%255D+(ecmascript):494:20)
+    at Object.react_stack_bottom_frame (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:14894:24)
+    at renderWithHooks (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:4425:24)
+    at updateFunctionComponent (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:5892:21)
+    at beginWork (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6493:540)
+    at runWithFiberInDEV (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:761:74)
+    at performUnitOfWork (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9385:97)
+    at workLoopSync (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9279:40)
+    at renderRootSync (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9263:13)
+    at performWorkOnRoot (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:8928:47)
+    at performSyncWorkOnRoot (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10093:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10009:316)
+    at flushSyncWork$1 (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9060:86)
+    at Object.scheduleRefresh (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:82:13)
+    at http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:589:33
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:582:38)
+    at applyUpdate (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:137:31)
+    at http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:145:13
+[  330335ms] [LOG] [Fast Refresh] done in 357ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  331211ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3100/:0
+[  331390ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  331427ms] [LOG] [HMR] connected @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  331600ms] [WARNING] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  331826ms] ReferenceError: useReducedMotion is not defined
+    at Home (http://localhost:3100/_next/static/chunks/app_05zuukt._.js:1738:20)
+    at Object.react_stack_bottom_frame (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:14894:24)
+    at renderWithHooks (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:4425:24)
+    at updateFunctionComponent (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:5892:21)
+    at beginWork (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6493:540)
+    at runWithFiberInDEV (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:761:74)
+    at performUnitOfWork (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9385:97)
+    at workLoopSync (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9279:40)
+    at renderRootSync (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9263:13)
+    at performWorkOnRoot (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:8928:47)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10085:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:2647:64)
+[  334164ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  334730ms] [LOG] [Fast Refresh] done in 680ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  336206ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3100/:0
+[  336439ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  336488ms] [LOG] [HMR] connected @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  336722ms] [WARNING] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  337075ms] ReferenceError: reduce is not defined
+    at Home (http://localhost:3100/_next/static/chunks/app_05zuukt._.js:1751:20)
+    at Object.react_stack_bottom_frame (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:14894:24)
+    at renderWithHooks (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:4425:24)
+    at updateFunctionComponent (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:5892:21)
+    at beginWork (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6493:540)
+    at runWithFiberInDEV (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:761:74)
+    at performUnitOfWork (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9385:97)
+    at workLoopSync (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9279:40)
+    at renderRootSync (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9263:13)
+    at performWorkOnRoot (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:8928:47)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10085:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3100/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:2647:64)
+[  340232ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/app_components_1nryu0k._.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/:0
+[  340993ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  341024ms] [ERROR] ./app/components/home/Home.tsx:1049:1
+Error: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1047 |     </div>
+  1048 |   );
+> 1049 | }
+       | ^
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/components/home/Home.tsx
+    ./app/page.tsx @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  341231ms] [ERROR] ./app/components/home/Home.tsx:1049:1
+Error: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1047 |     </div>
+  1048 |   );
+> 1049 | }
+       | ^
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/components/home/Home.tsx
+    ./app/page.tsx @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  341262ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  344050ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/app_components_1nryu0k._.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/:0
+[  345727ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  345914ms] [ERROR] ./app/components/home/Home.tsx:1049:1
+Error: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1047 |     </div>
+  1048 |   );
+> 1049 | }
+       | ^
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/components/home/Home.tsx
+    ./app/page.tsx @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  349112ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  349162ms] [ERROR] ./app/components/home/Home.tsx:1049:1
+Error: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1047 |     </div>
+  1048 |   );
+> 1049 | }
+       | ^
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/components/home/Home.tsx
+    ./app/page.tsx @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  360725ms] [ERROR] ./app/components/home/Home.tsx:1049:1
+Error: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1047 |     </div>
+  1048 |   );
+> 1049 | }
+       | ^
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/components/home/Home.tsx
+    ./app/page.tsx @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  360817ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  372232ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  372320ms] [LOG] [Fast Refresh] done in 179ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  373497ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  373587ms] [LOG] [HMR] connected @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  373630ms] [WARNING] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  422810ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  422846ms] [LOG] [HMR] connected @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  422916ms] [WARNING] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  425265ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  425329ms] [LOG] [HMR] connected @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  593928ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  593976ms] [LOG] [HMR] connected @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  594067ms] [WARNING] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  637289ms] [ERROR] WebSocket connection to 'ws://localhost:3100/_next/hmr?id=6dFPGNBEvs0C7JOhFZ6nA' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  638310ms] [ERROR] WebSocket connection to 'ws://localhost:3100/_next/hmr?id=6dFPGNBEvs0C7JOhFZ6nA' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  639359ms] [ERROR] WebSocket connection to 'ws://localhost:3100/_next/hmr?id=6dFPGNBEvs0C7JOhFZ6nA' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  640377ms] [ERROR] WebSocket connection to 'ws://localhost:3100/_next/hmr?id=6dFPGNBEvs0C7JOhFZ6nA' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  641397ms] [ERROR] WebSocket connection to 'ws://localhost:3100/_next/hmr?id=6dFPGNBEvs0C7JOhFZ6nA' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  646420ms] [ERROR] WebSocket connection to 'ws://localhost:3100/_next/hmr?id=6dFPGNBEvs0C7JOhFZ6nA' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  651589ms] [ERROR] WebSocket connection to 'ws://localhost:3100/_next/hmr?id=6dFPGNBEvs0C7JOhFZ6nA' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  656597ms] [ERROR] WebSocket connection to 'ws://localhost:3100/_next/hmr?id=6dFPGNBEvs0C7JOhFZ6nA' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  661611ms] [ERROR] WebSocket connection to 'ws://localhost:3100/_next/hmr?id=6dFPGNBEvs0C7JOhFZ6nA' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  666625ms] [ERROR] WebSocket connection to 'ws://localhost:3100/_next/hmr?id=6dFPGNBEvs0C7JOhFZ6nA' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  672056ms] [ERROR] WebSocket connection to 'ws://localhost:3100/_next/hmr?id=6dFPGNBEvs0C7JOhFZ6nA' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  677063ms] [ERROR] WebSocket connection to 'ws://localhost:3100/_next/hmr?id=6dFPGNBEvs0C7JOhFZ6nA' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  726248ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  726427ms] [LOG] [HMR] connected @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  731286ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  731321ms] [LOG] [HMR] connected @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  731416ms] [WARNING] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  733570ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  733650ms] [LOG] [HMR] connected @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  756673ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  756702ms] [LOG] [HMR] connected @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  756782ms] [WARNING] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776

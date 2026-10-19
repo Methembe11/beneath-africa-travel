@@ -1,0 +1,26 @@
+[    1943ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  151201ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  221027ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  226775ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  233070ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  240162ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  247290ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  256594ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  269803ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  306849ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/nonexistent-page-xyz:0
+[  329053ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/nonexistent-page-xyz:0
+[  358224ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  447907ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  471725ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  500895ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  527838ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  543109ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  564276ms] [WARNING] The resource http://localhost:3200/_next/image?url=%2Fimage-library%2FBeneath%20tent%20image.jpeg&w=640&q=75 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3200/terms:0
+[  581772ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  599927ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  616268ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  633790ms] [WARNING] The resource http://localhost:3200/_next/image?url=%2Fimage-library%2FBeneath%20tent%20image.jpeg&w=640&q=75 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3200/terms:0
+[  650008ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[  708613ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[ 1063943ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3200/video/hero.mp4:0
+[ 1070309ms] [WARNING] Deprecated API for given entry type. @ :3

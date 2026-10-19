@@ -1,0 +1,587 @@
+- generic [ref=f4e3]:
+  - navigation [ref=f4e6]:
+    - generic [ref=f4e8]:
+      - generic [ref=f4e9]:
+        - paragraph [ref=f4e20] [cursor=pointer]: Menu
+        - link [ref=f4e25] [cursor=pointer]:
+          - /url: ./
+        - generic [ref=f4e28]:
+          - paragraph [ref=f4e32] [cursor=pointer]:
+            - link "Gallery" [ref=f4e33]:
+              - /url: ./safari-gallery
+          - link [ref=f4e35] [cursor=pointer]:
+            - /url: ./inquire
+            - paragraph [ref=f4e38]: Inquire
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - link "Home":
+                        - /url: ./
+                        - generic:
+                          - paragraph: Home
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Destinations
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Safari Itineraries
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Private Jet Safaris
+                  - generic:
+                    - generic:
+                      - link "Private Villas":
+                        - /url: ./private-safari-villas
+                        - generic:
+                          - paragraph: Private Villas
+                  - generic:
+                    - generic:
+                      - link "Client Stories":
+                        - /url: ./testimonials
+                        - generic:
+                          - paragraph: Client Stories
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Planning Guides
+                  - generic:
+                    - generic:
+                      - link "About / Services":
+                        - /url: ./about
+                        - generic:
+                          - paragraph: About / Services
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - link "Gallery":
+                            - /url: ./safari-gallery
+                            - generic:
+                              - paragraph: Gallery
+                          - link "Inquire":
+                            - /url: ./inquire
+                            - generic:
+                              - paragraph: Inquire
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: https://www.instagram.com/reveriesafaris
+                        - link:
+                          - /url: https://www.facebook.com/reveriesafaris
+                        - link:
+                          - /url: https://www.linkedin.com/company/reverie-safaris/
+                        - link:
+                          - /url: https://x.com/ReverieSafaris
+                        - link:
+                          - /url: https://www.youtube.com/@ReverieSafaris
+  - generic [ref=f4e40]:
+    - generic [ref=f4e44]:
+      - generic [ref=f4e47]:
+        - generic [ref=f4e48]:
+          - paragraph [ref=f4e50]: Orange County, California · Featured in National Geographic
+          - heading "Luxury African Safaris, Planned From Firsthand Experience" [level=1] [ref=f4e52]
+        - paragraph [ref=f4e54]: Safari is all we do. Reverie Safaris founder Hans Arnesen plans every journey himself, drawing on his own safaris across East and Southern Africa, and builds each one from scratch around your dates, your pace and the wildlife you most want to see.
+        - paragraph [ref=f4e61] [cursor=pointer]:
+          - link "Begin the Conversation" [ref=f4e62]:
+            - /url: ./inquire
+      - generic [ref=f4e65]:
+        - generic [ref=f4e67]:
+          - heading "Every Detail, Quietly Handled" [level=2] [ref=f4e69]
+          - generic [ref=f4e70]:
+            - paragraph [ref=f4e71]: A good safari feels effortless because someone else has done the work.
+            - paragraph [ref=f4e72]: "By the time you step off your international flight, everything is arranged: VIP arrival assistance, internal flights and transfers, the right camp, the right suite and the right guide."
+            - paragraph [ref=f4e73]: Every gratuity is already included, so there's nothing to tally at the end of a stay.
+            - paragraph [ref=f4e74]: Your only job is to take it all in.
+        - img "A leopard cub clambering over its mother's shoulder in green thicket" [ref=f4e79]
+      - generic [ref=f4e81]:
+        - paragraph [ref=f4e83]: Read the article
+        - heading "National Geographic" [level=2] [ref=f4e85]
+        - paragraph [ref=f4e87]:
+          - link "Hans Arnesen is quoted in “How to Choose a Responsible Safari”" [ref=f4e88] [cursor=pointer]:
+            - /url: https://www.nationalgeographic.com/travel/article/how-to-choose-responsible-safari
+      - generic [ref=f4e91]:
+        - link [ref=f4e94] [cursor=pointer]:
+          - /url: ./private-jet-safaris
+          - img "Hans Arnesen, founder of Reverie Safaris, beside an open safari vehicle." [ref=f4e96]
+        - generic [ref=f4e97]:
+          - generic [ref=f4e98]:
+            - heading "Who You’ll Work With" [level=2] [ref=f4e100]
+            - generic [ref=f4e101]:
+              - paragraph [ref=f4e102]: I'm Hans Arnesen. After designing trips to more than seventy countries, I kept returning to Africa.
+              - paragraph [ref=f4e103]: Any camp can look perfect in photographs. Knowing which ones live up to them is most of what I do.
+              - paragraph [ref=f4e104]: I take on a small number of families and couples each year, and you work with me directly, from your first inquiry to the day you come home. On the ground, my local partner looks after you every step of the way, on a WhatsApp thread I'm part of.
+          - paragraph [ref=f4e110] [cursor=pointer]:
+            - link "More About Reverie Safaris" [ref=f4e111]:
+              - /url: ./about
+      - img "Striped hot-air balloons drifting low over Serengeti grassland" [ref=f4e118]
+      - generic [ref=f4e119]:
+        - generic [ref=f4e120]:
+          - heading "Sample Journeys" [level=2] [ref=f4e122]
+          - paragraph [ref=f4e124]: "Starting points, not packages. Each one changes the moment you tell us who’s traveling. Plan from $1,500 per person per day for everything on the ground: camps, meals, bush flights, transfers and every gratuity. International flights are separate."
+          - paragraph [ref=f4e130] [cursor=pointer]:
+            - link "Explore All Journeys" [ref=f4e131]:
+              - /url: ./safari-itineraries
+        - generic [ref=f4e135]:
+          - generic "Card slider" [ref=f4e136]:
+            - generic [ref=f4e137]:
+              - generic [ref=f4e143]:
+                - generic [ref=f4e145]:
+                  - generic:
+                    - generic:
+                      - link [ref=f4e148] [cursor=pointer]:
+                        - /url: ./safari-itineraries/kenya-zanzibar
+                        - img "A lantern-lit dinner served beside a pool overlooking the plains at dusk" [ref=f4e152]
+                      - generic [ref=f4e153]:
+                        - button "Previous" [ref=f4e154] [cursor=pointer]:
+                          - img "Prev" [ref=f4e155]
+                        - button "Next" [ref=f4e156] [cursor=pointer]:
+                          - img "Next" [ref=f4e157]
+                - link [ref=f4e158] [cursor=pointer]:
+                  - /url: ./safari-itineraries/kenya-zanzibar
+                  - paragraph [ref=f4e160]: A Classic East African Romance
+                  - heading "Kenya & Zanzibar" [level=3] [ref=f4e162]
+                  - paragraph [ref=f4e164]: Nine days. Lions at dawn on the Maasai Mara, then a dhow under sail at dusk off Zanzibar.
+                - paragraph [ref=f4e169] [cursor=pointer]:
+                  - link "View Itinerary" [ref=f4e170]:
+                    - /url: ./safari-itineraries/kenya-zanzibar
+              - generic [ref=f4e176]:
+                - generic [ref=f4e178]:
+                  - generic:
+                    - generic:
+                      - link [ref=f4e181] [cursor=pointer]:
+                        - /url: ./safari-itineraries/family-safari
+                        - img "A villa living room glowing at dusk, doors open to the desert" [ref=f4e185]
+                      - generic [ref=f4e186]:
+                        - button "Previous" [ref=f4e187] [cursor=pointer]:
+                          - img "Prev" [ref=f4e188]
+                        - button "Next" [ref=f4e189] [cursor=pointer]:
+                          - img "Next" [ref=f4e190]
+                - link [ref=f4e191] [cursor=pointer]:
+                  - /url: ./safari-itineraries/family-safari
+                  - paragraph [ref=f4e193]: Private Villas & Your Pace
+                  - heading "Family Safari" [level=3] [ref=f4e195]
+                  - paragraph [ref=f4e197]: Eleven days. Malaria-free reserves, your own guide and vehicle, and room for every age.
+                - paragraph [ref=f4e202] [cursor=pointer]:
+                  - link "View Itinerary" [ref=f4e203]:
+                    - /url: ./safari-itineraries/family-safari
+              - generic [ref=f4e209]:
+                - generic [ref=f4e211]:
+                  - generic:
+                    - generic:
+                      - link [ref=f4e214] [cursor=pointer]:
+                        - /url: ./safari-itineraries/botswana-victoria-falls
+                        - img "A guest at a firepit deck overlooking misty Okavango waters at dawn" [ref=f4e218]
+                      - generic [ref=f4e219]:
+                        - button "Previous" [ref=f4e220] [cursor=pointer]:
+                          - img "Prev" [ref=f4e221]
+                        - button "Next" [ref=f4e222] [cursor=pointer]:
+                          - img "Next" [ref=f4e223]
+                - link [ref=f4e224] [cursor=pointer]:
+                  - /url: ./safari-itineraries/botswana-victoria-falls
+                  - paragraph [ref=f4e226]: Delta to the Smoke That Thunders
+                  - heading "Botswana & Victoria Falls" [level=3] [ref=f4e228]
+                  - paragraph [ref=f4e230]: Nine days. By mokoro through the Okavango's papyrus channels, then Victoria Falls, where the spray reaches you before the view does.
+                - paragraph [ref=f4e235] [cursor=pointer]:
+                  - link "View Itinerary" [ref=f4e236]:
+                    - /url: ./safari-itineraries/botswana-victoria-falls
+              - generic [ref=f4e242]:
+                - generic [ref=f4e244]:
+                  - generic:
+                    - generic:
+                      - link [ref=f4e247] [cursor=pointer]:
+                        - /url: ./safari-itineraries/rwanda-tanzania
+                        - img "A wooden bench on a lawn overlooking endless Serengeti plains" [ref=f4e251]
+                      - generic [ref=f4e252]:
+                        - button "Previous" [ref=f4e253] [cursor=pointer]:
+                          - img "Prev" [ref=f4e254]
+                        - button "Next" [ref=f4e255] [cursor=pointer]:
+                          - img "Next" [ref=f4e256]
+                - link [ref=f4e257] [cursor=pointer]:
+                  - /url: ./safari-itineraries/rwanda-tanzania
+                  - paragraph [ref=f4e259]: Primates & Plains
+                  - heading "Rwanda & Tanzania" [level=3] [ref=f4e261]
+                  - paragraph [ref=f4e263]: Twelve days. The Serengeti's plains and its great herds, then chimpanzees in Nyungwe and an hour with mountain gorillas in Rwanda's volcanoes.
+                - paragraph [ref=f4e268] [cursor=pointer]:
+                  - link "View Itinerary" [ref=f4e269]:
+                    - /url: ./safari-itineraries/rwanda-tanzania
+              - generic [ref=f4e275]:
+                - generic [ref=f4e277]:
+                  - generic:
+                    - generic:
+                      - link [ref=f4e280] [cursor=pointer]:
+                        - /url: ./safari-itineraries/south-africa-grand-tour
+                        - img "A veranda set with wicker chairs and a Persian rug, palms and peaks beyond" [ref=f4e284]
+                      - generic [ref=f4e285]:
+                        - button "Previous" [ref=f4e286] [cursor=pointer]:
+                          - img "Prev" [ref=f4e287]
+                        - button "Next" [ref=f4e288] [cursor=pointer]:
+                          - img "Next" [ref=f4e289]
+                - link [ref=f4e290] [cursor=pointer]:
+                  - /url: ./safari-itineraries/south-africa-grand-tour
+                  - paragraph [ref=f4e292]: Wine, Wildlife & Wonder
+                  - heading "South Africa Grand Tour" [level=3] [ref=f4e294]
+                  - paragraph [ref=f4e296]: Ten days. Leopards in the private reserves, long lunches in the Winelands, and sunset from Table Mountain.
+                - paragraph [ref=f4e301] [cursor=pointer]:
+                  - link "View Itinerary" [ref=f4e302]:
+                    - /url: ./safari-itineraries/south-africa-grand-tour
+              - generic [ref=f4e308]:
+                - generic [ref=f4e310]:
+                  - generic:
+                    - generic:
+                      - link [ref=f4e313] [cursor=pointer]:
+                        - /url: ./safari-itineraries/east-africa-grand-tour
+                        - img "The thoughtful profile of a silverback mountain gorilla amid foliage" [ref=f4e317]
+                      - generic [ref=f4e318]:
+                        - button "Previous" [ref=f4e319] [cursor=pointer]:
+                          - img "Prev" [ref=f4e320]
+                        - button "Next" [ref=f4e321] [cursor=pointer]:
+                          - img "Next" [ref=f4e322]
+                - link [ref=f4e323] [cursor=pointer]:
+                  - /url: ./safari-itineraries/east-africa-grand-tour
+                  - paragraph [ref=f4e325]: Gorillas, the Mara & the Serengeti
+                  - heading "East Africa Grand Tour" [level=3] [ref=f4e327]
+                  - paragraph [ref=f4e329]: Twelve days. Gorillas in Bwindi, the Maasai Mara for the Migration, then the Serengeti and the Ngorongoro Crater.
+                - paragraph [ref=f4e334] [cursor=pointer]:
+                  - link "View Itinerary" [ref=f4e335]:
+                    - /url: ./safari-itineraries/east-africa-grand-tour
+              - generic [ref=f4e341]:
+                - generic [ref=f4e343]:
+                  - generic:
+                    - generic:
+                      - link [ref=f4e346] [cursor=pointer]:
+                        - /url: ./safari-itineraries/namibia-botswana
+                        - img "A lone oryx on the gravel plains of the Namib at dawn" [ref=f4e350]
+                      - generic [ref=f4e351]:
+                        - button "Previous" [ref=f4e352] [cursor=pointer]:
+                          - img "Prev" [ref=f4e353]
+                        - button "Next" [ref=f4e354] [cursor=pointer]:
+                          - img "Next" [ref=f4e355]
+                - link [ref=f4e356] [cursor=pointer]:
+                  - /url: ./safari-itineraries/namibia-botswana
+                  - paragraph [ref=f4e358]: Desert & Delta
+                  - heading "Namibia & Botswana" [level=3] [ref=f4e360]
+                  - paragraph [ref=f4e362]: Twelve days. Sossusvlei's dunes and the Skeleton Coast, then the Okavango's channels and Chobe's elephant herds.
+                - paragraph [ref=f4e367] [cursor=pointer]:
+                  - link "View Itinerary" [ref=f4e368]:
+                    - /url: ./safari-itineraries/namibia-botswana
+              - generic [ref=f4e374]:
+                - generic [ref=f4e376]:
+                  - generic:
+                    - generic:
+                      - link [ref=f4e379] [cursor=pointer]:
+                        - /url: ./safari-itineraries/ultimate-african-safari
+                        - img "Zebra and wildebeest herds mingling in green-season grass" [ref=f4e383]
+                      - generic [ref=f4e384]:
+                        - button "Previous" [ref=f4e385] [cursor=pointer]:
+                          - img "Prev" [ref=f4e386]
+                        - button "Next" [ref=f4e387] [cursor=pointer]:
+                          - img "Next" [ref=f4e388]
+                - link [ref=f4e389] [cursor=pointer]:
+                  - /url: ./safari-itineraries/ultimate-african-safari
+                  - paragraph [ref=f4e391]: Africa's Full Spectrum
+                  - heading "The Ultimate Safari" [level=3] [ref=f4e393]
+                  - paragraph [ref=f4e395]: Fourteen days. Gorillas in Uganda, the Migration in Kenya, Cape Town and the Winelands, and the Okavango to finish.
+                - paragraph [ref=f4e400] [cursor=pointer]:
+                  - link "View Itinerary" [ref=f4e401]:
+                    - /url: ./safari-itineraries/ultimate-african-safari
+          - group "Slider pagination" [ref=f4e402]:
+            - button "Go to item 1" [pressed] [ref=f4e403] [cursor=pointer]
+      - generic [ref=f4e407]:
+        - img "A lawn picnic under shade trees as an elephant drinks beyond" [ref=f4e411]
+        - generic [ref=f4e413]:
+          - heading "Traveling as a Family?" [level=2] [ref=f4e421]
+          - generic [ref=f4e423]:
+            - paragraph [ref=f4e424]:
+              - text: An
+              - link [ref=f4e425] [cursor=pointer]:
+                - /url: ./private-safari-villas
+                - strong [ref=f4e426]: exclusive-use villa
+              - text: gives your family its own house, staff, guide and vehicle, so the little ones can nap while the teenagers head out again, and three generations each keep their own hours.
+            - paragraph [ref=f4e427]: When the youngest travelers call for it, we plan around malaria-free reserves. The three-year-old and the seventy-year-old will remember the same elephant.
+          - paragraph [ref=f4e432] [cursor=pointer]:
+            - link "The Family Safari Guide" [ref=f4e433]:
+              - /url: ./safari-planning-guides/luxury-family-safaris
+      - generic [ref=f4e434]:
+        - generic [ref=f4e435]:
+          - heading "Where We Go" [level=2] [ref=f4e437]
+          - paragraph [ref=f4e439]: East and Southern Africa, seen mostly from the private reserves and conservancies that border the great parks, where fewer vehicles share each sighting and your stay helps keep the land wild.
+          - paragraph [ref=f4e445] [cursor=pointer]:
+            - link "Explore All Destinations" [ref=f4e446]:
+              - /url: ./safari-destinations
+        - generic [ref=f4e450]:
+          - generic "Card slider" [ref=f4e451]:
+            - generic [ref=f4e452]:
+              - generic [ref=f4e458]:
+                - link [ref=f4e463] [cursor=pointer]:
+                  - /url: ./safari-destinations/kenya
+                  - img "A Maasai host beside a sundowner table beneath a lone tree on the Mara plains" [ref=f4e467]
+                - link [ref=f4e468] [cursor=pointer]:
+                  - /url: ./safari-destinations/kenya
+                  - heading "Kenya" [level=3] [ref=f4e470]
+                  - paragraph [ref=f4e472]: "The Maasai Mara stretches golden under enormous skies: lions in tall grass, herds moving toward ancient rhythms. Kenya delivers safari at its most iconic, the Africa you imagined before you knew the details."
+                - paragraph [ref=f4e477] [cursor=pointer]:
+                  - link "Explore Kenya" [ref=f4e478]:
+                    - /url: ./safari-destinations/kenya
+              - generic [ref=f4e484]:
+                - link [ref=f4e489] [cursor=pointer]:
+                  - /url: ./safari-destinations/botswana
+                  - img "A poler steering a mokoro canoe across the still waters of the Okavango Delta" [ref=f4e493]
+                - link [ref=f4e494] [cursor=pointer]:
+                  - /url: ./safari-destinations/botswana
+                  - heading "Botswana" [level=3] [ref=f4e496]
+                  - paragraph [ref=f4e498]: "The Okavango Delta floods through the dry season, so you glide by mokoro past elephants crossing the channels. Private concessions mean low density and high exclusivity: few vehicles at a sighting, off-road driving, walking and night drives, and superb wild dog country."
+                - paragraph [ref=f4e503] [cursor=pointer]:
+                  - link "Explore Botswana" [ref=f4e504]:
+                    - /url: ./safari-destinations/botswana
+              - generic [ref=f4e510]:
+                - link [ref=f4e515] [cursor=pointer]:
+                  - /url: ./safari-destinations/rwanda-and-uganda
+                  - img "An infant mountain gorilla resting against its mother in the rainforest" [ref=f4e519]
+                - link [ref=f4e520] [cursor=pointer]:
+                  - /url: ./safari-destinations/rwanda-and-uganda
+                  - heading "Rwanda & Uganda" [level=3] [ref=f4e522]
+                  - paragraph [ref=f4e524]: Mountain gorillas in mist-wrapped forest. The encounter lasts one hour and stays with you permanently. Trekkers must be fifteen or older and permits are limited, so both countries reward early planning, and both pair easily with savanna in Kenya or Tanzania.
+                - paragraph [ref=f4e529] [cursor=pointer]:
+                  - link "Explore Rwanda & Uganda" [ref=f4e530]:
+                    - /url: ./safari-destinations/rwanda-and-uganda
+              - generic [ref=f4e536]:
+                - link [ref=f4e541] [cursor=pointer]:
+                  - /url: ./safari-destinations/tanzania
+                  - img "A safari vehicle amid wildebeest herds on the move across green plains" [ref=f4e545]
+                - link [ref=f4e546] [cursor=pointer]:
+                  - /url: ./safari-destinations/tanzania
+                  - heading "Tanzania" [level=3] [ref=f4e548]
+                  - paragraph [ref=f4e550]: The Serengeti for the Migration and big cats, the Ngorongoro Crater for sheer density, and the Swahili coast to finish barefoot. Tanzania gives you scale and intimacy on one journey, with Ruaha and Nyerere in the south for travelers who want fewer vehicles still.
+                - paragraph [ref=f4e555] [cursor=pointer]:
+                  - link "Explore Tanzania" [ref=f4e556]:
+                    - /url: ./safari-destinations/tanzania
+              - generic [ref=f4e562]:
+                - link [ref=f4e567] [cursor=pointer]:
+                  - /url: ./safari-destinations/south-africa
+                  - img "Guests in an open safari vehicle watching an elephant emerge from the trees" [ref=f4e571]
+                - link [ref=f4e572] [cursor=pointer]:
+                  - /url: ./safari-destinations/south-africa
+                  - heading "South Africa" [level=3] [ref=f4e574]
+                  - paragraph [ref=f4e576]: Big Five reserves, wine country, coastal drives and Cape Town, all in one country. It makes the easiest first safari and the easiest family safari, with malaria-free reserves in the Eastern Cape, Madikwe and the Kalahari, and the Sabi Sand for leopards.
+                - paragraph [ref=f4e581] [cursor=pointer]:
+                  - link "Explore South Africa" [ref=f4e582]:
+                    - /url: ./safari-destinations/south-africa
+              - generic [ref=f4e588]:
+                - link [ref=f4e593] [cursor=pointer]:
+                  - /url: ./safari-destinations/namibia
+                  - img "Aerial view of a remote desert camp beneath a rocky ridge in the Namib" [ref=f4e597]
+                - link [ref=f4e598] [cursor=pointer]:
+                  - /url: ./safari-destinations/namibia
+                  - heading "Namibia" [level=3] [ref=f4e600]
+                  - paragraph [ref=f4e602]: "Towering dunes at Sossusvlei, the Skeleton Coast's fog and shipwrecks, and desert-adapted elephants that survive where water barely exists. Namibia stuns through landscape rather than density: vast, stark and surreal, for travelers drawn to solitude and geology."
+                - paragraph [ref=f4e607] [cursor=pointer]:
+                  - link "Explore Namibia" [ref=f4e608]:
+                    - /url: ./safari-destinations/namibia
+              - generic [ref=f4e614]:
+                - link [ref=f4e619] [cursor=pointer]:
+                  - /url: ./safari-destinations/zambia-and-zimbabwe
+                  - img "Two lions and a small cub walking through golden woodland light" [ref=f4e623]
+                - link [ref=f4e624] [cursor=pointer]:
+                  - /url: ./safari-destinations/zambia-and-zimbabwe
+                  - heading "Zambia & Zimbabwe" [level=3] [ref=f4e626]
+                  - paragraph [ref=f4e628]: Victoria Falls announces itself in mist you feel a mile away. Zambia's South Luangwa and Lower Zambezi are the home of the walking safari and some of Africa's finest guiding, and Zimbabwe's private reserves, Malilangwe among them, pair superb game viewing with real solitude.
+                - paragraph [ref=f4e633] [cursor=pointer]:
+                  - link "Explore Zambia & Zimbabwe" [ref=f4e634]:
+                    - /url: ./safari-destinations/zambia-and-zimbabwe
+              - generic [ref=f4e640]:
+                - link [ref=f4e645] [cursor=pointer]:
+                  - /url: ./safari-destinations/indian-ocean-islands
+                  - img "Lantern-lit daybeds arranged for a beach dinner on white sand at the ocean’s edge" [ref=f4e649]
+                - link [ref=f4e650] [cursor=pointer]:
+                  - /url: ./safari-destinations/indian-ocean-islands
+                  - heading "Zanzibar, Mozambique, Mauritius & Seychelles" [level=3] [ref=f4e652]
+                  - paragraph [ref=f4e654]: Turquoise water, spice markets and unhurried days. A few nights on the coast after safari let everything settle before the long flight home, and the diving, sailing and seafood are worth the journey on their own.
+                - paragraph [ref=f4e659] [cursor=pointer]:
+                  - link "Explore Indian Ocean Islands" [ref=f4e660]:
+                    - /url: ./safari-destinations/indian-ocean-islands
+          - group "Slider pagination" [ref=f4e661]:
+            - button "Go to item 1" [pressed] [ref=f4e662] [cursor=pointer]
+      - generic [ref=f4e666]:
+        - link [ref=f4e669] [cursor=pointer]:
+          - /url: ./private-jet-safaris
+          - img "A meal service in the private jet's cabin" [ref=f4e671]
+        - generic [ref=f4e672]:
+          - generic [ref=f4e673]:
+            - heading "Private Jet Safaris" [level=2] [ref=f4e675]
+            - paragraph [ref=f4e677]: "Several countries without a single commercial connection: private terminals, luggage handled door to door, and Rwanda's gorillas, the Serengeti and Victoria Falls on one route."
+          - paragraph [ref=f4e683] [cursor=pointer]:
+            - link "Explore Private Jet Safaris" [ref=f4e684]:
+              - /url: ./private-jet-safaris
+      - generic [ref=f4e687]:
+        - heading "What Clients Say" [level=3] [ref=f4e689]
+        - generic [ref=f4e693]:
+          - list [ref=f4e695]
+          - group "Slideshow pagination controls":
+            - generic:
+              - button "Previous" [ref=f4e696] [cursor=pointer]:
+                - img "Back Arrow" [ref=f4e697]
+              - button "Next" [ref=f4e698] [cursor=pointer]:
+                - img "Next Arrow" [ref=f4e699]
+        - paragraph [ref=f4e703] [cursor=pointer]:
+          - link "Read More Client Stories" [ref=f4e704]:
+            - /url: ./testimonials
+      - generic [ref=f4e705]:
+        - generic [ref=f4e706]:
+          - heading "Planning Guides" [level=2] [ref=f4e708]
+          - paragraph [ref=f4e710]: "In-depth guides, written from firsthand experience: when to go, traveling with family, how to plan, and what a luxury safari really costs."
+          - paragraph [ref=f4e716] [cursor=pointer]:
+            - link "Read All Planning Guides" [ref=f4e717]:
+              - /url: ./safari-planning-guides
+        - generic [ref=f4e718]:
+          - link [ref=f4e720] [cursor=pointer]:
+            - /url: ./safari-planning-guides/best-time-to-go-on-safari
+            - generic [ref=f4e721]:
+              - img "Cheetah cubs resting in the grass at dusk, one peering over its mother’s spotted back" [ref=f4e726]
+              - generic [ref=f4e727]:
+                - paragraph [ref=f4e729]: The Fundamentals
+                - heading "Best Time to Go on Safari" [level=3] [ref=f4e731]
+                - paragraph [ref=f4e733]: Dry versus green season explained. Understanding Africa's two great rhythms and matching timing to your temperament rather than chasing "optimal" windows.
+          - generic [ref=f4e735]:
+            - link [ref=f4e736] [cursor=pointer]:
+              - /url: ./safari-planning-guides/luxury-safari-cost
+              - generic [ref=f4e737]:
+                - img "A host crossing the courtyard with welcome drinks as guests arrive at a river lodge" [ref=f4e742]
+                - generic [ref=f4e743]:
+                  - paragraph [ref=f4e745]: The Fundamentals
+                  - heading "How Much Does a Luxury Safari Cost?" [level=3] [ref=f4e747]
+                  - paragraph [ref=f4e749]: Real numbers, a ten-day budget anatomy, and what each tier actually buys.
+            - link [ref=f4e750] [cursor=pointer]:
+              - /url: ./safari-planning-guides/luxury-family-safaris
+              - generic [ref=f4e751]:
+                - img "A guest watching the sunset from a firepit deck overlooking the plains" [ref=f4e756]
+                - generic [ref=f4e757]:
+                  - paragraph [ref=f4e759]: Experience Design
+                  - heading "Luxury Family Safaris" [level=3] [ref=f4e761]
+                  - paragraph [ref=f4e763]: "Planning one safari across the generations: when a private villa makes sense, which reserves suit young children, and how to pace the days."
+            - link [ref=f4e764] [cursor=pointer]:
+              - /url: ./safari-planning-guides/how-to-plan-an-african-safari
+              - generic [ref=f4e765]:
+                - img "Looking down over the Okavango Delta’s winding channels from the open door of a helicopter" [ref=f4e770]
+                - generic [ref=f4e771]:
+                  - paragraph [ref=f4e773]: The Fundamentals
+                  - heading "How to Plan an African Safari" [level=3] [ref=f4e775]
+                  - paragraph [ref=f4e777]: East versus Southern Africa, short versus long stays, combining destinations versus staying put. Safari economics explained clearly, plus what specialist planning actually provides.
+    - generic [ref=f4e783]:
+      - heading "Where Dreams Roam Wild" [level=2] [ref=f4e791]
+      - generic [ref=f4e793]:
+        - paragraph [ref=f4e794]: Every safari begins with a conversation, and there's no obligation until you're ready to book.
+        - paragraph [ref=f4e795]: Tell Hans who's traveling, roughly when, and what you most hope to see. He replies personally within 24 hours on weekdays with a few questions about your group and your interests, and you can talk it through by phone, on video or over coffee in Orange County.
+      - paragraph [ref=f4e800] [cursor=pointer]:
+        - link "Inquire Now" [ref=f4e801]:
+          - /url: ./inquire
+  - generic [ref=f4e804]:
+    - link [ref=f4e808] [cursor=pointer]:
+      - /url: https://www.awwwards.com/sites/reverie-safaris
+    - generic [ref=f4e811]:
+      - generic [ref=f4e812]:
+        - paragraph [ref=f4e814]: Reverie Safaris
+        - generic [ref=f4e816]:
+          - link [ref=f4e818] [cursor=pointer]:
+            - /url: ./safari-destinations
+            - paragraph [ref=f4e821]: Destinations
+          - link [ref=f4e823] [cursor=pointer]:
+            - /url: ./safari-itineraries
+            - paragraph [ref=f4e826]: Safari Itineraries
+          - link [ref=f4e828] [cursor=pointer]:
+            - /url: ./private-jet-safaris
+            - paragraph [ref=f4e831]: Private Jet Safaris
+          - link [ref=f4e833] [cursor=pointer]:
+            - /url: ./private-safari-villas
+            - paragraph [ref=f4e836]: Private Villas
+          - link [ref=f4e838] [cursor=pointer]:
+            - /url: ./testimonials
+            - paragraph [ref=f4e841]: Client Stories
+          - link [ref=f4e843] [cursor=pointer]:
+            - /url: ./safari-planning-guides
+            - paragraph [ref=f4e846]: Planning Guides
+          - link [ref=f4e848] [cursor=pointer]:
+            - /url: ./about
+            - paragraph [ref=f4e851]: About / Services
+          - link [ref=f4e853] [cursor=pointer]:
+            - /url: ./safari-gallery
+            - paragraph [ref=f4e856]: Gallery
+        - link [ref=f4e858] [cursor=pointer]:
+          - /url: ./inquire
+          - paragraph [ref=f4e861]: Contact Us
+      - generic [ref=f4e863]:
+        - paragraph [ref=f4e865]: More Info
+        - generic [ref=f4e867]:
+          - link [ref=f4e869] [cursor=pointer]:
+            - /url: ./privacy-policy
+            - paragraph [ref=f4e872]: Privacy Policy
+          - link [ref=f4e874] [cursor=pointer]:
+            - /url: ./cookie-policy
+            - paragraph [ref=f4e877]: Cookie Policy
+          - link [ref=f4e879] [cursor=pointer]:
+            - /url: ./legal-notice
+            - paragraph [ref=f4e882]: Legal Notice
+          - link [ref=f4e884] [cursor=pointer]:
+            - /url: ./safari-planning-orange-county
+            - paragraph [ref=f4e887]: Orange County
+      - generic [ref=f4e888]:
+        - paragraph [ref=f4e890]: Socials
+        - generic [ref=f4e892]:
+          - link "Instagram" [ref=f4e894] [cursor=pointer]:
+            - /url: https://www.instagram.com/reveriesafaris
+            - paragraph [ref=f4e899]: Instagram
+          - link "Facebook" [ref=f4e901] [cursor=pointer]:
+            - /url: https://www.facebook.com/reveriesafaris
+            - paragraph [ref=f4e906]: Facebook
+          - link "X (Twitter)" [ref=f4e908] [cursor=pointer]:
+            - /url: https://x.com/ReverieSafaris
+            - paragraph [ref=f4e913]: X (Twitter)
+          - link "LinkedIn" [ref=f4e915] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/reverie-safaris/
+            - paragraph [ref=f4e920]: LinkedIn
+          - link "YouTube" [ref=f4e922] [cursor=pointer]:
+            - /url: https://www.youtube.com/@ReverieSafaris
+            - paragraph [ref=f4e927]: YouTube
+      - generic [ref=f4e928]:
+        - generic [ref=f4e929]:
+          - paragraph [ref=f4e931]: Our Newsletter
+          - generic [ref=f4e935] [cursor=pointer]:
+            - textbox [ref=f4e939]:
+              - /placeholder: Enter your e-mail
+            - button [ref=f4e941]:
+              - paragraph [ref=f4e943]: SEND
+        - generic [ref=f4e944]:
+          - paragraph [ref=f4e946]: Website Awards
+          - generic [ref=f4e947]:
+            - link [ref=f4e948] [cursor=pointer]:
+              - /url: https://www.cssdesignawards.com/sites/reverie-safaris/49311/
+            - link [ref=f4e950] [cursor=pointer]:
+              - /url: https://www.cssdesignawards.com/sites/reverie-safaris/49311/
+            - link [ref=f4e952] [cursor=pointer]:
+              - /url: https://www.cssdesignawards.com/sites/reverie-safaris/49311/
+    - paragraph [ref=f4e961]: TRUSTED PARTNERS
+    - generic [ref=f4e1018]:
+      - paragraph [ref=f4e1021]: All Photography Copyright of Their Respective Owners
+      - generic [ref=f4e1023]:
+        - paragraph [ref=f4e1024]: © Reverie Safaris. All Rights Reserved.
+        - paragraph [ref=f4e1025]: Registered California Seller of Travel, CST 2152975-70
+    - generic [ref=f4e1026]:
+      - generic:
+        - generic:
+          - img "Logo"
+          - img "Logo"

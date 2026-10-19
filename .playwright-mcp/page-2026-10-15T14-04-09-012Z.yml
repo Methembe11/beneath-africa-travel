@@ -1,0 +1,268 @@
+- generic [active] [ref=f4e1]:
+  - banner:
+    - link "Beneath Africa Travel & Tours, home" [ref=f4e2] [cursor=pointer]:
+      - /url: /
+      - generic [aria-hidden] [ref=f4e3]: BA
+    - button "Open menu" [ref=f4e4] [cursor=pointer]
+  - main [ref=f4e9]:
+    - generic [ref=f4e10]:
+      - img "Mist rising from the Victoria Falls" [ref=f4e12]
+      - generic [ref=f4e14]:
+        - generic [ref=f4e15]: Experience · Victoria Falls
+        - heading "Victoria Falls Activities" [level=1] [ref=f4e16]
+        - paragraph [ref=f4e17]: Guided tours of the Falls and the activities around it, arranged from a Victoria Falls base.
+    - generic [ref=f4e19]:
+      - paragraph [ref=f4e20]: The Falls are the reason most visitors are in the area, and the activities around them are arranged so that the day still works. A guided tour of the Falls can sit alongside a cruise, a game drive or an activity in town without the timetable being stretched past what the day allows.
+      - paragraph [ref=f4e21]: Everything here is booked through the same office, which means one contact for the tour, the transfer and whatever comes after it.
+    - generic [ref=f4e24]:
+      - generic [ref=f4e25]:
+        - heading "Guided Tour Of The Falls" [level=3] [ref=f4e30]
+        - paragraph [ref=f4e31]: The essential visit, with a guide and time for the viewpoints.
+      - generic [ref=f4e32]:
+        - heading "Bungee & Rafting" [level=3] [ref=f4e38]
+        - paragraph [ref=f4e39]: Bungee jumping and white-water rafting on the Zambezi.
+      - generic [ref=f4e40]:
+        - heading "Helicopter Flight" [level=3] [ref=f4e44]
+        - paragraph [ref=f4e45]: An aerial view of the Falls and the gorge.
+      - generic [ref=f4e46]:
+        - heading "Lion Walk & Village Experience" [level=3] [ref=f4e53]
+        - paragraph [ref=f4e54]: Wildlife and local encounters, arranged in advance.
+    - generic [ref=f4e57]:
+      - heading "At The Falls" [level=2] [ref=f4e58]
+      - generic [ref=f4e59]:
+        - link "Guided Tour of the Falls Tours Guided Tour of the Falls" [ref=f4e61] [cursor=pointer]:
+          - /url: /experiences/victoria-falls
+          - img "Guided Tour of the Falls" [ref=f4e63]
+          - generic [ref=f4e64]:
+            - generic [ref=f4e65]: Tours
+            - heading "Guided Tour of the Falls" [level=3] [ref=f4e67]
+        - link "Helicopter Flight Flights Helicopter Flight" [ref=f4e71] [cursor=pointer]:
+          - /url: /experiences/victoria-falls
+          - img "Helicopter Flight" [ref=f4e73]
+          - generic [ref=f4e74]:
+            - generic [ref=f4e75]: Flights
+            - heading "Helicopter Flight" [level=3] [ref=f4e77]
+        - link "Bungee Adrenaline Bungee" [ref=f4e81] [cursor=pointer]:
+          - /url: /experiences/victoria-falls
+          - img "Bungee" [ref=f4e83]
+          - generic [ref=f4e84]:
+            - generic [ref=f4e85]: Adrenaline
+            - heading "Bungee" [level=3] [ref=f4e87]
+        - link "Flying Fox Adrenaline Flying Fox" [ref=f4e91] [cursor=pointer]:
+          - /url: /experiences/victoria-falls
+          - img "Flying Fox" [ref=f4e93]
+          - generic [ref=f4e94]:
+            - generic [ref=f4e95]: Adrenaline
+            - heading "Flying Fox" [level=3] [ref=f4e97]
+        - link "White Water Rafting Adrenaline White Water Rafting" [ref=f4e101] [cursor=pointer]:
+          - /url: /experiences/victoria-falls
+          - img "White Water Rafting" [ref=f4e103]
+          - generic [ref=f4e104]:
+            - generic [ref=f4e105]: Adrenaline
+            - heading "White Water Rafting" [level=3] [ref=f4e107]
+        - link "City Tour Tours City Tour" [ref=f4e111] [cursor=pointer]:
+          - /url: /experiences/victoria-falls
+          - img "City Tour" [ref=f4e113]
+          - generic [ref=f4e114]:
+            - generic [ref=f4e115]: Tours
+            - heading "City Tour" [level=3] [ref=f4e117]
+    - generic [ref=f4e122]:
+      - heading "In Falls Town" [level=2] [ref=f4e123]
+      - generic [ref=f4e124]:
+        - link "Lion Walk Wildlife Lion Walk" [ref=f4e126] [cursor=pointer]:
+          - /url: /experiences/safaris
+          - img "Lion Walk" [ref=f4e128]
+          - generic [ref=f4e129]:
+            - generic [ref=f4e130]: Wildlife
+            - heading "Lion Walk" [level=3] [ref=f4e132]
+        - link "Village Experience Culture Village Experience" [ref=f4e136] [cursor=pointer]:
+          - /url: /experiences/cultural
+          - img "Village Experience" [ref=f4e138]
+          - generic [ref=f4e139]:
+            - generic [ref=f4e140]: Culture
+            - heading "Village Experience" [level=3] [ref=f4e142]
+        - link "Dust Road Local Meals Culture Dust Road Local Meals" [ref=f4e146] [cursor=pointer]:
+          - /url: /experiences/cultural
+          - img "Dust Road Local Meals" [ref=f4e148]
+          - generic [ref=f4e149]:
+            - generic [ref=f4e150]: Culture
+            - heading "Dust Road Local Meals" [level=3] [ref=f4e152]
+        - link "Boma Dinner Culture Boma Dinner" [ref=f4e156] [cursor=pointer]:
+          - /url: /experiences/cultural
+          - img "Boma Dinner" [ref=f4e158]
+          - generic [ref=f4e159]:
+            - generic [ref=f4e160]: Culture
+            - heading "Boma Dinner" [level=3] [ref=f4e162]
+        - link "Crocodile Farm Visit Wildlife Crocodile Farm Visit" [ref=f4e166] [cursor=pointer]:
+          - /url: /experiences/safaris
+          - img "Crocodile Farm Visit" [ref=f4e168]
+          - generic [ref=f4e169]:
+            - generic [ref=f4e170]: Wildlife
+            - heading "Crocodile Farm Visit" [level=3] [ref=f4e172]
+        - link "Horse Riding Adrenaline Horse Riding" [ref=f4e176] [cursor=pointer]:
+          - /url: /experiences/victoria-falls
+          - img "Horse Riding" [ref=f4e178]
+          - generic [ref=f4e179]:
+            - generic [ref=f4e180]: Adrenaline
+            - heading "Horse Riding" [level=3] [ref=f4e182]
+    - generic [ref=f4e186]:
+      - generic [ref=f4e187]:
+        - generic [ref=f4e188]: Where To Next
+        - heading "Related Pages" [level=2] [ref=f4e189]
+        - paragraph [ref=f4e190]: Arranged from the same office, so the connections between them are already in place.
+      - navigation "Related pages" [ref=f4e191]:
+        - link [ref=f4e193] [cursor=pointer]:
+          - /url: /destinations/victoria-falls
+          - img "Victoria Falls" [ref=f4e195]
+          - generic [ref=f4e197]:
+            - heading "Victoria Falls" [level=3] [ref=f4e198]
+            - paragraph [ref=f4e199]: Our home in Zimbabwe
+        - link [ref=f4e203] [cursor=pointer]:
+          - /url: /experiences/cruises
+          - img "Cruises & River Experiences" [ref=f4e205]
+          - generic [ref=f4e207]:
+            - heading "Cruises & River Experiences" [level=3] [ref=f4e208]
+            - paragraph [ref=f4e209]: Breakfast to dinner on the Zambezi
+        - link [ref=f4e213] [cursor=pointer]:
+          - /url: /experiences/cultural
+          - img "Cultural Experiences" [ref=f4e215]
+          - generic [ref=f4e217]:
+            - heading "Cultural Experiences" [level=3] [ref=f4e218]
+            - paragraph [ref=f4e219]: Village experiences and local meals
+        - link [ref=f4e223] [cursor=pointer]:
+          - /url: /experiences/tailor-made
+          - img "Tailor-Made Journeys" [ref=f4e225]
+          - generic [ref=f4e227]:
+            - heading "Tailor-Made Journeys" [level=3] [ref=f4e228]
+            - paragraph [ref=f4e229]: Travel shaped around your plans
+    - generic [ref=f4e234]:
+      - generic [ref=f4e235]:
+        - heading "Ready to talk it through?" [level=2] [ref=f4e236]
+        - paragraph [ref=f4e237]: Send us your dates, group size and what you have in mind. An individual offer is prepared on request, with no obligation.
+      - link "Contact Us" [ref=f4e238] [cursor=pointer]:
+        - /url: /contact
+    - generic [ref=f4e241]:
+      - generic [ref=f4e243]:
+        - generic [ref=f4e244]:
+          - generic [ref=f4e245]: Victoria Falls
+          - generic [ref=f4e246]: ✦
+        - generic [ref=f4e247]:
+          - generic [ref=f4e248]: Zimbabwe · Zambia · Botswana · Namibia
+          - generic [ref=f4e249]: ✦
+        - generic [ref=f4e250]:
+          - generic [ref=f4e251]: Established 2013
+          - generic [ref=f4e252]: ✦
+        - generic [ref=f4e253]:
+          - generic [ref=f4e254]: Road & water transfers
+          - generic [ref=f4e255]: ✦
+        - generic [ref=f4e256]:
+          - generic [ref=f4e257]: Safaris · Cruises · Houseboats
+          - generic [ref=f4e258]: ✦
+        - generic [ref=f4e259]:
+          - generic [ref=f4e260]: Victoria Falls
+          - generic [ref=f4e261]: ✦
+        - generic [ref=f4e262]:
+          - generic [ref=f4e263]: Zimbabwe · Zambia · Botswana · Namibia
+          - generic [ref=f4e264]: ✦
+        - generic [ref=f4e265]:
+          - generic [ref=f4e266]: Established 2013
+          - generic [ref=f4e267]: ✦
+        - generic [ref=f4e268]:
+          - generic [ref=f4e269]: Road & water transfers
+          - generic [ref=f4e270]: ✦
+        - generic [ref=f4e271]:
+          - generic [ref=f4e272]: Safaris · Cruises · Houseboats
+          - generic [ref=f4e273]: ✦
+      - generic [ref=f4e274]:
+        - generic [ref=f4e275]:
+          - generic [ref=f4e276]:
+            - paragraph [ref=f4e277]: Stay in touch
+            - heading "Letters from Victoria Falls." [level=2] [ref=f4e278]:
+              - text: Letters from
+              - generic [ref=f4e279]: Victoria Falls.
+            - paragraph [ref=f4e280]: Journey notes, new experiences and the occasional invitation. Sent rarely, by hand.
+            - generic [ref=f4e281]:
+              - generic [ref=f4e282]:
+                - generic [ref=f4e283]: Email address
+                - textbox "Email address" [ref=f4e284]:
+                  - /placeholder: Your email
+                - button "Subscribe" [ref=f4e285] [cursor=pointer]
+              - status [ref=f4e286]
+            - generic [ref=f4e287]:
+              - generic [ref=f4e288]:
+                - generic [ref=f4e289]: Local time
+                - generic [ref=f4e290]: 08:00:00
+              - generic [ref=f4e291]:
+                - generic [ref=f4e292]: Based in
+                - generic [ref=f4e293]: Victoria Falls
+              - generic [ref=f4e294]:
+                - generic [ref=f4e295]: Founded
+                - generic [ref=f4e296]: "2013"
+          - generic [ref=f4e297]:
+            - generic [ref=f4e298]:
+              - paragraph [ref=f4e299]: Discover
+              - list [ref=f4e300]:
+                - listitem [ref=f4e301]:
+                  - link "Victoria Falls" [ref=f4e302] [cursor=pointer]:
+                    - /url: /destinations/victoria-falls
+                - listitem [ref=f4e303]:
+                  - link "Zimbabwe" [ref=f4e304] [cursor=pointer]:
+                    - /url: /destinations/zimbabwe
+                - listitem [ref=f4e305]:
+                  - link "Zambia" [ref=f4e306] [cursor=pointer]:
+                    - /url: /destinations/zambia
+                - listitem [ref=f4e307]:
+                  - link "Botswana" [ref=f4e308] [cursor=pointer]:
+                    - /url: /destinations/botswana
+                - listitem [ref=f4e309]:
+                  - link "Namibia" [ref=f4e310] [cursor=pointer]:
+                    - /url: /destinations/namibia
+            - generic [ref=f4e311]:
+              - paragraph [ref=f4e312]: Plan
+              - list [ref=f4e313]:
+                - listitem [ref=f4e314]:
+                  - link "Road transfers" [ref=f4e315] [cursor=pointer]:
+                    - /url: /travel/road-transfers
+                - listitem [ref=f4e316]:
+                  - link "Water transfers" [ref=f4e317] [cursor=pointer]:
+                    - /url: /travel/water-transfers
+                - listitem [ref=f4e318]:
+                  - link "Cross-border" [ref=f4e319] [cursor=pointer]:
+                    - /url: /travel/cross-border
+                - listitem [ref=f4e320]:
+                  - link "Accommodation" [ref=f4e321] [cursor=pointer]:
+                    - /url: /travel/accommodation
+                - listitem [ref=f4e322]:
+                  - link "Educational trips" [ref=f4e323] [cursor=pointer]:
+                    - /url: /educational-trips
+            - generic [ref=f4e324]:
+              - paragraph [ref=f4e325]: Company
+              - list [ref=f4e326]:
+                - listitem [ref=f4e327]:
+                  - link "Our story" [ref=f4e328] [cursor=pointer]:
+                    - /url: /about/story
+                - listitem [ref=f4e329]:
+                  - link "Our team" [ref=f4e330] [cursor=pointer]:
+                    - /url: /about/team
+                - listitem [ref=f4e331]:
+                  - link "Testimonials" [ref=f4e332] [cursor=pointer]:
+                    - /url: /about/testimonials
+                - listitem [ref=f4e333]:
+                  - link "Contact" [ref=f4e334] [cursor=pointer]:
+                    - /url: /contact
+        - generic [ref=f4e336]: Beneath Africa
+        - generic [ref=f4e337]:
+          - list "Connect" [ref=f4e338]:
+            - listitem [ref=f4e339]:
+              - link "WhatsApp" [ref=f4e340] [cursor=pointer]:
+                - /url: https://wa.me/263778130264
+            - listitem [ref=f4e344]:
+              - link "Email" [ref=f4e345] [cursor=pointer]:
+                - /url: mailto:reservations@beneathafricatravel.co.zw
+            - listitem [ref=f4e349]:
+              - link "Instagram" [ref=f4e350] [cursor=pointer]:
+                - /url: https://www.instagram.com/
+          - button "Back to top" [ref=f4e354] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f4e356]: ↑
+        - paragraph [ref=f4e358]: © 2013–2026 Beneath Africa Travel and Tours. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f4e364] [cursor=pointer]

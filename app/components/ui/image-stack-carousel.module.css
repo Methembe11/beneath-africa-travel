@@ -1,0 +1,44 @@
+/* Image stack carousel — local styles. The original component shipped
+   with Tailwind utility classes; the project uses CSS Modules, so those
+   utilities are expressed as real rules here. */
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.stage {
+  position: relative;
+  margin: 0 auto;
+}
+
+.card {
+  position: absolute;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.card:active {
+  cursor: grabbing;
+}
+
+.frame {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #171717;
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+  pointer-events: none;
+  object-fit: cover;
+}

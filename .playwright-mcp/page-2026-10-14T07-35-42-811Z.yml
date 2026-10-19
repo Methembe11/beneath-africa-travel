@@ -1,0 +1,604 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - generic:
+        - 'dialog "Plateforme de Gestion du Consentement : Personnalisez vos Options"':
+          - generic [aria-hidden] [ref=e2]:
+            - text: Axeptio consent
+            - checkbox [ref=e3]
+          - generic [ref=e4]:
+            - paragraph [ref=e5]: "Plateforme de Gestion du Consentement : Personnalisez vos Options"
+            - paragraph [ref=e6]: Notre plateforme vous permet d'adapter et de gérer vos paramètres de confidentialité, en garantissant la conformité avec les réglementations. Personnalisez vos préférences pour contrôler la manière dont vos informations sont manipulées.
+        - button "Gérez vos préférences en matière de cookies et données personnelles" [ref=e7] [cursor=pointer]
+  - generic [ref=e14]:
+    - generic [ref=e17]:
+      - link [ref=e23] [cursor=pointer]:
+        - /url: https://tourisme-sumene-artense.com/?skipintro
+      - generic [ref=e30]:
+        - link "Fr" [ref=e31] [cursor=pointer]:
+          - /url: https://tourisme-sumene-artense.com/
+        - link "En" [ref=e32] [cursor=pointer]:
+          - /url: https://tourisme-sumene-artense.com/en/home/
+      - generic [ref=e35]:
+        - generic:
+          - generic:
+            - textbox
+        - button [ref=e36] [cursor=pointer]
+      - generic [ref=e41] [cursor=pointer]
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - link "Accueil":
+              - /url: https://tourisme-sumene-artense.com/
+            - link "Découvrir la destination":
+              - /url: https://tourisme-sumene-artense.com/decouvrir-la-destination/
+            - generic: Hébergements
+            - generic: Activités
+            - generic: Gastronomie et terroir
+            - link "Commerces et services":
+              - /url: https://tourisme-sumene-artense.com/commerces-et-services/
+            - link "Agenda":
+              - /url: https://tourisme-sumene-artense.com/agenda/
+        - generic:
+          - generic:
+            - link "Tous les hébergements":
+              - /url: https://tourisme-sumene-artense.com/hebergements/
+            - link "Gîtes et meublés":
+              - /url: https://tourisme-sumene-artense.com/hebergements/gites-et-meubles/
+            - link "Chambres et tables d’hôtes":
+              - /url: https://tourisme-sumene-artense.com/hebergements/chambres-et-tables-dhotes/
+            - link "Hébergements insolites":
+              - /url: https://tourisme-sumene-artense.com/hebergements/hebergements-insolites/
+            - link "Campings":
+              - /url: https://tourisme-sumene-artense.com/hebergements/campings/
+            - link "Venir en camping car":
+              - /url: https://tourisme-sumene-artense.com/hebergements/venir-en-camping-car/
+            - link "Autres hébergements":
+              - /url: https://tourisme-sumene-artense.com/hebergements/autres-hebergements/
+        - generic:
+          - generic:
+            - link "Toutes les activités":
+              - /url: https://tourisme-sumene-artense.com/activites/
+            - generic: La randonnée
+            - generic: Le vélo
+            - link "L’escalade":
+              - /url: https://tourisme-sumene-artense.com/activites/escalade/
+            - generic: Le cheval
+            - generic: Les plaisirs de l’eau
+            - generic: La pêche
+            - link "Visites et découvertes":
+              - /url: https://tourisme-sumene-artense.com/activites/visites-et-decouvertes/
+            - link "Autres loisirs":
+              - /url: https://tourisme-sumene-artense.com/activites/autres-loisirs/
+            - link "Églises et chapelles":
+              - /url: https://tourisme-sumene-artense.com/activites/eglises-et-chapelles/
+            - link "Points de vue et sites naturels":
+              - /url: https://tourisme-sumene-artense.com/activites/points-de-vue-et-sites-naturels/
+        - generic:
+          - generic:
+            - link "Randonner en Sumène Artense":
+              - /url: https://tourisme-sumene-artense.com/activites/randonnee/
+            - link "Les circuits de randonnées":
+              - /url: https://tourisme-sumene-artense.com/activites/randonnee/les-circuits-de-randonnees/
+            - link "Pour vous accompagner":
+              - /url: https://tourisme-sumene-artense.com/activites/randonnee/pour-vous-accompagner/
+            - link "L’itinérance":
+              - /url: https://tourisme-sumene-artense.com/activites/randonnee/litinerance/
+        - generic:
+          - generic:
+            - link "Pédaler en Sumène Artense":
+              - /url: https://tourisme-sumene-artense.com/activites/velo/
+            - link "Les circuits vélo":
+              - /url: https://tourisme-sumene-artense.com/activites/velo/les-circuits-velo/
+            - link "La piste verte":
+              - /url: https://tourisme-sumene-artense.com/activites/velo/la-piste-verte/
+            - link "Où louer un vélo":
+              - /url: https://tourisme-sumene-artense.com/activites/velo/ou-louer-un-velo/
+            - link "Pour vous accompagner":
+              - /url: https://tourisme-sumene-artense.com/activites/velo/pour-vous-accompagner/
+        - generic:
+          - generic:
+            - link "Chevaucher en Sumène Artense":
+              - /url: https://tourisme-sumene-artense.com/activites/cheval/
+            - link "Fermes et centres équestres":
+              - /url: https://tourisme-sumene-artense.com/activites/cheval/fermes-et-centres-equestres/
+            - link "Circuits et itinérance à cheval":
+              - /url: https://tourisme-sumene-artense.com/activites/cheval/circuits-et-itinerance-a-cheval/
+            - link "Hébergements équestres":
+              - /url: https://tourisme-sumene-artense.com/activites/cheval/hebergements-equestres/
+        - generic:
+          - generic:
+            - link "Barboter en Sumène Artense":
+              - /url: https://tourisme-sumene-artense.com/activites/les-plaisirs-de-leau/
+            - link "Plages et piscines":
+              - /url: https://tourisme-sumene-artense.com/activites/les-plaisirs-de-leau/plages-et-piscines/
+            - link "Activités nautiques":
+              - /url: https://tourisme-sumene-artense.com/activites/les-plaisirs-de-leau/activites-nautiques/
+        - generic:
+          - generic:
+            - link "Pêcher en Sumène Artense":
+              - /url: https://tourisme-sumene-artense.com/activites/peche/
+            - link "Sites de pêche":
+              - /url: https://tourisme-sumene-artense.com/activites/peche/sites-de-peche/
+            - link "Infos pratiques":
+              - /url: https://tourisme-sumene-artense.com/activites/peche/infos-pratiques/
+            - link "Guides de pêche":
+              - /url: https://tourisme-sumene-artense.com/activites/peche/guides-de-peche/
+        - generic:
+          - generic:
+            - link "Gastronomie et terroir en Sumène Artense":
+              - /url: https://tourisme-sumene-artense.com/gastronomie-et-terroir/
+            - link "Les restaurants":
+              - /url: https://tourisme-sumene-artense.com/gastronomie-et-terroir/les-restaurants/
+            - link "Producteurs en vente directe":
+              - /url: https://tourisme-sumene-artense.com/gastronomie-et-terroir/producteurs-en-vente-directe/
+            - link "Marchés hebdomadaires":
+              - /url: https://tourisme-sumene-artense.com/gastronomie-et-terroir/marches-hebdomadaires/
+        - generic: Retour
+    - generic [ref=e51]:
+      - main [ref=e52]:
+        - generic [ref=e54]:
+          - generic [ref=e72]:
+            - generic [ref=e73]: Laissez-vous transporter
+            - generic [ref=e74]: dans la Petite Scandinavie
+            - generic [ref=e75]: Découvrir
+          - generic:
+            - generic:
+              - generic:
+                - img "Nuages"
+            - generic:
+              - generic:
+                - img "Nuages"
+            - generic:
+              - img "Nuages"
+          - generic [ref=e80]:
+            - generic [ref=e81]: ©
+            - generic: Kevin Lauret
+        - generic [ref=e83]:
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - generic [ref=e92]:
+                - link "© Kevin Lauret" [ref=e93] [cursor=pointer]:
+                  - /url: https://tourisme-sumene-artense.com/carte-touristique/le-site-de-val/
+                  - generic [ref=e96]:
+                    - generic [ref=e97]: ©
+                    - generic: Kevin Lauret
+                - link "© Mayeul Vidéo" [ref=e98] [cursor=pointer]:
+                  - /url: https://tourisme-sumene-artense.com/decouvrir-la-destination/terre-de-lacs/
+                  - generic [ref=e101]:
+                    - generic [ref=e102]: ©
+                    - generic: Mayeul Vidéo
+                - link "© Hervé Vidal" [ref=e103] [cursor=pointer]:
+                  - /url: https://tourisme-sumene-artense.com/carte-touristique/les-gorges-de-la-haute-dordogne/
+                  - generic [ref=e106]:
+                    - generic [ref=e107]: ©
+                    - generic: Hervé Vidal
+                - link "© Destination Sumène Artense" [ref=e108] [cursor=pointer]:
+                  - /url: https://tourisme-sumene-artense.com/carte-touristique/patrimoine-minier/
+                  - generic [ref=e111]:
+                    - generic [ref=e112]: ©
+                    - generic: Destination Sumène Artense
+                - link "© Kevin Lauret" [ref=e113] [cursor=pointer]:
+                  - /url: https://tourisme-sumene-artense.com/carte-touristique/barrages-et-hydroelectricite/
+                  - generic [ref=e116]:
+                    - generic [ref=e117]: ©
+                    - generic: Kevin Lauret
+                - link "© Eric Gourdon" [ref=e118] [cursor=pointer]:
+                  - /url: https://tourisme-sumene-artense.com/activites/velo/la-piste-verte/
+                  - generic [ref=e121]:
+                    - generic [ref=e122]: ©
+                    - generic: Eric Gourdon
+                - link "© Kevin Lauret" [ref=e123] [cursor=pointer]:
+                  - /url: https://tourisme-sumene-artense.com/decouvrir-la-destination/terre-de-volcans/
+                  - generic [ref=e126]:
+                    - generic [ref=e127]: ©
+                    - generic: Kevin Lauret
+                - link "© Joël Damase" [ref=e128] [cursor=pointer]:
+                  - /url: https://tourisme-sumene-artense.com/carte-touristique/eglises-et-chapelles-remarquables/
+                  - generic [ref=e131]:
+                    - generic [ref=e132]: ©
+                    - generic: Joël Damase
+                - link "© Kevin Lauret" [ref=e133] [cursor=pointer]:
+                  - /url: https://tourisme-sumene-artense.com/
+                  - generic [ref=e136]:
+                    - generic [ref=e137]: ©
+                    - generic: Kevin Lauret
+              - heading "Carte touristique" [level=2] [ref=e139]:
+                - generic [ref=e140]: Carte
+                - generic [ref=e141]: touristique
+            - generic [ref=e159]:
+              - generic:
+                - generic:
+                  - generic [ref=e162]:
+                    - generic [ref=e163]: Le site du château de Val
+                    - generic [ref=e164]: Mêlant contemplation et distraction, les multiples activités qu’offre ce site vous permettent de passer une journée inoubliable en famille !
+                    - link "Plus d'infos" [ref=e167] [cursor=pointer]:
+                      - /url: https://tourisme-sumene-artense.com/carte-touristique/le-site-de-val/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Les lacs de l'Artense
+                        - generic: Lieu de détente par excellence, la multitude de lacs et d’activités sauront à coup sûr vous divertir !
+                        - generic:
+                          - link "Plus d'infos":
+                            - /url: https://tourisme-sumene-artense.com/decouvrir-la-destination/terre-de-lacs/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Les Gorges de la Haute-Dordogne
+                        - generic: Bien qu’elles soient ponctuées d’une succession de barrages hydroélectriques monumentaux, ces gorges sauvages sont un havre de paix pour les amoureux de la nature !
+                        - generic:
+                          - link "Plus d'infos":
+                            - /url: https://tourisme-sumene-artense.com/carte-touristique/les-gorges-de-la-haute-dordogne/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Le patrimoine minier
+                        - generic: Le bassin houiller de Champagnac-Ydes est une portion du grand Sillon de charbon qui traverse le Massif-Central.
+                        - generic:
+                          - link "Plus d'infos":
+                            - /url: https://tourisme-sumene-artense.com/carte-touristique/patrimoine-minier/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: L'hydroélectricité
+                        - generic: Parsemé d’ouvrages industriels, le territoire est aménagé depuis les années 1920 pour répondre aux besoins énergétiques !
+                        - generic:
+                          - link "Plus d'infos":
+                            - /url: https://tourisme-sumene-artense.com/carte-touristique/barrages-et-hydroelectricite/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: La Piste Verte
+                        - generic: Ancienne voie ferrée réhabilitée et entièrement sécurisée, cette piste multi activités au cheminement libre est accessible toute l’année !
+                        - generic:
+                          - link "Plus d'infos":
+                            - /url: https://tourisme-sumene-artense.com/activites/velo/la-piste-verte/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Le volcanisme en Sumène Artense
+                        - generic: De nombreux édifices volcaniques jalonnent les paysages de Sumène Artense. Ils sont le témoignage d’un passé explosif !
+                        - generic:
+                          - link "Plus d'infos":
+                            - /url: https://tourisme-sumene-artense.com/decouvrir-la-destination/terre-de-volcans/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Églises et chapelles remarquables
+                        - generic: De nombreux édifices religieux remarquables sont à découvrir tout au long de votre séjour !
+                        - generic:
+                          - link "Plus d'infos":
+                            - /url: https://tourisme-sumene-artense.com/carte-touristique/eglises-et-chapelles-remarquables/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - link "Plus d'infos":
+                            - /url: https://tourisme-sumene-artense.com/
+          - generic [ref=e218]:
+            - generic [ref=e219]: Saint-Pierre
+            - generic [ref=e222]: Veyrières
+            - generic [ref=e225]: Vebret
+            - generic [ref=e228]: Champs-sur-Tarentaine
+            - generic [ref=e231]: Lanobre
+            - generic [ref=e234]: Marchal
+            - generic [ref=e237]: Trémouille
+            - generic [ref=e240]: Champagnac
+            - generic [ref=e243]: Ydes
+            - generic [ref=e246]: Bassignac
+            - generic [ref=e249]: Madic
+            - generic [ref=e252]: Saignes
+            - generic [ref=e255]: Le Monteil
+            - generic [ref=e258]: La Monselie
+            - generic [ref=e261]: Antignac
+            - generic [ref=e264]: Beaulieu
+            - generic [ref=e267]: Sauvat
+            - generic [ref=e270] [cursor=pointer]
+            - generic [ref=e279] [cursor=pointer]
+            - generic [ref=e285] [cursor=pointer]
+            - generic [ref=e291] [cursor=pointer]
+            - generic [ref=e297] [cursor=pointer]
+            - generic [ref=e303] [cursor=pointer]
+            - generic [ref=e309] [cursor=pointer]
+            - generic [ref=e315] [cursor=pointer]
+            - generic [ref=e321] [cursor=pointer]
+        - generic [ref=e333]:
+          - generic [ref=e335]:
+            - generic [ref=e337]:
+              - heading "À la une en Sumène Artense" [level=2] [ref=e338]:
+                - generic [ref=e339]: À la une
+                - generic [ref=e340]: en Sumène Artense
+              - generic [ref=e344]:
+                - generic [ref=e346] [cursor=pointer]
+                - generic [ref=e351] [cursor=pointer]
+            - generic [ref=e357]:
+              - generic [ref=e372]:
+                - generic [ref=e375]:
+                  - generic [ref=e376]: Regard(s) sur le cerf 2026
+                  - generic [ref=e377]: Le brame du cerf s'invite en Sumène Artense ! À l'automne, la forêt résonne d'un spectacle aussi impressionnant que fascinant…
+                  - link "Plus d'infos" [ref=e380] [cursor=pointer]:
+                    - /url: https://tourisme-sumene-artense.com/blog/regards-sur-le-cerf-2026/
+                - generic [ref=e389]:
+                  - generic [ref=e390]: Place au pumptrack !
+                  - generic [ref=e391]: Un nouvel espace dédié aux sports de glisse et de plein air vient enrichir l’offre de loisirs en Sumène Artense…
+                  - link "Plus d'infos" [ref=e394] [cursor=pointer]:
+                    - /url: https://tourisme-sumene-artense.com/blog/place-au-pumptrack/
+                - generic [ref=e403]:
+                  - generic [ref=e404]: La saison culturelle en Sumène Artense
+                  - generic [ref=e405]: "La nouvelle saison culturelle est lancée en Sumène Artense : une sélection de spectacles pour tous et au plus près…"
+                  - link "Plus d'infos" [ref=e408] [cursor=pointer]:
+                    - /url: https://tourisme-sumene-artense.com/blog/la-saison-culturelle-en-sumene-artense/
+              - generic:
+                - generic:
+                  - img "Nuages"
+          - generic:
+            - generic:
+              - img "Nuages"
+          - generic [ref=e419]:
+            - generic [ref=e420]: ©
+            - generic: Kevin Lauret
+        - generic [ref=e423]:
+          - heading [level=2] [ref=e425]:
+            - generic [ref=e426]: Explorez
+            - generic [ref=e427]: la Petite Scandinavie
+          - generic [ref=e428]:
+            - generic [ref=e430]:
+              - link "© Dominique Battistoni Terre sauvage Quand vient l’automne, les forêts de la petite scandinavie résonnent d’un cri rauque et puissant, le brame du cerf. En savoir plus":
+                - /url: https://tourisme-sumene-artense.com/decouvrir-la-destination/terre-sauvage/
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ©
+                                - generic: Dominique Battistoni
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Terre sauvage
+                            - generic: Quand vient l’automne, les forêts de la petite scandinavie résonnent d’un cri rauque et puissant, le brame du cerf.
+                            - generic: En savoir plus
+              - link "© Kévin Lauret Terre de volcans Le pic de Charlus est un neck, vestige de la cheminée volcanique d’un édifice âgé de plus de 10 millions d’années. En savoir plus":
+                - /url: https://tourisme-sumene-artense.com/decouvrir-la-destination/terre-de-volcans/
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ©
+                                - generic: Kévin Lauret
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Terre de volcans
+                            - generic: Le pic de Charlus est un neck, vestige de la cheminée volcanique d’un édifice âgé de plus de 10 millions d’années.
+                            - generic: En savoir plus
+              - link "© Eric Gourdon Terre d'histoire Joyau médiéval de l’Auvergne, le château de Val fascine au premier regard. Posé sur un éperon rocheux, il pose son reflet sur les eaux calme de la Dordogne. En savoir plus":
+                - /url: https://tourisme-sumene-artense.com/decouvrir-la-destination/terre-dhistoire/
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ©
+                                - generic: Eric Gourdon
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Terre d'histoire
+                            - generic: Joyau médiéval de l’Auvergne, le château de Val fascine au premier regard. Posé sur un éperon rocheux, il pose son reflet sur les eaux calme de la Dordogne.
+                            - generic: En savoir plus
+              - link "© Mayeul vidéo Terre de lacs Le lac de Lastioulles constitue, avec les autres lacs du plateau de l’Artense, un ensemble de plans d’eau unique en Auvergne, dont l’atmosphère et les paysages singuliers rappellent les pays nordiques. En savoir plus" [ref=e431] [cursor=pointer]:
+                - /url: https://tourisme-sumene-artense.com/decouvrir-la-destination/terre-de-lacs/
+                - generic [ref=e434]:
+                  - generic [ref=e440]:
+                    - generic [ref=e441]: ©
+                    - generic: Mayeul vidéo
+                  - generic [ref=e444]:
+                    - generic [ref=e445]: Terre de lacs
+                    - generic [ref=e446]: Le lac de Lastioulles constitue, avec les autres lacs du plateau de l’Artense, un ensemble de plans d’eau unique en Auvergne, dont l’atmosphère et les paysages singuliers rappellent les pays nordiques.
+                    - generic [ref=e449]: En savoir plus
+              - link "Terre de sciences Le pic de Charlus, le site du fraysse ou le plateau de Chastel-Marlhac constituent des promontoires naturels propices à l'observation d’un des cieux les plus purs d’Europe. En savoir plus":
+                - /url: https://tourisme-sumene-artense.com/decouvrir-la-destination/terre-de-sciences/
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Terre de sciences
+                            - generic: Le pic de Charlus, le site du fraysse ou le plateau de Chastel-Marlhac constituent des promontoires naturels propices à l'observation d’un des cieux les plus purs d’Europe.
+                            - generic: En savoir plus
+              - 'link "© Kevin Lauret Terre d''eaux vives Au creux des gorges sauvages de la Rhue se trouve un surprenant canyon ponctué de rapides et de cascades : le saut de la Saule. En savoir plus"':
+                - /url: https://tourisme-sumene-artense.com/decouvrir-la-destination/terre-deaux-vives/
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ©
+                                - generic: Kevin Lauret
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Terre d'eaux vives
+                            - generic: "Au creux des gorges sauvages de la Rhue se trouve un surprenant canyon ponctué de rapides et de cascades : le saut de la Saule."
+                            - generic: En savoir plus
+              - link "© Eric Gourdon Terre d'aventure Espace sauvage et de liberté, la petite Scandinavie offre un terrain de jeu exceptionnel à tous les passionnés de sports de plein air. En savoir plus":
+                - /url: https://tourisme-sumene-artense.com/decouvrir-la-destination/terre-daventure/
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ©
+                                - generic: Eric Gourdon
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Terre d'aventure
+                            - generic: Espace sauvage et de liberté, la petite Scandinavie offre un terrain de jeu exceptionnel à tous les passionnés de sports de plein air.
+                            - generic: En savoir plus
+              - link "© Dominique Battistoni Terre sauvage Quand vient l’automne, les forêts de la petite scandinavie résonnent d’un cri rauque et puissant, le brame du cerf. En savoir plus":
+                - /url: https://tourisme-sumene-artense.com/decouvrir-la-destination/terre-sauvage/
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ©
+                                - generic: Dominique Battistoni
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Terre sauvage
+                            - generic: Quand vient l’automne, les forêts de la petite scandinavie résonnent d’un cri rauque et puissant, le brame du cerf.
+                            - generic: En savoir plus
+              - link "© Kévin Lauret Terre de volcans Le pic de Charlus est un neck, vestige de la cheminée volcanique d’un édifice âgé de plus de 10 millions d’années. En savoir plus":
+                - /url: https://tourisme-sumene-artense.com/decouvrir-la-destination/terre-de-volcans/
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ©
+                                - generic: Kévin Lauret
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Terre de volcans
+                            - generic: Le pic de Charlus est un neck, vestige de la cheminée volcanique d’un édifice âgé de plus de 10 millions d’années.
+                            - generic: En savoir plus
+              - link "© Eric Gourdon Terre d'histoire Joyau médiéval de l’Auvergne, le château de Val fascine au premier regard. Posé sur un éperon rocheux, il pose son reflet sur les eaux calme de la Dordogne. En savoir plus":
+                - /url: https://tourisme-sumene-artense.com/decouvrir-la-destination/terre-dhistoire/
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ©
+                                - generic: Eric Gourdon
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Terre d'histoire
+                            - generic: Joyau médiéval de l’Auvergne, le château de Val fascine au premier regard. Posé sur un éperon rocheux, il pose son reflet sur les eaux calme de la Dordogne.
+                            - generic: En savoir plus
+            - generic:
+              - generic [ref=e457] [cursor=pointer]
+              - generic [ref=e461] [cursor=pointer]
+        - generic [ref=e467]:
+          - generic [ref=e468]:
+            - generic [ref=e474]:
+              - generic [ref=e475]: Office de tourisme
+              - generic [ref=e476]: de Sumène Artense
+            - generic:
+              - generic:
+                - generic:
+                  - img "Nuages"
+              - generic:
+                - generic:
+                  - img "Nuages"
+          - generic [ref=e481]:
+            - generic [ref=e493] [cursor=pointer]:
+              - generic [ref=e494]: Saint-Flour
+              - generic [ref=e497]: Aurillac
+            - generic: Cantal
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img "Nuages"
+            - generic:
+              - generic:
+                - img "Nuages"
+            - generic:
+              - generic:
+                - img "Nuages"
+          - generic [ref=e504]:
+            - generic [ref=e505]: ©
+            - generic: Raymond Piccoli
+      - contentinfo [ref=e506]:
+        - generic [ref=e509]:
+          - link [ref=e511] [cursor=pointer]:
+            - /url: https://tourisme-sumene-artense.com/?skipintro
+          - generic [ref=e523]:
+            - generic [ref=e524]: S'inscrire à la newsletter
+            - generic [ref=e525]: Je m'abonne à la newsletter pour rester informé(e)
+            - generic [ref=e526]:
+              - generic [ref=e528]:
+                - generic [ref=e529]:
+                  - status
+                  - list
+                - form "Formulaire de contact" [ref=e530]:
+                  - generic [ref=e531]:
+                    - textbox "Adresse email" [ref=e534]
+                    - button "S'inscrire" [ref=e536] [cursor=pointer]
+              - generic: Merci pour inscription !
+          - generic [ref=e538]:
+            - link "Nous contacter" [ref=e539] [cursor=pointer]:
+              - /url: https://tourisme-sumene-artense.com/contact/
+            - link "6 Place de l'Église 15270 Champs sur Tarentaine Marchal" [ref=e547] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Office+de+Tourisme+de+Sum%C3%A8ne+Artense/@45.395185,2.5559411,16z/data=!4m14!1m7!3m6!1s0x47f788c3a0597979:0x382e7068890a2b63!2sOffice+de+Tourisme+de+Sum%C3%A8ne+Artense!8m2!3d45.3951813!4d2.560812!16s%2Fg%2F1vs1r6rf!3m5!1s0x47f788c3a0597979:0x382e7068890a2b63!8m2!3d45.3951813!4d2.560812!16s%2Fg%2F1vs1r6rf?entry=ttu&g_ep=EgoyMDI1MDEyNi4wIKXMDSoASAFQAw%3D%3D
+            - link "04 71 78 76 33" [ref=e549] [cursor=pointer]:
+              - /url: tel:04 71 78 76 33
+            - generic [ref=e550]:
+              - link [ref=e551] [cursor=pointer]:
+                - /url: https://www.facebook.com/officedetourismedesumeneartense/
+              - link [ref=e554] [cursor=pointer]:
+                - /url: https://www.instagram.com/destination_sumene_artense/
+          - generic [ref=e558]:
+            - link "Espace pro" [ref=e560] [cursor=pointer]:
+              - /url: https://tourisme-sumene-artense.com/espace-pro/
+            - link "Nos brochures" [ref=e568] [cursor=pointer]:
+              - /url: https://tourisme-sumene-artense.com/nos-brochures/
+            - link "Nos bureaux d’information" [ref=e576] [cursor=pointer]:
+              - /url: https://tourisme-sumene-artense.com/nos-bureaux-dinformation/
+            - link "Comment venir chez nous ?" [ref=e584] [cursor=pointer]:
+              - /url: https://tourisme-sumene-artense.com/comment-venir-chez-nous/
+        - generic [ref=e593]:
+          - generic [ref=e594]:
+            - link [ref=e595] [cursor=pointer]:
+              - /url: https://leaderfrance.fr/
+              - img "Leader" [ref=e596]
+            - link [ref=e597] [cursor=pointer]:
+              - /url: https://www.auvergnerhonealpes.fr/media/2901/download?inline
+              - img "L'europe en région" [ref=e598]
+          - generic [ref=e599]: Le projet de Développement du site internet et déploiement auprès des prestataires a été cofinancé par le Fonds Européen Agricole pour le Développement Rural (FEADER).
+        - generic [ref=e602]:
+          - generic [ref=e603]: © Office de Tourisme de Sumène-Artense 2026
+          - generic [ref=e604]: "|"
+          - generic [ref=e605]:
+            - text: Réalisation
+            - link "Agence de communication SPKTR" [ref=e606] [cursor=pointer]:
+              - /url: https://www.spktr.fr
+          - generic [ref=e607]: "|"
+          - link "Mentions légales" [ref=e609] [cursor=pointer]:
+            - /url: https://tourisme-sumene-artense.com/mentions-legales/
+          - generic [ref=e610]: "|"

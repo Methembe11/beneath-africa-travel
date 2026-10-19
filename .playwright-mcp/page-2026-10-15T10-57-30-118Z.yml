@@ -1,0 +1,205 @@
+- generic [active] [ref=f15e1]:
+  - banner:
+    - link "Beneath Africa Travel & Tours, home" [ref=f15e2] [cursor=pointer]:
+      - /url: /
+      - generic [aria-hidden] [ref=f15e3]: BA
+      - generic [ref=f15e4]: Beneath Africa
+    - button "Open menu" [ref=f15e5] [cursor=pointer]:
+      - generic [ref=f15e6]: Menu
+  - main [ref=f15e11]:
+    - generic [ref=f15e12]:
+      - img "Game drive in wildlife country" [ref=f15e14]
+      - generic [ref=f15e16]:
+        - generic [ref=f15e17]: Experience · Wildlife
+        - heading "Safaris & Game Drives" [level=1] [ref=f15e18]
+        - paragraph [ref=f15e19]: Game drives, lion walks and wildlife time, arranged across Zimbabwe, Botswana and Namibia.
+    - generic [ref=f15e21]:
+      - paragraph [ref=f15e22]: Wildlife time needs vehicles, guides and somewhere to sleep, in that order. We arrange the game drives and the accommodation together, so a day in the field does not depend on a hotel booking you made three months earlier.
+      - paragraph [ref=f15e23]: Camps and lodges, transfers and the drives themselves are handled by the same team, which is what makes the arrangements workable for travellers arriving from outside the region.
+    - generic [ref=f15e26]:
+      - generic [ref=f15e27]:
+        - heading "Game Drives" [level=3] [ref=f15e28]
+        - paragraph [ref=f15e29]: Scheduled around the light and the road, not the other way round.
+      - generic [ref=f15e30]:
+        - heading "Lion Walk" [level=3] [ref=f15e31]
+        - paragraph [ref=f15e32]: A guided walking experience with handlers and trackers.
+      - generic [ref=f15e33]:
+        - heading "Camps & Lodges" [level=3] [ref=f15e34]
+        - paragraph [ref=f15e35]: Accommodation arranged close to where the drives happen.
+      - generic [ref=f15e36]:
+        - heading "Transfers Included" [level=3] [ref=f15e37]
+        - paragraph [ref=f15e38]: Road transfers arranged between the drive and the bed.
+    - generic [ref=f15e41]:
+      - heading "Wildlife Experiences We Arrange" [level=2] [ref=f15e42]
+      - list [ref=f15e43]:
+        - listitem [ref=f15e44]:
+          - generic [ref=f15e51]: Game drives
+        - listitem [ref=f15e52]:
+          - generic [ref=f15e59]: Lion walk
+        - listitem [ref=f15e60]:
+          - generic [ref=f15e66]: Camping
+        - listitem [ref=f15e67]:
+          - generic [ref=f15e74]: Chobe day trips
+        - listitem [ref=f15e75]:
+          - generic [ref=f15e80]: Village experiences
+    - generic [ref=f15e82]:
+      - generic [ref=f15e83]:
+        - generic [ref=f15e84]: Where To Next
+        - heading "Related Pages" [level=2] [ref=f15e85]
+        - paragraph [ref=f15e86]: Arranged from the same office, so the connections between them are already in place.
+      - navigation "Related pages" [ref=f15e87]:
+        - link [ref=f15e89] [cursor=pointer]:
+          - /url: /destinations/botswana
+          - img "Botswana" [ref=f15e91]
+          - generic [ref=f15e93]:
+            - heading "Botswana" [level=3] [ref=f15e94]
+            - paragraph [ref=f15e95]: Chobe & wildlife journeys
+        - link [ref=f15e99] [cursor=pointer]:
+          - /url: /experiences/chobe
+          - img "Chobe" [ref=f15e101]
+          - generic [ref=f15e103]:
+            - heading "Chobe" [level=3] [ref=f15e104]
+            - paragraph [ref=f15e105]: Botswana day trips with practical coordination
+        - link [ref=f15e109] [cursor=pointer]:
+          - /url: /destinations/namibia
+          - img "Namibia" [ref=f15e111]
+          - generic [ref=f15e113]:
+            - heading "Namibia" [level=3] [ref=f15e114]
+            - paragraph [ref=f15e115]: Cross-border arrangements
+        - link [ref=f15e119] [cursor=pointer]:
+          - /url: /travel/accommodation
+          - img "Accommodation" [ref=f15e121]
+          - generic [ref=f15e123]:
+            - heading "Accommodation" [level=3] [ref=f15e124]
+            - paragraph [ref=f15e125]: Hotels, lodges, self-catering and camping
+    - generic [ref=f15e130]:
+      - generic [ref=f15e131]:
+        - heading "Ready to talk it through?" [level=2] [ref=f15e132]
+        - paragraph [ref=f15e133]: Send us your dates, group size and what you have in mind. An individual offer is prepared on request, with no obligation.
+      - link "Contact Us" [ref=f15e134] [cursor=pointer]:
+        - /url: /contact
+    - generic [ref=f15e137]:
+      - generic [ref=f15e139]:
+        - generic [ref=f15e140]:
+          - generic [ref=f15e141]: Victoria Falls
+          - generic [ref=f15e142]: ✦
+        - generic [ref=f15e143]:
+          - generic [ref=f15e144]: Zimbabwe · Zambia · Botswana · Namibia
+          - generic [ref=f15e145]: ✦
+        - generic [ref=f15e146]:
+          - generic [ref=f15e147]: Established 2013
+          - generic [ref=f15e148]: ✦
+        - generic [ref=f15e149]:
+          - generic [ref=f15e150]: Road & water transfers
+          - generic [ref=f15e151]: ✦
+        - generic [ref=f15e152]:
+          - generic [ref=f15e153]: Safaris · Cruises · Houseboats
+          - generic [ref=f15e154]: ✦
+        - generic [ref=f15e155]:
+          - generic [ref=f15e156]: Victoria Falls
+          - generic [ref=f15e157]: ✦
+        - generic [ref=f15e158]:
+          - generic [ref=f15e159]: Zimbabwe · Zambia · Botswana · Namibia
+          - generic [ref=f15e160]: ✦
+        - generic [ref=f15e161]:
+          - generic [ref=f15e162]: Established 2013
+          - generic [ref=f15e163]: ✦
+        - generic [ref=f15e164]:
+          - generic [ref=f15e165]: Road & water transfers
+          - generic [ref=f15e166]: ✦
+        - generic [ref=f15e167]:
+          - generic [ref=f15e168]: Safaris · Cruises · Houseboats
+          - generic [ref=f15e169]: ✦
+      - generic [ref=f15e170]:
+        - generic [ref=f15e171]:
+          - generic [ref=f15e172]:
+            - paragraph [ref=f15e173]: Stay in touch
+            - heading "Letters from Victoria Falls." [level=2] [ref=f15e174]:
+              - text: Letters from
+              - generic [ref=f15e175]: Victoria Falls.
+            - paragraph [ref=f15e176]: Journey notes, new experiences and the occasional invitation. Sent rarely, by hand.
+            - generic [ref=f15e177]:
+              - generic [ref=f15e178]:
+                - generic [ref=f15e179]: Email address
+                - textbox "Email address" [ref=f15e180]:
+                  - /placeholder: Your email
+                - button "Subscribe" [ref=f15e181] [cursor=pointer]
+              - status [ref=f15e182]
+            - generic [ref=f15e183]:
+              - generic [ref=f15e184]:
+                - generic [ref=f15e185]: Local time
+                - generic [ref=f15e186]: 08:00:00
+              - generic [ref=f15e187]:
+                - generic [ref=f15e188]: Based in
+                - generic [ref=f15e189]: Victoria Falls
+              - generic [ref=f15e190]:
+                - generic [ref=f15e191]: Founded
+                - generic [ref=f15e192]: "2013"
+          - generic [ref=f15e193]:
+            - generic [ref=f15e194]:
+              - paragraph [ref=f15e195]: Discover
+              - list [ref=f15e196]:
+                - listitem [ref=f15e197]:
+                  - link "Victoria Falls" [ref=f15e198] [cursor=pointer]:
+                    - /url: /destinations/victoria-falls
+                - listitem [ref=f15e199]:
+                  - link "Zimbabwe" [ref=f15e200] [cursor=pointer]:
+                    - /url: /destinations/zimbabwe
+                - listitem [ref=f15e201]:
+                  - link "Zambia" [ref=f15e202] [cursor=pointer]:
+                    - /url: /destinations/zambia
+                - listitem [ref=f15e203]:
+                  - link "Botswana" [ref=f15e204] [cursor=pointer]:
+                    - /url: /destinations/botswana
+                - listitem [ref=f15e205]:
+                  - link "Namibia" [ref=f15e206] [cursor=pointer]:
+                    - /url: /destinations/namibia
+            - generic [ref=f15e207]:
+              - paragraph [ref=f15e208]: Plan
+              - list [ref=f15e209]:
+                - listitem [ref=f15e210]:
+                  - link "Road transfers" [ref=f15e211] [cursor=pointer]:
+                    - /url: /travel/road-transfers
+                - listitem [ref=f15e212]:
+                  - link "Water transfers" [ref=f15e213] [cursor=pointer]:
+                    - /url: /travel/water-transfers
+                - listitem [ref=f15e214]:
+                  - link "Cross-border" [ref=f15e215] [cursor=pointer]:
+                    - /url: /travel/cross-border
+                - listitem [ref=f15e216]:
+                  - link "Accommodation" [ref=f15e217] [cursor=pointer]:
+                    - /url: /travel/accommodation
+                - listitem [ref=f15e218]:
+                  - link "Educational trips" [ref=f15e219] [cursor=pointer]:
+                    - /url: /educational-trips
+            - generic [ref=f15e220]:
+              - paragraph [ref=f15e221]: Company
+              - list [ref=f15e222]:
+                - listitem [ref=f15e223]:
+                  - link "Our story" [ref=f15e224] [cursor=pointer]:
+                    - /url: /about/story
+                - listitem [ref=f15e225]:
+                  - link "Our team" [ref=f15e226] [cursor=pointer]:
+                    - /url: /about/team
+                - listitem [ref=f15e227]:
+                  - link "Testimonials" [ref=f15e228] [cursor=pointer]:
+                    - /url: /about/testimonials
+                - listitem [ref=f15e229]:
+                  - link "Contact" [ref=f15e230] [cursor=pointer]:
+                    - /url: /contact
+        - generic [ref=f15e232]: Beneath Africa
+        - generic [ref=f15e233]:
+          - list "Connect" [ref=f15e234]:
+            - listitem [ref=f15e235]:
+              - link "WhatsApp" [ref=f15e236] [cursor=pointer]:
+                - /url: https://wa.me/263778130264
+            - listitem [ref=f15e240]:
+              - link "Email" [ref=f15e241] [cursor=pointer]:
+                - /url: mailto:reservations@beneathafricatravel.co.zw
+            - listitem [ref=f15e245]:
+              - link "Instagram" [ref=f15e246] [cursor=pointer]:
+                - /url: https://www.instagram.com/
+          - button "Back to top" [ref=f15e250] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f15e252]: ↑
+        - paragraph [ref=f15e254]: © 2013–2026 Beneath Africa Travel and Tours. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f15e260] [cursor=pointer]
