@@ -22,10 +22,10 @@ import styles from "./image-stack-carousel.module.css";
  */
 
 const defaultCards: SwipeCardItem[] = [
-  { id: 1, img: "/image-library/Helicopter Flights image1.jfif", alt: "Mist rising off Victoria Falls." },
+  { id: 1, img: "/image-library/Helicopter Flights image1.jpg", alt: "Mist rising off Victoria Falls." },
   { id: 2, img: "/image-library/Beneath africa travel cruise.jpeg", alt: "Sunset on a Zambezi river cruise." },
   { id: 3, img: "/image-library/Beneath elephant image.jpeg", alt: "A game drive in the early morning." },
-  { id: 4, img: "/image-library/Cultural Experience image3.jfif", alt: "A cultural visit near Victoria Falls." },
+  { id: 4, img: "/image-library/Cultural Experience image3.jpg", alt: "A cultural visit near Victoria Falls." },
   { id: 5, img: "/image-library/Beneath tent image.jpeg", alt: "A Beneath Africa bush camp." },
 ];
 

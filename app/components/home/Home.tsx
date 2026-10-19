@@ -457,7 +457,7 @@ export default function Home() {
     "/image-library/Beneath boat image4.jpeg",
     "/image-library/Beneath pool view image.jpeg",
     "/image-library/Beneath elephant image.jpeg",
-    "/image-library/Cultural Experience image3.jfif",
+    "/image-library/Cultural Experience image3.jpg",
   ];
 
   return (

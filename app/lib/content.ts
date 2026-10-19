@@ -122,19 +122,19 @@ export const victoriaFallsActivityCards: ActivityCard[] = [
   {
     title: "Chobe Day Trip",
     category: "Game Viewing",
-    image: "/image-library/Chobe Day Trip image1.jfif",
+    image: "/image-library/Chobe Day Trip image1.jpg",
     href: "/experiences/chobe",
   },
   {
     title: "Helicopter Flight",
     category: "Flights",
-    image: "/image-library/Helicopter Flights image1.jfif",
+    image: "/image-library/Helicopter Flights image1.jpg",
     href: "/experiences/victoria-falls",
   },
   {
     title: "Breakfast Cruise",
     category: "River Cruises",
-    image: "/image-library/Zambezi sunrise image1.jfif",
+    image: "/image-library/Zambezi sunrise image1.jpg",
     href: "/experiences/cruises",
   },
   {
@@ -146,7 +146,7 @@ export const victoriaFallsActivityCards: ActivityCard[] = [
   {
     title: "Sunset Cruise",
     category: "River Cruises",
-    image: "/image-library/Zambezi Sunset Cruise image1.jfif",
+    image: "/image-library/Zambezi Sunset Cruise image1.jpg",
     href: "/experiences/cruises",
   },
   {
@@ -158,19 +158,19 @@ export const victoriaFallsActivityCards: ActivityCard[] = [
   {
     title: "Lion Walk",
     category: "Wildlife",
-    image: "/image-library/WILDLIFE DETAIL LIBRARY Lion image1.jfif",
+    image: "/image-library/WILDLIFE DETAIL LIBRARY Lion image1.jpg",
     href: "/experiences/safaris",
   },
   {
     title: "Game Drives",
     category: "Game Viewing",
-    image: "/image-library/Game Drives image1.jfif",
+    image: "/image-library/Game Drives image1.jpg",
     href: "/experiences/safaris",
   },
   {
     title: "Village Experience",
     category: "Culture",
-    image: "/image-library/Cultural Experience image1.jfif",
+    image: "/image-library/Cultural Experience image1.jpg",
     href: "/experiences/cultural",
   },
   {
@@ -188,37 +188,37 @@ export const victoriaFallsActivityCards: ActivityCard[] = [
   {
     title: "White Water Rafting",
     category: "Adrenaline",
-    image: "/image-library/White-Water Rafting image1.jfif",
+    image: "/image-library/White-Water Rafting image1.jpg",
     href: "/experiences/victoria-falls",
   },
   {
     title: "Horse Riding",
     category: "Adrenaline",
-    image: "/image-library/Bush sunset.jfif",
+    image: "/image-library/Bush sunset.jpg",
     href: "/experiences/victoria-falls",
   },
   {
     title: "Guided Tour of the Falls",
     category: "Tours",
-    image: "/image-library/Victoria Falls mist image1.jfif",
+    image: "/image-library/Victoria Falls mist image1.jpg",
     href: "/experiences/victoria-falls",
   },
   {
     title: "Bungee",
     category: "Adrenaline",
-    image: "/image-library/Bungee Jump image1.jfif",
+    image: "/image-library/Bungee Jump image1.jpg",
     href: "/experiences/victoria-falls",
   },
   {
     title: "Flying Fox",
     category: "Adrenaline",
-    image: "/image-library/Victoria Falls mist image2.jfif",
+    image: "/image-library/Victoria Falls mist image2.jpg",
     href: "/experiences/victoria-falls",
   },
   {
     title: "City Tour",
     category: "Tours",
-    image: "/image-library/Road journey image2.jfif",
+    image: "/image-library/Road journey image2.jpg",
     href: "/experiences/victoria-falls",
   },
 ];
@@ -241,7 +241,7 @@ export const destinations: InteriorPageData[] = [
     eyebrow: "Destination · Zimbabwe",
     title: "Victoria Falls",
     lead: "Our home base. Tours, guided Falls experiences, road and water transfers and accommodation arranged from a Victoria Falls office.",
-    image: "/image-library/Helicopter Flights image1.jfif",
+    image: "/image-library/Helicopter Flights image1.jpg",
     imageAlt: "Mist rising from the Victoria Falls",
     metaDescription:
       "Victoria Falls tours, guided Falls experiences, road and water transfers and accommodation arranged by a Victoria Falls-based travel company established in 2013.",
@@ -285,7 +285,7 @@ export const destinations: InteriorPageData[] = [
         title: "Victoria Falls Activities",
         href: "/experiences/victoria-falls",
         description: "Guided tours and the activities in Falls town",
-        image: "/image-library/Helicopter Flights image1.jfif",
+        image: "/image-library/Helicopter Flights image1.jpg",
       },
       {
         title: "Cruises & River Experiences",
@@ -314,7 +314,7 @@ export const destinations: InteriorPageData[] = [
     eyebrow: "Destination · Zimbabwe",
     title: "Zimbabwe",
     lead: "Discover Zimbabwe's most beautiful places — with tours arranged around the Victoria Falls, Hwange and the Zambezi.",
-    image: "/image-library/DISCOVER SOUTHERN AFRICA image1.jfif",
+    image: "/image-library/DISCOVER SOUTHERN AFRICA image1.jpg",
     imageAlt: "Zimbabwean landscape",
     metaDescription:
       "Tours around Zimbabwe arranged from Victoria Falls, including Hwange overnight stays, guided Falls tours, sunset cruises and school trips.",
@@ -347,13 +347,13 @@ export const destinations: InteriorPageData[] = [
           {
             title: "Guided Tour of the Falls",
             category: "Tours",
-            image: "/image-library/Victoria Falls mist image1.jfif",
+            image: "/image-library/Victoria Falls mist image1.jpg",
             href: "/experiences/victoria-falls",
           },
           {
             title: "Sunset Cruise on the Zambezi",
             category: "River Cruises",
-            image: "/image-library/Zambezi Sunset Cruise image1.jfif",
+            image: "/image-library/Zambezi Sunset Cruise image1.jpg",
             href: "/experiences/cruises",
           },
           {
@@ -364,7 +364,7 @@ export const destinations: InteriorPageData[] = [
           {
             title: "Visit to a Crocodile Farm",
             category: "Wildlife",
-            image: "/image-library/WILDLIFE DETAIL LIBRARY Crocodiles image1.jfif",
+            image: "/image-library/WILDLIFE DETAIL LIBRARY Crocodiles image1.jpg",
             href: "/experiences/safaris",
           },
           {
@@ -376,7 +376,7 @@ export const destinations: InteriorPageData[] = [
           {
             title: "Road Transfers Between Destinations",
             category: "Transfers",
-            image: "/image-library/transfer vehicle image1.jfif",
+            image: "/image-library/transfer vehicle image1.jpg",
             href: "/travel/road-transfers",
           },
         ],
@@ -387,7 +387,7 @@ export const destinations: InteriorPageData[] = [
         title: "Victoria Falls",
         href: "/destinations/victoria-falls",
         description: "Our home in Zimbabwe",
-        image: "/image-library/Helicopter Flights image1.jfif",
+        image: "/image-library/Helicopter Flights image1.jpg",
       },
       {
         title: "Educational Trips",
@@ -405,7 +405,7 @@ export const destinations: InteriorPageData[] = [
         title: "Botswana",
         href: "/destinations/botswana",
         description: "Chobe & wildlife journeys",
-        image: "/image-library/Chobe Day Trip image2.jfif",
+        image: "/image-library/Chobe Day Trip image2.jpg",
       },
     ],
   },
@@ -416,7 +416,7 @@ export const destinations: InteriorPageData[] = [
     eyebrow: "Destination · Zambia",
     title: "Zambia",
     lead: "Zambia is routed together with Zimbabwe and Botswana, so the borders on the map stay decisions rather than problems.",
-    image: "/image-library/DISCOVER SOUTHERN AFRICA image2.jfif",
+    image: "/image-library/DISCOVER SOUTHERN AFRICA image2.jpg",
     imageAlt: "Sunrise over the Zambezi",
     metaDescription:
       "Road transfers, cross-border coordination, accommodation and driver-guide itineraries in Zambia, arranged from a Victoria Falls base.",
@@ -449,13 +449,13 @@ export const destinations: InteriorPageData[] = [
           {
             title: "Road Transfers Between Countries",
             category: "Transfers",
-            image: "/image-library/transfer vehicle image1.jfif",
+            image: "/image-library/transfer vehicle image1.jpg",
             href: "/travel/road-transfers",
           },
           {
             title: "Cross-Border Formalities",
             category: "Transfers",
-            image: "/image-library/Road journey image4.jfif",
+            image: "/image-library/Road journey image4.jpg",
             href: "/travel/cross-border",
           },
           {
@@ -467,7 +467,7 @@ export const destinations: InteriorPageData[] = [
           {
             title: "Driver-Guide Itineraries",
             category: "Tours",
-            image: "/image-library/Guides image1.jfif",
+            image: "/image-library/Guides image1.jpg",
             href: "/travel/driver-guided",
           },
           {
@@ -483,7 +483,7 @@ export const destinations: InteriorPageData[] = [
         title: "Victoria Falls",
         href: "/destinations/victoria-falls",
         description: "Our home in Zimbabwe",
-        image: "/image-library/Helicopter Flights image1.jfif",
+        image: "/image-library/Helicopter Flights image1.jpg",
       },
       {
         title: "Cross-Border Arrangements",
@@ -501,7 +501,7 @@ export const destinations: InteriorPageData[] = [
         title: "Botswana",
         href: "/destinations/botswana",
         description: "Chobe & wildlife journeys",
-        image: "/image-library/Chobe Day Trip image2.jfif",
+        image: "/image-library/Chobe Day Trip image2.jpg",
       },
     ],
   },
@@ -512,7 +512,7 @@ export const destinations: InteriorPageData[] = [
     eyebrow: "Destination · Botswana",
     title: "Botswana",
     lead: "Chobe day trips and Chobe River journeys, reached by road from a Victoria Falls base.",
-    image: "/image-library/DISCOVER SOUTHERN AFRICA image3.jfif",
+    image: "/image-library/DISCOVER SOUTHERN AFRICA image3.jpg",
     imageAlt: "Chobe River in Botswana",
     metaDescription:
       "Chobe day trips and Chobe River journeys arranged from Victoria Falls, with game drives, river time and cross-border road transfers into Botswana.",
@@ -545,25 +545,25 @@ export const destinations: InteriorPageData[] = [
           {
             title: "Chobe Day Trips",
             category: "Day Trips",
-            image: "/image-library/Chobe Day Trip image1.jfif",
+            image: "/image-library/Chobe Day Trip image1.jpg",
             href: "/experiences/chobe",
           },
           {
             title: "Game Drives",
             category: "Safari",
-            image: "/image-library/Game Drives image1.jfif",
+            image: "/image-library/Game Drives image1.jpg",
             href: "/experiences/safaris",
           },
           {
             title: "River Time On The Chobe",
             category: "River Cruises",
-            image: "/image-library/WILDLIFE DETAIL LIBRARY Chobe image1.jfif",
+            image: "/image-library/WILDLIFE DETAIL LIBRARY Chobe image1.jpg",
             href: "/experiences/cruises",
           },
           {
             title: "Road Transfers Across The Border",
             category: "Transfers",
-            image: "/image-library/transfer vehicle image2.jfif",
+            image: "/image-library/transfer vehicle image2.jpg",
             href: "/travel/road-transfers",
           },
           {
@@ -580,7 +580,7 @@ export const destinations: InteriorPageData[] = [
         title: "Chobe",
         href: "/experiences/chobe",
         description: "Botswana day trips with practical coordination",
-        image: "/image-library/Chobe Day Trip image1.jfif",
+        image: "/image-library/Chobe Day Trip image1.jpg",
       },
       {
         title: "Namibia",
@@ -609,7 +609,7 @@ export const destinations: InteriorPageData[] = [
     eyebrow: "Destination · Namibia",
     title: "Namibia",
     lead: "Cross-border arrangements that carry you into Namibia and leave the rest of the itinerary intact.",
-    image: "/image-library/DISCOVER SOUTHERN AFRICA image4.jfif",
+    image: "/image-library/DISCOVER SOUTHERN AFRICA image4.jpg",
     imageAlt: "Sunset over bush country",
     metaDescription:
       "Road transfers, cross-border coordination and accommodation arrangements connecting Zimbabwe and Namibia.",
@@ -642,13 +642,13 @@ export const destinations: InteriorPageData[] = [
           {
             title: "Road Transfers From Victoria Falls",
             category: "Transfers",
-            image: "/image-library/transfer vehicle image3.jfif",
+            image: "/image-library/transfer vehicle image3.jpg",
             href: "/travel/road-transfers",
           },
           {
             title: "Cross-Border Coordination",
             category: "Transfers",
-            image: "/image-library/Road journey image5.jfif",
+            image: "/image-library/Road journey image5.jpg",
             href: "/travel/cross-border",
           },
           {
@@ -660,12 +660,12 @@ export const destinations: InteriorPageData[] = [
           {
             title: "Operator Liaison, Including Safari 24",
             category: "Coordination",
-            image: "/image-library/Guides image2.jfif",
+            image: "/image-library/Guides image2.jpg",
           },
           {
             title: "Wildlife & Landscape Itineraries",
             category: "Safari",
-            image: "/image-library/WILDLIFE DETAIL LIBRARY Giraffe image1.jfif",
+            image: "/image-library/WILDLIFE DETAIL LIBRARY Giraffe image1.jpg",
             href: "/experiences/safaris",
           },
         ],
@@ -676,7 +676,7 @@ export const destinations: InteriorPageData[] = [
         title: "Botswana",
         href: "/destinations/botswana",
         description: "Chobe & wildlife journeys",
-        image: "/image-library/Chobe Day Trip image2.jfif",
+        image: "/image-library/Chobe Day Trip image2.jpg",
       },
       {
         title: "Cross-Border Arrangements",
@@ -708,7 +708,7 @@ export const experiences: InteriorPageData[] = [
     eyebrow: "Experience · Victoria Falls",
     title: "Victoria Falls Activities",
     lead: "Guided tours of the Falls and the activities around it, arranged from a Victoria Falls base.",
-    image: "/image-library/Helicopter Flights image1.jfif",
+    image: "/image-library/Helicopter Flights image1.jpg",
     imageAlt: "Mist rising from the Victoria Falls",
     metaDescription:
       "Guided tours of the Victoria Falls plus bungee, white-water rafting, helicopter flights, lion walks, village experiences and boma dinners.",
@@ -741,32 +741,32 @@ export const experiences: InteriorPageData[] = [
           {
             title: "Guided Tour of the Falls",
             category: "Tours",
-            image: "/image-library/Victoria Falls mist image1.jfif",
+            image: "/image-library/Victoria Falls mist image1.jpg",
           },
           {
             title: "Helicopter Flight",
             category: "Flights",
-            image: "/image-library/Helicopter Flights image1.jfif",
+            image: "/image-library/Helicopter Flights image1.jpg",
           },
           {
             title: "Bungee",
             category: "Adrenaline",
-            image: "/image-library/Bungee Jump image1.jfif",
+            image: "/image-library/Bungee Jump image1.jpg",
           },
           {
             title: "Flying Fox",
             category: "Adrenaline",
-            image: "/image-library/Victoria Falls mist image2.jfif",
+            image: "/image-library/Victoria Falls mist image2.jpg",
           },
           {
             title: "White Water Rafting",
             category: "Adrenaline",
-            image: "/image-library/White-Water Rafting image1.jfif",
+            image: "/image-library/White-Water Rafting image1.jpg",
           },
           {
             title: "City Tour",
             category: "Tours",
-            image: "/image-library/Road journey image2.jfif",
+            image: "/image-library/Road journey image2.jpg",
           },
         ],
       },
@@ -776,13 +776,13 @@ export const experiences: InteriorPageData[] = [
           {
             title: "Lion Walk",
             category: "Wildlife",
-            image: "/image-library/WILDLIFE DETAIL LIBRARY Lion image1.jfif",
+            image: "/image-library/WILDLIFE DETAIL LIBRARY Lion image1.jpg",
             href: "/experiences/safaris",
           },
           {
             title: "Village Experience",
             category: "Culture",
-            image: "/image-library/Cultural Experience image1.jfif",
+            image: "/image-library/Cultural Experience image1.jpg",
             href: "/experiences/cultural",
           },
           {
@@ -800,13 +800,13 @@ export const experiences: InteriorPageData[] = [
           {
             title: "Crocodile Farm Visit",
             category: "Wildlife",
-            image: "/image-library/WILDLIFE DETAIL LIBRARY Crocodiles image1.jfif",
+            image: "/image-library/WILDLIFE DETAIL LIBRARY Crocodiles image1.jpg",
             href: "/experiences/safaris",
           },
           {
             title: "Horse Riding",
             category: "Adrenaline",
-            image: "/image-library/Bush sunset.jfif",
+            image: "/image-library/Bush sunset.jpg",
           },
         ],
       },
@@ -816,7 +816,7 @@ export const experiences: InteriorPageData[] = [
         title: "Victoria Falls",
         href: "/destinations/victoria-falls",
         description: "Our home in Zimbabwe",
-        image: "/image-library/Helicopter Flights image1.jfif",
+        image: "/image-library/Helicopter Flights image1.jpg",
       },
       {
         title: "Cruises & River Experiences",
@@ -828,7 +828,7 @@ export const experiences: InteriorPageData[] = [
         title: "Cultural Experiences",
         href: "/experiences/cultural",
         description: "Village experiences and local meals",
-        image: "/image-library/Cultural Experience image3.jfif",
+        image: "/image-library/Cultural Experience image3.jpg",
       },
       {
         title: "Tailor-Made Journeys",
@@ -878,12 +878,12 @@ export const experiences: InteriorPageData[] = [
           {
             title: "Game Drives",
             category: "Safari",
-            image: "/image-library/Game Drives image2.jfif",
+            image: "/image-library/Game Drives image2.jpg",
           },
           {
             title: "Lion Walk",
             category: "Wildlife",
-            image: "/image-library/WILDLIFE DETAIL LIBRARY Lion image2.jfif",
+            image: "/image-library/WILDLIFE DETAIL LIBRARY Lion image2.jpg",
           },
           {
             title: "Camping",
@@ -894,13 +894,13 @@ export const experiences: InteriorPageData[] = [
           {
             title: "Chobe Day Trips",
             category: "Day Trips",
-            image: "/image-library/Chobe Day Trip image3.jfif",
+            image: "/image-library/Chobe Day Trip image3.jpg",
             href: "/experiences/chobe",
           },
           {
             title: "Village Experiences",
             category: "Culture",
-            image: "/image-library/Cultural Experience image2.jfif",
+            image: "/image-library/Cultural Experience image2.jpg",
             href: "/experiences/cultural",
           },
         ],
@@ -911,13 +911,13 @@ export const experiences: InteriorPageData[] = [
         title: "Botswana",
         href: "/destinations/botswana",
         description: "Chobe & wildlife journeys",
-        image: "/image-library/Chobe Day Trip image2.jfif",
+        image: "/image-library/Chobe Day Trip image2.jpg",
       },
       {
         title: "Chobe",
         href: "/experiences/chobe",
         description: "Botswana day trips with practical coordination",
-        image: "/image-library/Chobe Day Trip image1.jfif",
+        image: "/image-library/Chobe Day Trip image1.jpg",
       },
       {
         title: "Namibia",
@@ -940,7 +940,7 @@ export const experiences: InteriorPageData[] = [
     eyebrow: "Experience · Botswana",
     title: "Chobe Day Trips",
     lead: "Chobe day trips from Victoria Falls, with river time and game drives on the Botswana side.",
-    image: "/image-library/Chobe Day Trip image1.jfif",
+    image: "/image-library/Chobe Day Trip image1.jpg",
     imageAlt: "Chobe River day trip",
     metaDescription:
       "Chobe day trips from Victoria Falls into Botswana, with game drives, river time, cross-border road transfers and Chobe River cruises.",
@@ -973,25 +973,25 @@ export const experiences: InteriorPageData[] = [
           {
             title: "Cross-Border Transfer From Victoria Falls",
             category: "Transfers",
-            image: "/image-library/transfer vehicle image4.jfif",
+            image: "/image-library/transfer vehicle image4.jpg",
             href: "/travel/road-transfers",
           },
           {
             title: "Game Drives In The Chobe Area",
             category: "Safari",
-            image: "/image-library/Game Drives image3.jfif",
+            image: "/image-library/Game Drives image3.jpg",
             href: "/experiences/safaris",
           },
           {
             title: "Time On The River",
             category: "River Cruises",
-            image: "/image-library/BOAT TRANSFERS image1.jfif",
+            image: "/image-library/BOAT TRANSFERS image1.jpg",
             href: "/experiences/cruises",
           },
           {
             title: "Return Transfer To Victoria Falls",
             category: "Transfers",
-            image: "/image-library/Road journey image6.jfif",
+            image: "/image-library/Road journey image6.jpg",
             href: "/travel/road-transfers",
           },
         ],
@@ -1002,7 +1002,7 @@ export const experiences: InteriorPageData[] = [
         title: "Botswana",
         href: "/destinations/botswana",
         description: "Chobe & wildlife journeys",
-        image: "/image-library/Chobe Day Trip image2.jfif",
+        image: "/image-library/Chobe Day Trip image2.jpg",
       },
       {
         title: "Cross-Border Arrangements",
@@ -1064,7 +1064,7 @@ export const experiences: InteriorPageData[] = [
           {
             title: "Breakfast Cruise",
             category: "River Cruises",
-            image: "/image-library/Zambezi sunrise image1.jfif",
+            image: "/image-library/Zambezi sunrise image1.jpg",
           },
           {
             title: "Lunch Cruise",
@@ -1074,12 +1074,12 @@ export const experiences: InteriorPageData[] = [
           {
             title: "Sunset Cruise",
             category: "River Cruises",
-            image: "/image-library/Zambezi Sunset Cruise image1.jfif",
+            image: "/image-library/Zambezi Sunset Cruise image1.jpg",
           },
           {
             title: "Dinner Cruise",
             category: "River Cruises",
-            image: "/image-library/Zambezi sunset image2.jfif",
+            image: "/image-library/Zambezi sunset image2.jpg",
           },
         ],
       },
@@ -1095,7 +1095,7 @@ export const experiences: InteriorPageData[] = [
         title: "Victoria Falls",
         href: "/destinations/victoria-falls",
         description: "Our home in Zimbabwe",
-        image: "/image-library/Helicopter Flights image1.jfif",
+        image: "/image-library/Helicopter Flights image1.jpg",
       },
       {
         title: "Houseboats",
@@ -1162,13 +1162,13 @@ export const experiences: InteriorPageData[] = [
           {
             title: "Cruises On The Zambezi",
             category: "River Cruises",
-            image: "/image-library/Zambezi Sunset Cruise image2.jfif",
+            image: "/image-library/Zambezi Sunset Cruise image2.jpg",
             href: "/experiences/cruises",
           },
           {
             title: "Chobe River Cruises",
             category: "River Cruises",
-            image: "/image-library/BOAT TRANSFERS image2.jfif",
+            image: "/image-library/BOAT TRANSFERS image2.jpg",
             href: "/experiences/chobe",
           },
         ],
@@ -1179,7 +1179,7 @@ export const experiences: InteriorPageData[] = [
         title: "Chobe",
         href: "/experiences/chobe",
         description: "Botswana day trips with practical coordination",
-        image: "/image-library/Chobe Day Trip image1.jfif",
+        image: "/image-library/Chobe Day Trip image1.jpg",
       },
       {
         title: "Zimbabwe",
@@ -1208,7 +1208,7 @@ export const experiences: InteriorPageData[] = [
     eyebrow: "Experience · Culture",
     title: "Cultural Experiences",
     lead: "Village experiences, local meals and a boma dinner — the parts of a trip that people remember longest.",
-    image: "/image-library/Cultural Experience image3.jfif",
+    image: "/image-library/Cultural Experience image3.jpg",
     imageAlt: "Cultural experience in Zimbabwe",
     metaDescription:
       "Village experiences, Dust Road local meals, boma dinners and city tours arranged in Victoria Falls and around Zimbabwe.",
@@ -1241,7 +1241,7 @@ export const experiences: InteriorPageData[] = [
           {
             title: "Village Experience",
             category: "Culture",
-            image: "/image-library/Cultural Experience image3.jfif",
+            image: "/image-library/Cultural Experience image3.jpg",
           },
           {
             title: "Dust Road Local Meals",
@@ -1256,13 +1256,13 @@ export const experiences: InteriorPageData[] = [
           {
             title: "City Tour",
             category: "Tours",
-            image: "/image-library/Road journey image3.jfif",
+            image: "/image-library/Road journey image3.jpg",
             href: "/experiences/victoria-falls",
           },
           {
             title: "Crocodile Farm Visit",
             category: "Wildlife",
-            image: "/image-library/WILDLIFE DETAIL LIBRARY Crocodiles image2.jfif",
+            image: "/image-library/WILDLIFE DETAIL LIBRARY Crocodiles image2.jpg",
             href: "/experiences/victoria-falls",
           },
         ],
@@ -1273,13 +1273,13 @@ export const experiences: InteriorPageData[] = [
         title: "Victoria Falls",
         href: "/destinations/victoria-falls",
         description: "Our home in Zimbabwe",
-        image: "/image-library/Helicopter Flights image1.jfif",
+        image: "/image-library/Helicopter Flights image1.jpg",
       },
       {
         title: "Victoria Falls Activities",
         href: "/experiences/victoria-falls",
         description: "Guided tours and activities",
-        image: "/image-library/Helicopter Flights image1.jfif",
+        image: "/image-library/Helicopter Flights image1.jpg",
       },
       {
         title: "Safaris & Game Drives",
@@ -1350,7 +1350,7 @@ export const experiences: InteriorPageData[] = [
         title: "Victoria Falls",
         href: "/destinations/victoria-falls",
         description: "Our home in Zimbabwe",
-        image: "/image-library/Helicopter Flights image1.jfif",
+        image: "/image-library/Helicopter Flights image1.jpg",
       },
       {
         title: "Group Travel",
@@ -1414,31 +1414,31 @@ export const travelServices: InteriorPageData[] = [
           {
             title: "Victoria Falls & Surrounding Area",
             category: "Zimbabwe",
-            image: "/image-library/Victoria Falls mist image3.jfif",
+            image: "/image-library/Victoria Falls mist image3.jpg",
             href: "/destinations/victoria-falls",
           },
           {
             title: "Hwange",
             category: "Zimbabwe",
-            image: "/image-library/Zimbabwe landscapes image2.jfif",
+            image: "/image-library/Zimbabwe landscapes image2.jpg",
             href: "/destinations/zimbabwe",
           },
           {
             title: "Chobe",
             category: "Botswana",
-            image: "/image-library/Chobe Day Trip image4.jfif",
+            image: "/image-library/Chobe Day Trip image4.jpg",
             href: "/destinations/botswana",
           },
           {
             title: "Zambia",
             category: "Zambia",
-            image: "/image-library/Zambezi sunrise image3.jfif",
+            image: "/image-library/Zambezi sunrise image3.jpg",
             href: "/destinations/zambia",
           },
           {
             title: "Namibia",
             category: "Namibia",
-            image: "/image-library/DISCOVER SOUTHERN AFRICA image4.jfif",
+            image: "/image-library/DISCOVER SOUTHERN AFRICA image4.jpg",
             href: "/destinations/namibia",
           },
         ],
@@ -1517,13 +1517,13 @@ export const travelServices: InteriorPageData[] = [
           {
             title: "Cruises On The Zambezi",
             category: "River Cruises",
-            image: "/image-library/Zambezi Sunset Cruise image3.jfif",
+            image: "/image-library/Zambezi Sunset Cruise image3.jpg",
             href: "/experiences/cruises",
           },
           {
             title: "Chobe River Cruises",
             category: "River Cruises",
-            image: "/image-library/BOAT TRANSFERS image3.jfif",
+            image: "/image-library/BOAT TRANSFERS image3.jpg",
             href: "/experiences/chobe",
           },
           {
@@ -1558,7 +1558,7 @@ export const travelServices: InteriorPageData[] = [
         title: "Chobe",
         href: "/experiences/chobe",
         description: "Botswana day trips",
-        image: "/image-library/Chobe Day Trip image1.jfif",
+        image: "/image-library/Chobe Day Trip image1.jpg",
       },
     ],
   },
@@ -1602,12 +1602,12 @@ export const travelServices: InteriorPageData[] = [
           {
             title: "A Driver Guide With The Vehicle",
             category: "Driver-Guided",
-            image: "/image-library/Guides image3.jfif",
+            image: "/image-library/Guides image3.jpg",
           },
           {
             title: "Road Transfers Between Destinations",
             category: "Transfers",
-            image: "/image-library/transfer vehicle image5.jfif",
+            image: "/image-library/transfer vehicle image5.jpg",
             href: "/travel/road-transfers",
           },
           {
@@ -1723,7 +1723,7 @@ export const travelServices: InteriorPageData[] = [
         title: "Victoria Falls",
         href: "/destinations/victoria-falls",
         description: "Our home in Zimbabwe",
-        image: "/image-library/Helicopter Flights image1.jfif",
+        image: "/image-library/Helicopter Flights image1.jpg",
       },
       {
         title: "Safaris & Game Drives",
@@ -1800,7 +1800,7 @@ export const travelServices: InteriorPageData[] = [
         title: "Botswana",
         href: "/destinations/botswana",
         description: "Chobe & wildlife journeys",
-        image: "/image-library/Chobe Day Trip image2.jfif",
+        image: "/image-library/Chobe Day Trip image2.jpg",
       },
       {
         title: "Zambia",
@@ -2322,7 +2322,7 @@ export const educationalTrips: InteriorPageData = {
       title: "Victoria Falls",
       href: "/destinations/victoria-falls",
       description: "Our home in Zimbabwe",
-      image: "/image-library/Helicopter Flights image1.jfif",
+      image: "/image-library/Helicopter Flights image1.jpg",
     },
     {
       title: "Zimbabwe",
