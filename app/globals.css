@@ -126,8 +126,31 @@
   --z-header: 100;
   --z-menu: 200;
 
+  /* --- fixed header height ------------------------------- */
+  /* Measured from the rendered SiteHeader so that fragment
+     links (e.g. /#experiences) can scroll clear of it. */
+  --header-h: 78px;
+
   --background: var(--paper);
   --foreground: var(--t-primary);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --header-h: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --header-h: 91px;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --header-h: 98px;
+  }
 }
 
 html {
@@ -139,6 +162,11 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+/* Keep fragment-link targets clear of the fixed site header. */
+[id] {
+  scroll-margin-top: calc(var(--header-h) + 0.75rem);
 }
 
 body {
