@@ -1,4 +1,0 @@
-[    1014ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
-[    1092ms] [LOG] [HMR] connected @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
-[   48445ms] [WARNING] Image with src "/image-library/Victoria Falls mist image2.jfif" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776

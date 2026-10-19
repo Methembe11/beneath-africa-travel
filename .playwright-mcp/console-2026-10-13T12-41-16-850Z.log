@@ -1,2 +1,0 @@
-[     751ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://framerusercontent.com/assets/1bIBY6ZicWkt75Ur89V9MV0lg.woff2 @ https://reveriesafaris.com/:457
-[   14512ms] [LOG] [Framer On-Page Editing] Unavailable because not on a `framer.app` subdomain and access status is no-auth @ https://app.framerstatic.com/editorbar.MR2UXSU7.mjs:0

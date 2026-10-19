@@ -1,9 +1,0 @@
-[     636ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
-[     669ms] [LOG] [HMR] connected @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
-[     853ms] [WARNING] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
-[   35718ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
-[   35942ms] [LOG] [Fast Refresh] done in 89ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
-[   35945ms] [LOG] [Fast Refresh] done in 89ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
-[   40373ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
-[   40551ms] [LOG] [Fast Refresh] done in 5ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
-[   40577ms] [LOG] [Fast Refresh] done in 5ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776

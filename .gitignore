@@ -39,3 +39,32 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local installer files
+image-library/*.msi
+image-library/*.exe
+
+# Local development logs
+*.log
+.devserver.*
+
+# Playwright testing artifacts
+/.playwright-mcp/
+/test-results/
+/playwright-report/
+
+# Local screenshots and design review captures
+/current-desktop-full.png
+/home-1440-full.png
+/home-390-full.png
+/nav-closed-hero-1440.png
+/nav-open-1440.png
+/nav-open-390.png
+/ref-blog.png
+/ref-map.png
+/reverie-hero.png
+/shot-*.png
+
+# Local installer files
+image-library/*.msi
+image-library/*.exe
