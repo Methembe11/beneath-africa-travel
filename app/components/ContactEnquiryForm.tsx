@@ -1,24 +1,19 @@
 "use client";
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
-import { HiArrowRight, HiX } from "react-icons/hi";
-import { bookableItems } from "../lib/catalogue";
-import { clearItems, removeItem, useEnquiryItems } from "../lib/enquiry-store";
+import { HiArrowRight } from "react-icons/hi";
+import { buildContactPayload, submitBooking } from "../lib/submit-booking";
 import styles from "./ContactEnquiryForm.module.css";
 
-const ENQUIRY_EMAIL = "ranjis@beneathafricatravel.co.zw";
-
-const TITLES = new Map(bookableItems.map((item) => [item.slug, item.title]));
-
-function line(label: string, value: string) {
-  return value.trim() ? `${label}: ${value.trim()}` : "";
-}
+const WHATSAPP_HREF = "https://wa.me/263778130264";
+const MAILTO_HREF = "mailto:reservations@beneathafricatravel.co.zw";
 
 export default function ContactEnquiryForm() {
   const [status, setStatus] = useState("");
+  const [sending, setSending] = useState(false);
+  const [sent, setSent] = useState(false);
+  const [failed, setFailed] = useState(false);
   const messageRef = useRef<HTMLTextAreaElement | null>(null);
-  const selected = useEnquiryItems();
-  const selectedTitles = selected.map((slug) => TITLES.get(slug) ?? slug);
 
   /**
    * Activity and destination pages link here with ?topic=<name>, so the
@@ -37,7 +32,7 @@ export default function ContactEnquiryForm() {
     field.value = `I am interested in ${clean}.\n\n`;
   }, []);
 
-  function onSubmit(event: FormEvent<HTMLFormElement>) {
+  async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
     const form = event.currentTarget;
@@ -49,82 +44,53 @@ export default function ContactEnquiryForm() {
 
     const data = new FormData(form);
     const field = (name: string) => String(data.get(name) ?? "").trim();
+    const botcheck = String(data.get("botcheck") ?? "");
 
-    const selectedBlock =
-      selectedTitles.length > 0
-        ? [
-            "Selected activities:",
-            ...selectedTitles.map((title) => `- ${title}`),
-            "",
-          ]
-        : [];
+    setSending(true);
+    setFailed(false);
+    setStatus("Sending your message…");
 
-    const contactLines = [
-      line("Name", field("name")),
-      line("Email", field("email")),
-      line("Phone / WhatsApp", field("phone")),
-      line("Travellers", field("travellers")),
-      line("Arrival", field("arrival")),
-      line("Departure", field("departure")),
-    ].filter(Boolean);
+    try {
+      await submitBooking({
+        ...buildContactPayload({
+          name: field("name"),
+          email: field("email"),
+          message: field("message"),
+        }),
+        botcheck,
+      });
+      setSent(true);
+      setStatus("");
+    } catch {
+      setFailed(true);
+      setStatus(
+        "Your message could not be sent. Try again below — or reach us on WhatsApp or by email.",
+      );
+    } finally {
+      setSending(false);
+    }
+  }
 
-    const details = [
-      ...contactLines,
-      "",
-      ...selectedBlock,
-      "What we are planning:",
-      field("message"),
-    ].join("\n");
-
-    const subject = field("name")
-      ? `Travel enquiry from ${field("name")}`
-      : "Travel enquiry";
-
-    setStatus("Opening your email app with the enquiry filled in.");
-
-    window.location.href = `mailto:${ENQUIRY_EMAIL}?subject=${encodeURIComponent(
-      subject,
-    )}&body=${encodeURIComponent(details)}`;
+  if (sent) {
+    return (
+      <div className={styles.done} role="status">
+        <h3>Thank you — we will be in touch.</h3>
+        <p>
+          A person from our Victoria Falls office will reply to your email
+          address, usually within one working day.
+        </p>
+      </div>
+    );
   }
 
   return (
-    <form className={styles.form} onSubmit={onSubmit}>
-      {selected.length > 0 ? (
-        <div className={styles.selected}>
-          <div className={styles.selectedHead}>
-            <span className={styles.label}>
-              Activities in your enquiry
-            </span>
-            <button
-              type="button"
-              className={styles.clear}
-              onClick={() => clearItems()}
-            >
-              Clear all
-            </button>
-          </div>
-          <ul className={styles.selectedList}>
-            {selected.map((slug) => (
-              <li key={slug} className={styles.selectedItem}>
-                <span>{TITLES.get(slug) ?? slug}</span>
-                <button
-                  type="button"
-                  className={styles.selectedRemove}
-                  onClick={() => removeItem(slug)}
-                  aria-label={`Remove ${TITLES.get(slug) ?? slug} from enquiry`}
-                >
-                  <HiX aria-hidden="true" />
-                </button>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ) : (
-        <p className={styles.selectedEmpty}>
-          No activities selected yet. You can add them from any experience or
-          activity page and they will appear here.
-        </p>
-      )}
+    <form className={styles.form} onSubmit={onSubmit} noValidate={false}>
+      <div className={styles.honeypot} aria-hidden="true">
+        <label>
+          Leave this field empty
+          <input name="botcheck" type="text" tabIndex={-1} autoComplete="off" />
+        </label>
+      </div>
 
       <div className={styles.grid}>
         <div className={styles.field}>
@@ -154,57 +120,6 @@ export default function ContactEnquiryForm() {
             required
           />
         </div>
-
-        <div className={styles.field}>
-          <label className={styles.label} htmlFor="enquiry-phone">
-            Phone or WhatsApp
-          </label>
-          <input
-            className={styles.input}
-            id="enquiry-phone"
-            name="phone"
-            type="tel"
-            autoComplete="tel"
-          />
-        </div>
-
-        <div className={styles.field}>
-          <label className={styles.label} htmlFor="enquiry-travellers">
-            Number of travellers
-          </label>
-          <input
-            className={styles.input}
-            id="enquiry-travellers"
-            name="travellers"
-            type="number"
-            min={1}
-            inputMode="numeric"
-          />
-        </div>
-
-        <div className={styles.field}>
-          <label className={styles.label} htmlFor="enquiry-arrival">
-            Arrival date
-          </label>
-          <input
-            className={styles.input}
-            id="enquiry-arrival"
-            name="arrival"
-            type="date"
-          />
-        </div>
-
-        <div className={styles.field}>
-          <label className={styles.label} htmlFor="enquiry-departure">
-            Departure date
-          </label>
-          <input
-            className={styles.input}
-            id="enquiry-departure"
-            name="departure"
-            type="date"
-          />
-        </div>
       </div>
 
       <div className={styles.field}>
@@ -226,18 +141,27 @@ export default function ContactEnquiryForm() {
         <button
           className={styles.submit}
           type="submit"
+          disabled={sending}
           aria-describedby="enquiry-hint"
         >
-          Prepare Email Enquiry
+          {sending ? "Sending…" : "Send enquiry"}
           <HiArrowRight size={20} aria-hidden="true" />
         </button>
         <p className={styles.hint} id="enquiry-hint">
-          This opens your email app with your details filled in and sends the
-          enquiry to {ENQUIRY_EMAIL}. No details are stored on this website.
+          Sent straight to our reservations desk. No details are stored on this
+          website.
         </p>
         <p className={styles.status} role="status" aria-live="polite">
           {status}
         </p>
+        {failed ? (
+          <p className={styles.fallbacks}>
+            <a href={WHATSAPP_HREF} target="_blank" rel="noreferrer">
+              Chat on WhatsApp
+            </a>
+            <a href={MAILTO_HREF}>Email reservations</a>
+          </p>
+        ) : null}
       </div>
     </form>
   );

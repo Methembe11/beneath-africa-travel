@@ -94,11 +94,6 @@ export const company = {
   ],
   emails: [
     {
-      label: "ranjis@beneathafricatravel.co.zw",
-      href: "mailto:ranjis@beneathafricatravel.co.zw",
-      note: "Ranjis Nyakusengwa, Managing Director",
-    },
-    {
       label: "reservations@beneathafricatravel.co.zw",
       href: "mailto:reservations@beneathafricatravel.co.zw",
       note: "Reservations",

@@ -76,7 +76,7 @@ const structuredData = {
       logo: `${SITE_URL}/image-library/New%20Beneath%20Logo.png`,
       image: `${SITE_URL}${DEFAULT_OG_IMAGE}`,
       telephone: "+263778130264",
-      email: company.emails[1].label,
+      email: company.emails[0].label,
       foundingDate: String(company.established),
       award: `${company.award.title}, ${company.award.event} ${company.award.year}`,
       address: {
@@ -91,7 +91,7 @@ const structuredData = {
           "@type": "ContactPoint",
           contactType: "reservations",
           telephone: "+263778130264",
-          email: company.emails[1].label,
+          email: company.emails[0].label,
           availableLanguage: "English",
         },
       ],
