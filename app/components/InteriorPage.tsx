@@ -24,7 +24,7 @@ import {
 import CardGrid from "./CardGrid";
 import SiteFooter from "./SiteFooter";
 import PageHero from "./PageHero";
-import AddToEnquiry from "./AddToEnquiry";
+import BookingTrigger from "./booking/BookingTrigger";
 import type { InteriorPageData } from "../lib/content";
 import { activitySlug } from "../lib/catalogue";
 import styles from "./InteriorPage.module.css";
@@ -53,7 +53,7 @@ const activityIcon = (label: string): IconType =>
 
 type InteriorPageProps = {
   page: InteriorPageData;
-  /** When set, an add-to-enquiry action is offered for this bookable item. */
+  /** When set, a booking action is offered for this bookable item. */
   enquirySlug?: string;
 };
 
@@ -66,7 +66,11 @@ export default function InteriorPage({ page, enquirySlug }: InteriorPageProps) {
         lead={page.lead}
         image={page.image}
         imageAlt={page.imageAlt}
-        action={enquirySlug ? <AddToEnquiry slug={enquirySlug} /> : undefined}
+        action={
+          enquirySlug ? (
+            <BookingTrigger slug={enquirySlug} variant="solid" label="Book this activity" />
+          ) : undefined
+        }
       />
 
       {page.intro && page.intro.length > 0 && (
@@ -196,7 +200,7 @@ export default function InteriorPage({ page, enquirySlug }: InteriorPageProps) {
                           )}
                           {slug && (
                             <span className={styles.cellAdd}>
-                              <AddToEnquiry slug={slug} variant="compact" />
+                              <BookingTrigger slug={slug} variant="compact" />
                             </span>
                           )}
                         </motion.div>
@@ -364,7 +368,9 @@ export default function InteriorPage({ page, enquirySlug }: InteriorPageProps) {
               </p>
             </div>
             <div className={styles.inlineCtaActions}>
-              {enquirySlug && <AddToEnquiry slug={enquirySlug} variant="outline" />}
+              {enquirySlug && (
+                <BookingTrigger slug={enquirySlug} variant="outline" label="Book this activity" />
+              )}
               <Link
                 href={`/contact?topic=${encodeURIComponent(page.navTitle)}`}
                 className={styles.button}
