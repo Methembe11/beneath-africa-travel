@@ -1,5 +1,6 @@
 "use client";
 
+import type { ReactNode } from "react";
 import CardGrid from "./CardGrid";
 import PageCta from "./PageCta";
 import SiteFooter from "./SiteFooter";
@@ -19,6 +20,8 @@ type ListingPageProps = {
   intro: string;
   label: string;
   items: CardLink[];
+  /** Extra sections rendered after the main grid, before the CTA. */
+  children?: ReactNode;
 };
 
 export default function ListingPage({
@@ -28,6 +31,7 @@ export default function ListingPage({
   intro,
   label,
   items,
+  children,
 }: ListingPageProps) {
   return (
     <main>
@@ -41,6 +45,8 @@ export default function ListingPage({
         intro={intro}
         tone="surface"
       />
+
+      {children}
 
       <PageCta />
       <SiteFooter />

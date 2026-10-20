@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ListingPage from "../components/ListingPage";
+import BookableGrid from "../components/booking/BookableGrid";
 import { experienceCards } from "../lib/content";
 import { pageMeta } from "../lib/meta";
 
@@ -25,6 +26,8 @@ export default function ExperiencesPage() {
       intro="From guided tours of the Falls to Chobe day trips, Lake Kariba houseboats and tailor-made programmes — every experience is booked through the same office as the transfers."
       label="Experiences"
       items={experienceCards}
-    />
+    >
+      <BookableGrid />
+    </ListingPage>
   );
 }

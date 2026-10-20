@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import type { ReactNode } from "react";
 import { HiArrowRight } from "react-icons/hi";
 import type { CardLink } from "../lib/content";
 import styles from "./CardGrid.module.css";
@@ -16,6 +17,8 @@ type CardGridProps = {
   heading?: string;
   intro?: string;
   tone?: "surface" | "white";
+  /** Extra content rendered under each card's link (never inside it). */
+  renderAction?: (item: CardLink) => ReactNode;
 };
 
 export default function CardGrid({
@@ -25,6 +28,7 @@ export default function CardGrid({
   heading,
   intro,
   tone = "surface",
+  renderAction,
 }: CardGridProps) {
   return (
     <section
@@ -103,6 +107,9 @@ export default function CardGrid({
                   <HiArrowRight size={20} />
                 </div>
               </Link>
+              {renderAction && (
+                <div className={styles.cardAction}>{renderAction(item)}</div>
+              )}
             </motion.div>
           ))}
         </nav>
