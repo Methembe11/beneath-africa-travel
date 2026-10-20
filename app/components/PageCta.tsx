@@ -1,4 +1,5 @@
 import Link from "next/link";
+import BookingTrigger from "./booking/BookingTrigger";
 import styles from "./PageCta.module.css";
 
 /* A closing band for interior listing pages. Black, one heading,
@@ -26,9 +27,7 @@ export default function PageCta({
         </h2>
         <p className={styles.body}>{body}</p>
         <div className={styles.actions}>
-          <Link href={primary.href} className={styles.action}>
-            <span>{primary.label}</span>
-          </Link>
+          <BookingTrigger variant="solid" label={primary.label} />
           <Link
             href={secondary.href}
             className={`${styles.action} ${styles.quiet}`}
