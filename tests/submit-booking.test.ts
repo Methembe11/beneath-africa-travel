@@ -17,8 +17,8 @@ describe("buildPayload", () => {
   it("marks itself a booking request and carries titles, overrides and source", () => {
     const p = buildPayload(baseState as never, titles);
     expect(p.kind).toBe("booking-request");
-    expect(p.items.map((i) => i.title)).toEqual(["Sunset Cruise", "Boma Dinner"]);
-    expect(p.items[0].overrides).toEqual({ adults: 4 });
+    expect(p.items?.map((i) => i.title)).toEqual(["Sunset Cruise", "Boma Dinner"]);
+    expect(p.items?.[0]?.overrides).toEqual({ adults: 4 });
     expect(p.sourceUrl).toBe("/activities/sunset-cruise");
     expect(p.contact.email).toBe("sam@example.com");
     expect(typeof p.submittedAt).toBe("string");

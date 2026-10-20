@@ -2,8 +2,11 @@
 
 import { useState } from "react";
 import { HiChevronDown } from "react-icons/hi";
+import { bookableItems } from "../../../lib/catalogue";
 import { setOverride, setStep, setTrip, useBooking } from "../../../lib/booking-store";
 import styles from "./Steps.module.css";
+
+const TITLES = new Map(bookableItems.map((i) => [i.slug, i.title]));
 
 export default function StepDates() {
   const trip = useBooking((s) => s.trip);
@@ -128,7 +131,7 @@ export default function StepDates() {
                   aria-expanded={isOpen}
                   onClick={() => setExpanded(isOpen ? null : item.slug)}
                 >
-                  {item.title}
+                  {TITLES.get(item.slug) ?? item.slug}
                   <HiChevronDown aria-hidden="true" />
                 </button>
                 {isOpen && (

@@ -3,7 +3,7 @@ import { Cormorant_Garamond, EB_Garamond, Raleway } from "next/font/google";
 import "./globals.css";
 import MotionShell from "./components/MotionShell";
 import SiteHeader from "./components/SiteHeader";
-import EnquiryTray from "./components/EnquiryTray";
+import BookingPanel from "./components/booking/BookingPanel";
 import { company } from "./lib/content";
 import {
   DEFAULT_OG_ALT,
@@ -121,7 +121,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         />
         <SiteHeader />
         <MotionShell>{children}</MotionShell>
-        <EnquiryTray />
+        <BookingPanel />
       </body>
     </html>
   );

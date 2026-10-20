@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { HiX } from "react-icons/hi";
 import { bookableItems } from "../../lib/catalogue";
-import { closeBooking, setStep, useBooking } from "../../lib/booking-store";
+import { closeBooking, setStep, useBooking, type Step } from "../../lib/booking-store";
 import BookingTrigger from "./BookingTrigger";
 import StepActivities from "./steps/StepActivities";
 import StepDates from "./steps/StepDates";
@@ -142,7 +142,7 @@ export default function BookingPanel() {
               {step > 1 && step < 5 && (
                 <nav className={styles.rail} aria-label="Booking steps">
                   {STEP_NAMES.slice(0, 4).map((name, index) => {
-                    const number = index + 1;
+                    const number = (index + 1) as Step;
                     return (
                       <button
                         key={name}

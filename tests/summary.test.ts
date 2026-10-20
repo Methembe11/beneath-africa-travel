@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import type { BookingPayload } from "../app/lib/submit-booking";
 import { buildMailtoHref, buildSummaryLines, buildWhatsAppHref } from "../app/lib/booking-summary";
 
 const payload = {
@@ -9,7 +10,7 @@ const payload = {
   sourceUrl: "/",
   submittedAt: "2026-10-20T10:00:00.000Z",
   botcheck: "",
-} as never;
+} as BookingPayload;
 
 describe("buildSummaryLines", () => {
   it("distinguishes flexible dates from unset dates", () => {
