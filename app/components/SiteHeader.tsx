@@ -5,6 +5,7 @@ import Link from "next/link";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { HiArrowRight } from "react-icons/hi";
 import { useCallback, useEffect, useRef, useState } from "react";
+import BookingTrigger from "./booking/BookingTrigger";
 import styles from "./SiteHeader.module.css";
 
 /* ============================================================
@@ -265,9 +266,9 @@ export default function SiteHeader() {
                 <div className={styles.overlayContact}>
                   <span>Talk to us</span>
                   <a href="tel:+263778130264">+263 77 813 0264</a>
-                  <a href="mailto:reservations@beneathafricatravel.co.zw">
-                    reservations@beneathafricatravel.co.zw
-                  </a>
+                  <div className={styles.overlayCta}>
+                    <BookingTrigger variant="solid" label="Plan your journey" onOpen={close} />
+                  </div>
                 </div>
 
                 <div className={styles.lang} aria-label="Language">

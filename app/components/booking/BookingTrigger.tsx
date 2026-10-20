@@ -11,6 +11,8 @@ type BookingTriggerProps = {
   variant?: "pill" | "solid" | "outline" | "compact";
   /** For the compact variant's selected state. */
   viewLabel?: string;
+  /** Called just before the panel opens (e.g. close an open menu). */
+  onOpen?: () => void;
 };
 
 /**
@@ -24,6 +26,7 @@ export default function BookingTrigger({
   label,
   variant = "solid",
   viewLabel = "View trip",
+  onOpen,
 }: BookingTriggerProps) {
   const added = useBooking((s) => (slug ? s.items.some((i) => i.slug === slug) : false));
   const defaultLabel = slug ? "Book this activity" : "Plan your journey";
@@ -43,6 +46,7 @@ export default function BookingTrigger({
           event.preventDefault();
           event.stopPropagation();
           if (added) {
+            onOpen?.();
             openBooking({ step: 1 });
           } else {
             addItem(slug);
@@ -62,6 +66,7 @@ export default function BookingTrigger({
       onClick={(event) => {
         event.preventDefault();
         event.stopPropagation();
+        onOpen?.();
         openBooking(slug ? { slug, step: 2 } : { step: 1 });
       }}
     >
