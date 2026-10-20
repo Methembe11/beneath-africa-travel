@@ -1,10 +1,14 @@
 "use client";
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
-import { HiArrowRight } from "react-icons/hi";
+import { HiArrowRight, HiX } from "react-icons/hi";
+import { bookableItems } from "../lib/catalogue";
+import { clearItems, removeItem, useEnquiryItems } from "../lib/enquiry-store";
 import styles from "./ContactEnquiryForm.module.css";
 
 const ENQUIRY_EMAIL = "ranjis@beneathafricatravel.co.zw";
+
+const TITLES = new Map(bookableItems.map((item) => [item.slug, item.title]));
 
 function line(label: string, value: string) {
   return value.trim() ? `${label}: ${value.trim()}` : "";
@@ -13,6 +17,8 @@ function line(label: string, value: string) {
 export default function ContactEnquiryForm() {
   const [status, setStatus] = useState("");
   const messageRef = useRef<HTMLTextAreaElement | null>(null);
+  const selected = useEnquiryItems();
+  const selectedTitles = selected.map((slug) => TITLES.get(slug) ?? slug);
 
   /**
    * Activity and destination pages link here with ?topic=<name>, so the
@@ -44,14 +50,28 @@ export default function ContactEnquiryForm() {
     const data = new FormData(form);
     const field = (name: string) => String(data.get(name) ?? "").trim();
 
-    const details = [
+    const selectedBlock =
+      selectedTitles.length > 0
+        ? [
+            "Selected activities:",
+            ...selectedTitles.map((title) => `- ${title}`),
+            "",
+          ]
+        : [];
+
+    const contactLines = [
       line("Name", field("name")),
       line("Email", field("email")),
       line("Phone / WhatsApp", field("phone")),
       line("Travellers", field("travellers")),
       line("Arrival", field("arrival")),
       line("Departure", field("departure")),
+    ].filter(Boolean);
+
+    const details = [
+      ...contactLines,
       "",
+      ...selectedBlock,
       "What we are planning:",
       field("message"),
     ].join("\n");
@@ -69,6 +89,43 @@ export default function ContactEnquiryForm() {
 
   return (
     <form className={styles.form} onSubmit={onSubmit}>
+      {selected.length > 0 ? (
+        <div className={styles.selected}>
+          <div className={styles.selectedHead}>
+            <span className={styles.label}>
+              Activities in your enquiry
+            </span>
+            <button
+              type="button"
+              className={styles.clear}
+              onClick={() => clearItems()}
+            >
+              Clear all
+            </button>
+          </div>
+          <ul className={styles.selectedList}>
+            {selected.map((slug) => (
+              <li key={slug} className={styles.selectedItem}>
+                <span>{TITLES.get(slug) ?? slug}</span>
+                <button
+                  type="button"
+                  className={styles.selectedRemove}
+                  onClick={() => removeItem(slug)}
+                  aria-label={`Remove ${TITLES.get(slug) ?? slug} from enquiry`}
+                >
+                  <HiX aria-hidden="true" />
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : (
+        <p className={styles.selectedEmpty}>
+          No activities selected yet. You can add them from any experience or
+          activity page and they will appear here.
+        </p>
+      )}
+
       <div className={styles.grid}>
         <div className={styles.field}>
           <label className={styles.label} htmlFor="enquiry-name">

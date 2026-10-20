@@ -69,11 +69,26 @@ export default function SiteHeader() {
   const reduce = useReducedMotion();
   const [open, setOpen] = useState(false);
   const [solid, setSolid] = useState(false);
+  const [hidden, setHidden] = useState(false);
   const overlayRef = useRef<HTMLDivElement>(null);
   const restoreRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
-    const onScroll = () => setSolid(window.scrollY > 24);
+    let lastY = window.scrollY;
+    const onScroll = () => {
+      const y = window.scrollY;
+      setSolid(y > 24);
+
+      const delta = y - lastY;
+      if (y <= 8) {
+        setHidden(false);
+      } else if (delta > 4 && y > 120) {
+        setHidden(true);
+      } else if (delta < -4) {
+        setHidden(false);
+      }
+      lastY = y;
+    };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -134,7 +149,12 @@ export default function SiteHeader() {
 
   return (
     <>
-      <header className={styles.header} data-solid={solid} data-open={open}>
+      <header
+        className={styles.header}
+        data-solid={solid}
+        data-open={open}
+        data-hidden={hidden && !open}
+      >
         <Link
           href="/"
           className={styles.brand}

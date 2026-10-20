@@ -5,6 +5,7 @@ import {
   experiences,
   travelServices,
 } from "./lib/content";
+import { bookableItems } from "./lib/catalogue";
 
 const BASE = "https://beneathafricatravel.co.zw";
 
@@ -51,6 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     ...staticRoutes.map((route) => ({ ...route, lastModified: now })),
+    ...bookableItems.map((item) => detail("/activities", item.slug, 0.7)),
     ...experiences.map((page) => detail("/experiences", page.slug, 0.7)),
     ...destinations.map((page) => detail("/destinations", page.slug, 0.7)),
     ...travelServices.map((page) => detail("/travel", page.slug, 0.6)),

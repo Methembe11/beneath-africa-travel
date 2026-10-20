@@ -156,7 +156,15 @@
 }
 
 .activityCell {
+  position: relative;
   display: flex;
+}
+
+.cellAdd {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  z-index: 2;
 }
 
 .activityCard {
@@ -372,6 +380,13 @@
 .inlineCtaInner p {
   font-size: clamp(1rem, 1.8vw, 1.0625rem);
   max-width: 640px;
+}
+
+.inlineCtaActions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
 }
 
 .button {

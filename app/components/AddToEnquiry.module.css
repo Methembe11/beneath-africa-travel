@@ -1,0 +1,94 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.3s var(--ease), color 0.3s var(--ease),
+    transform 0.3s var(--ease), border-color 0.3s var(--ease);
+}
+
+/* Primary button, used in the activity hero and the closing call to action. */
+.solid {
+  padding: 0.95rem 1.7rem;
+  background: var(--orange);
+  color: var(--ink);
+  border: 1px solid var(--orange);
+}
+
+.solid:hover {
+  transform: translateY(-2px);
+}
+
+.solid.added {
+  background: transparent;
+  color: var(--bone-2);
+  border-color: rgba(251, 250, 248, 0.6);
+}
+
+/* Quiet button for dark or busy backdrops. */
+.ghost {
+  padding: 0.95rem 1.7rem;
+  background: rgba(251, 250, 248, 0.12);
+  color: var(--bone-2);
+  border: 1px solid rgba(251, 250, 248, 0.5);
+  backdrop-filter: blur(6px);
+}
+
+.ghost:hover {
+  background: rgba(251, 250, 248, 0.2);
+}
+
+/* Outlined button for light backgrounds. */
+.outline {
+  padding: 0.875rem 1.6rem;
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid rgba(20, 18, 16, 0.3);
+}
+
+.outline:hover {
+  border-color: var(--ink);
+}
+
+.outline.added {
+  background: var(--ink);
+  color: var(--bone-2);
+  border-color: var(--ink);
+}
+
+/* Small round control overlaid on activity cards. */
+.compact {
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  background: rgba(20, 18, 16, 0.72);
+  color: var(--bone-2);
+  border: 1px solid rgba(251, 250, 248, 0.35);
+  font-size: 1rem;
+  backdrop-filter: blur(4px);
+}
+
+.compact:hover {
+  background: rgba(20, 18, 16, 0.9);
+}
+
+.compact.added {
+  background: var(--orange);
+  color: var(--ink);
+  border-color: var(--orange);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button,
+  .solid:hover {
+    transition: none;
+    transform: none;
+  }
+}

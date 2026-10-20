@@ -24,7 +24,9 @@ import {
 import CardGrid from "./CardGrid";
 import SiteFooter from "./SiteFooter";
 import PageHero from "./PageHero";
+import AddToEnquiry from "./AddToEnquiry";
 import type { InteriorPageData } from "../lib/content";
+import { activitySlug } from "../lib/catalogue";
 import styles from "./InteriorPage.module.css";
 
 const EASE = [0.25, 0.1, 0.25, 1] as const;
@@ -49,7 +51,13 @@ const ACTIVITY_ICONS: { match: RegExp; Icon: IconType }[] = [
 const activityIcon = (label: string): IconType =>
   ACTIVITY_ICONS.find((entry) => entry.match.test(label))?.Icon ?? LuSparkles;
 
-export default function InteriorPage({ page }: { page: InteriorPageData }) {
+type InteriorPageProps = {
+  page: InteriorPageData;
+  /** When set, an add-to-enquiry action is offered for this bookable item. */
+  enquirySlug?: string;
+};
+
+export default function InteriorPage({ page, enquirySlug }: InteriorPageProps) {
   return (
     <main>
       <PageHero
@@ -58,6 +66,7 @@ export default function InteriorPage({ page }: { page: InteriorPageData }) {
         lead={page.lead}
         image={page.image}
         imageAlt={page.imageAlt}
+        action={enquirySlug ? <AddToEnquiry slug={enquirySlug} /> : undefined}
       />
 
       {page.intro && page.intro.length > 0 && (
@@ -134,6 +143,8 @@ export default function InteriorPage({ page }: { page: InteriorPageData }) {
                 {section.cards && section.cards.length > 0 && (
                   <div className={styles.activityGrid}>
                     {section.cards.map((card, i) => {
+                      const slug = activitySlug(card.title);
+                      const href = slug ? `/activities/${slug}` : card.href;
                       const cardBody = (
                         <>
                           <div className={styles.activityImage}>
@@ -151,7 +162,7 @@ export default function InteriorPage({ page }: { page: InteriorPageData }) {
                             </span>
                             <div className={styles.activityTitleRow}>
                               <h3>{card.title}</h3>
-                              {card.href && (
+                              {href && (
                                 <HiArrowRight
                                   className={styles.activityArrow}
                                   size={18}
@@ -174,14 +185,19 @@ export default function InteriorPage({ page }: { page: InteriorPageData }) {
                             delay: Math.min(i * 0.04, 0.4),
                           }}
                         >
-                          {card.href ? (
-                            <Link href={card.href} className={styles.activityCard}>
+                          {href ? (
+                            <Link href={href} className={styles.activityCard}>
                               {cardBody}
                             </Link>
                           ) : (
                             <div className={styles.activityCard}>
                               {cardBody}
                             </div>
+                          )}
+                          {slug && (
+                            <span className={styles.cellAdd}>
+                              <AddToEnquiry slug={slug} variant="compact" />
+                            </span>
                           )}
                         </motion.div>
                       );
@@ -347,13 +363,16 @@ export default function InteriorPage({ page }: { page: InteriorPageData }) {
                 individual offer is prepared on request, with no obligation.
               </p>
             </div>
-            <Link
-              href={`/contact?topic=${encodeURIComponent(page.navTitle)}`}
-              className={styles.button}
-            >
-              Contact Us
-              <HiArrowRight size={20} aria-hidden="true" />
-            </Link>
+            <div className={styles.inlineCtaActions}>
+              {enquirySlug && <AddToEnquiry slug={enquirySlug} variant="outline" />}
+              <Link
+                href={`/contact?topic=${encodeURIComponent(page.navTitle)}`}
+                className={styles.button}
+              >
+                Contact Us
+                <HiArrowRight size={20} aria-hidden="true" />
+              </Link>
+            </div>
           </div>
         </div>
       </section>

@@ -1,5 +1,6 @@
 "use client";
 
+import type { ReactNode } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "./PageHero.module.css";
@@ -13,6 +14,8 @@ type PageHeroProps = {
   image: string;
   imageAlt: string;
   short?: boolean;
+  /** Optional action rendered under the lead, e.g. an add-to-enquiry button. */
+  action?: ReactNode;
 };
 
 export default function PageHero({
@@ -22,6 +25,7 @@ export default function PageHero({
   image,
   imageAlt,
   short = false,
+  action,
 }: PageHeroProps) {
   return (
     <section className={`${styles.hero} ${short ? styles.heroShort : ""}`}>
@@ -64,6 +68,17 @@ export default function PageHero({
         >
           {lead}
         </motion.p>
+
+        {action && (
+          <motion.div
+            className={styles.action}
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.9, ease: EASE, delay: 0.25 }}
+          >
+            {action}
+          </motion.div>
+        )}
       </div>
     </section>
   );

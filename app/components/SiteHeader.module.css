@@ -16,12 +16,19 @@
   gap: 1rem;
   padding: clamp(0.9rem, 2vw, 1.5rem) clamp(1rem, 3vw, 2.25rem);
   pointer-events: none;
-  transition: opacity 0.4s var(--ease);
+  transition: opacity 0.4s var(--ease), transform 0.4s var(--ease);
 }
 
 .header[data-open="true"] {
   opacity: 0;
   pointer-events: none;
+}
+
+/* Scroll-down hides the bar; scroll-up brings it back. The menu dialog
+   (data-open) always wins, so the bar never hides mid-menu. */
+.header[data-hidden="true"] {
+  transform: translateY(-115%);
+  opacity: 0;
 }
 
 .brand,
@@ -280,6 +287,12 @@
 }
 
 /* --- responsive -------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .header {
+    transition: none;
+  }
+}
 
 @media (max-width: 900px) {
   .groups {
