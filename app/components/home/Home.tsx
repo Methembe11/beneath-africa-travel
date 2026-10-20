@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useEffect, useRef, useState, type FormEvent } from "react";
+import { useEffect, useRef, useState } from "react";
 import { MotionConfig, motion } from "framer-motion";
 import { HiArrowRight } from "react-icons/hi";
 import {
@@ -33,6 +33,7 @@ import PolaroidLineCarousel, {
 } from "../ui/polaroid-line-carousel";
 import { SwipeCards } from "../ui/image-stack-carousel";
 import SiteFooter from "../SiteFooter";
+import BookingTrigger from "../booking/BookingTrigger";
 import styles from "./Home.module.css";
 
 /* ============================================================
@@ -347,95 +348,6 @@ function MoreLink({
   );
 }
 
-function Enquiry() {
-  const [sent, setSent] = useState(false);
-
-  function onSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    const lines = [
-      `Name: ${data.get("name")}`,
-      `Email: ${data.get("email")}`,
-      `Phone: ${data.get("phone")}`,
-      `Arrival: ${data.get("arrival")}`,
-      `Departure: ${data.get("departure")}`,
-      `Adults: ${data.get("adults")}`,
-      `Children: ${data.get("children")}`,
-      `Trip preference: ${data.get("trip")}`,
-      "",
-      `Requests: ${data.get("requests")}`,
-    ];
-    const subject = encodeURIComponent("Journey enquiry — Beneath Africa Travel & Tours");
-    const body = encodeURIComponent(lines.join("\n"));
-    window.location.href = `mailto:reservations@beneathafricatravel.co.zw?subject=${subject}&body=${body}`;
-    setSent(true);
-  }
-
-  return (
-    <form className={styles.form} onSubmit={onSubmit}>
-      <label className={`${styles.field} ${styles.fieldWide}`}>
-        <span className={styles.fieldLabel}>Dates</span>
-        <span className={styles.dateRow}>
-          <input name="arrival" type="date" aria-label="Arrival date" />
-          <input name="departure" type="date" aria-label="Departure date" />
-        </span>
-      </label>
-
-      <label className={styles.field}>
-        <span className={styles.fieldLabel}>Adults</span>
-        <input name="adults" type="number" min="1" defaultValue="2" />
-      </label>
-      <label className={styles.field}>
-        <span className={styles.fieldLabel}>Children</span>
-        <input name="children" type="number" min="0" defaultValue="0" />
-      </label>
-
-      <label className={`${styles.field} ${styles.fieldWide}`}>
-        <span className={styles.fieldLabel}>Trip preference</span>
-        <select name="trip" defaultValue="Victoria Falls">
-          <option>Victoria Falls</option>
-          <option>Safaris &amp; Game Drives</option>
-          <option>Chobe Day Trip</option>
-          <option>Cruises &amp; River</option>
-          <option>Houseboats</option>
-          <option>Educational / School Trip</option>
-          <option>Tailor-Made Journey</option>
-        </select>
-      </label>
-
-      <label className={styles.field}>
-        <span className={styles.fieldLabel}>Full name</span>
-        <input name="name" type="text" autoComplete="name" required />
-      </label>
-      <label className={styles.field}>
-        <span className={styles.fieldLabel}>Email address</span>
-        <input name="email" type="email" autoComplete="email" required />
-      </label>
-
-      <label className={`${styles.field} ${styles.fieldWide}`}>
-        <span className={styles.fieldLabel}>Phone</span>
-        <input name="phone" type="tel" autoComplete="tel" />
-      </label>
-
-      <label className={`${styles.field} ${styles.fieldWide}`}>
-        <span className={styles.fieldLabel}>Special requests</span>
-        <textarea name="requests" rows={2} />
-      </label>
-
-      <div className={styles.formActions}>
-        <button type="submit" className={styles.formButton}>
-          Send enquiry
-        </button>
-        <p className={styles.formNote} role="status" aria-live="polite">
-          {sent
-            ? "Your email client should now be open. We reply from reservations@beneathafricatravel.co.zw."
-            : "We reply from reservations@beneathafricatravel.co.zw."}
-        </p>
-      </div>
-    </form>
-  );
-}
-
 /* ------------------------------------------------------------ */
 
 export default function Home() {
@@ -495,6 +407,7 @@ export default function Home() {
             >
               <span className={styles.heroSelectLabel}>Choose a way in</span>
               <div className={styles.heroPills}>
+                <BookingTrigger variant="pill" label="Plan your journey" />
                 <a href="#experiences" className={styles.heroPill}>
                   Experiences
                 </a>
@@ -977,15 +890,25 @@ export default function Home() {
           </div>
         </section>
 
-        {/* §11 — booking -------------------------------------- */}
-        <section id="book" className={styles.book} aria-label="Plan your journey">
-          <div className={styles.bookInner}>
-            <div className={styles.bookHead}>
-              <Eyebrow>{finalCta.eyebrow}</Eyebrow>
-              <Heading first="Plan your journey" second="with Beneath Africa." />
-              <p className={styles.body}>{finalCta.body}</p>
-            </div>
-            <Enquiry />
+        {/* §11 — quick contact band --------------------------- */}
+        <section id="book" className={styles.enquiryBand} aria-labelledby="enquiry-band-title">
+          <div className={styles.enquiryBandText}>
+            <h2 id="enquiry-band-title">Not sure where to start?</h2>
+            <p>
+              Send us a quick note — or build a booking request with dates and
+              activities.
+            </p>
+          </div>
+          <div className={styles.enquiryBandActions}>
+            <BookingTrigger variant="solid" label="Build a booking request" />
+            <a
+              className={styles.enquiryBandWa}
+              href="https://wa.me/263778130264"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Chat on WhatsApp
+            </a>
           </div>
         </section>
 
@@ -1012,10 +935,7 @@ export default function Home() {
               </h2>
               <p className={styles.closingBody}>{finalCta.body}</p>
               <div className={styles.closingActions}>
-                <Link href={finalCta.primary.href} className={styles.closingLink}>
-                  {finalCta.primary.label}
-                  <HiArrowRight size={15} aria-hidden="true" />
-                </Link>
+                <BookingTrigger variant="solid" label="Plan your journey" />
                 <a href={finalCta.secondary.href} className={styles.closingGhost}>
                   {finalCta.secondary.label}
                 </a>

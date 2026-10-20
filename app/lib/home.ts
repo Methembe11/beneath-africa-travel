@@ -427,7 +427,7 @@ export const finalCta = {
   primary: cta.plan,
   secondary: {
     label: "Contact Our Team",
-    href: "mailto:reservations@beneathafricatravel.co.zw",
+    href: "/contact",
   },
   image: IMG.closing,
   alt: "Hippos standing in the shallows of the Zambezi at first light.",
