@@ -2533,12 +2533,51 @@
   margin-top: clamp(1rem, 3vw, 2.5rem);
 }
 
-
-/* --- enquiry band (§11) ------------------------------------ */
-.enquiryBand { display: grid; gap: 1.2rem; padding: clamp(2rem, 5vw, 3.5rem) clamp(1.25rem, 4vw, 2.5rem); background: var(--cream-3); border-top: 1px solid color-mix(in srgb, var(--t-heading) 14%, transparent); border-bottom: 1px solid color-mix(in srgb, var(--t-heading) 14%, transparent); }
-.enquiryBandText { display: grid; gap: 0.5rem; max-width: 46ch; }
-.enquiryBandText h2 { font-family: var(--font-cormorant); font-weight: 400; font-size: clamp(1.7rem, 3vw, 2.2rem); color: var(--t-heading); }
-.enquiryBandText p { font-family: var(--font-ebgaramond); font-size: 1rem; line-height: 1.55; color: var(--t-body); }
-.enquiryBandActions { display: flex; flex-wrap: wrap; gap: 0.8rem; align-items: center; }
-.enquiryBandWa { font-family: var(--font-raleway); font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--t-heading); text-decoration: underline; text-underline-offset: 4px; padding: 0.95rem 0.4rem; }
-@media (min-width: 768px) { .enquiryBand { grid-template-columns: 1fr auto; align-items: center; } }
+/* enquiry band */
+.enquiryBand {
+  display: grid;
+  gap: 1.2rem;
+  padding: clamp(2rem, 5vw, 3.5rem) clamp(1.25rem, 4vw, 2.5rem);
+  background: var(--cream-3);
+  border-top: 1px solid color-mix(in srgb, var(--t-heading) 14%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--t-heading) 14%, transparent);
+}
+.enquiryBandText {
+  display: grid;
+  gap: 0.5rem;
+  max-width: 46ch;
+}
+.enquiryBandText h2 {
+  font-family: var(--font-cormorant);
+  font-weight: 400;
+  font-size: clamp(1.7rem, 3vw, 2.2rem);
+  color: var(--t-heading);
+}
+.enquiryBandText p {
+  font-family: var(--font-ebgaramond);
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--t-body);
+}
+.enquiryBandActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  align-items: center;
+}
+.enquiryBandWa {
+  font-family: var(--font-raleway);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--t-heading);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  padding: 0.95rem 0.4rem;
+}
+@media (min-width: 768px) {
+  .enquiryBand {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+}

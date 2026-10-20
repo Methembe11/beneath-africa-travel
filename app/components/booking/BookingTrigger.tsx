@@ -1,5 +1,6 @@
 "use client";
 
+import { useSyncExternalStore } from "react";
 import { HiCheck, HiOutlinePlus } from "react-icons/hi";
 import { addItem, openBooking, useBooking } from "../../lib/booking-store";
 import styles from "./BookingTrigger.module.css";
@@ -28,7 +29,16 @@ export default function BookingTrigger({
   viewLabel = "View trip",
   onOpen,
 }: BookingTriggerProps) {
-  const added = useBooking((s) => (slug ? s.items.some((i) => i.slug === slug) : false));
+  const items = useBooking((s) => s.items);
+  /* The draft is restored from localStorage on the client. useSyncExternalStore
+     yields false during SSR and the hydration render, then true afterwards, so
+     the first client render matches the server markup. */
+  const mounted = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  );
+  const added = mounted && Boolean(slug) && items.some((i) => i.slug === slug);
   const defaultLabel = slug ? "Book this activity" : "Plan your journey";
 
   const className = [styles.trigger, styles[variant], added ? styles.added : ""]
