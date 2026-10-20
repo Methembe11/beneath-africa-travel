@@ -1,0 +1,58 @@
+/* Shared booking-step styles (steps 1–5). */
+
+.step { display: flex; flex-direction: column; gap: 1.4rem; padding: 0 0 1rem; }
+.stepHead { display: grid; gap: 0.4rem; }
+.stepTitle { font-family: var(--font-cormorant); font-weight: 400; font-size: 1.65rem; color: var(--t-heading); margin: 0; }
+.stepLead { font-family: var(--font-ebgaramond); font-size: 0.98rem; line-height: 1.55; color: var(--t-body); margin: 0; }
+.filters { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.filter { border: 1px solid color-mix(in srgb, var(--t-heading) 25%, transparent); background: transparent; color: var(--t-body); font-family: var(--font-raleway); font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.45rem 0.75rem; cursor: pointer; }
+.filter[data-active="true"] { background: var(--t-heading); border-color: var(--t-heading); color: var(--cream); }
+.activityList { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; }
+.activityRow { display: grid; grid-template-columns: 72px 1fr auto; gap: 0.9rem; align-items: center; padding: 0.55rem; border: 1px solid color-mix(in srgb, var(--t-heading) 16%, transparent); background: var(--cream-3); }
+.activityRow[data-selected="true"] { border-color: var(--gold-deep); background: color-mix(in srgb, var(--gold) 14%, transparent); }
+.activityMedia { position: relative; width: 72px; height: 72px; overflow: hidden; display: block; }
+.activityInfo { display: grid; gap: 0.2rem; min-width: 0; }
+.activityCategory { font-family: var(--font-raleway); font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--t-muted); }
+.activityName { font-family: var(--font-cormorant); font-size: 1.1rem; color: var(--t-heading); }
+.activityToggle { display: inline-flex; align-items: center; gap: 0.3rem; border: 1px solid var(--t-heading); background: transparent; color: var(--t-heading); font-family: var(--font-raleway); font-size: 0.64rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.55rem 0.75rem; cursor: pointer; min-height: 40px; }
+.activityRow[data-selected="true"] .activityToggle { background: var(--gold); border-color: var(--gold); color: var(--ink); }
+.empty, .emptyCount { font-family: var(--font-ebgaramond); font-size: 0.9rem; color: var(--t-muted); }
+.emptyCount { text-align: center; }
+
+/* Footer buttons (every step) */
+.stepFoot { display: grid; gap: 0.6rem; }
+.next { width: 100%; border: none; background: var(--t-heading); color: var(--cream); font-family: var(--font-raleway); font-size: 0.76rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; padding: 1rem; cursor: pointer; transition: background 0.3s ease; }
+.next:hover { background: var(--gold-deep); color: var(--ink); }
+.next:disabled { opacity: 0.55; cursor: not-allowed; }
+.next:focus-visible { outline: 2px solid var(--gold-deep); outline-offset: 3px; }
+.back { width: 100%; border: 1px solid color-mix(in srgb, var(--t-heading) 30%, transparent); background: transparent; color: var(--t-body); font-family: var(--font-raleway); font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.8rem; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem; }
+.back:hover { border-color: var(--t-heading); color: var(--t-heading); }
+
+/* Field rows (dates, details, review) */
+.field { display: grid; gap: 0.35rem; }
+.fieldLabel { font-family: var(--font-raleway); font-size: 0.66rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--t-muted); }
+.input, .textarea { width: 100%; border: 1px solid color-mix(in srgb, var(--t-heading) 25%, transparent); background: #fff; color: var(--t-heading); font-family: var(--font-ebgaramond); font-size: 1rem; padding: 0.7rem 0.8rem; }
+.input:focus-visible, .textarea:focus-visible { outline: 2px solid var(--gold-deep); outline-offset: 1px; }
+.input[aria-invalid="true"], .textarea[aria-invalid="true"] { border-color: #a13b2d; }
+.input:disabled { background: var(--cream-2); color: var(--t-muted); }
+.fieldError { font-family: var(--font-raleway); font-size: 0.72rem; color: #a13b2d; }
+.fieldRow { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; }
+.checkbox { display: flex; align-items: center; gap: 0.55rem; font-family: var(--font-ebgaramond); font-size: 0.95rem; color: var(--t-body); cursor: pointer; }
+.checkbox input { width: 18px; height: 18px; accent-color: var(--gold-deep); }
+.block { display: grid; gap: 1rem; padding: 1rem 0; border-top: 1px solid color-mix(in srgb, var(--t-heading) 14%, transparent); }
+.notice { font-family: var(--font-ebgaramond); font-size: 0.9rem; line-height: 1.5; color: var(--t-body); background: color-mix(in srgb, var(--gold) 16%, transparent); padding: 0.8rem; border-left: 3px solid var(--gold-deep); margin: 0; }
+
+/* Submit status + failure fallbacks (step 4) */
+.liveStatus { margin: 0; min-height: 1.1em; font-family: var(--font-raleway); font-size: 0.72rem; letter-spacing: 0.06em; color: var(--t-muted); text-align: center; }
+.errorBanner { display: grid; gap: 0.5rem; border-left: 3px solid #a13b2d; background: color-mix(in srgb, #a13b2d 8%, transparent); padding: 0.8rem; font-family: var(--font-ebgaramond); font-size: 0.92rem; color: var(--t-heading); }
+.errorHelp { margin: 0; font-size: 0.85rem; color: var(--t-body); }
+.errorActions { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.errorActions .back { width: auto; padding: 0.55rem 0.9rem; }
+
+/* Confirmation snapshot (step 5) */
+.snapshot { font-family: var(--font-ebgaramond); font-size: 0.85rem; line-height: 1.5; white-space: pre-wrap; word-break: break-word; color: var(--t-body); background: var(--cream-3); border: 1px solid color-mix(in srgb, var(--t-heading) 14%, transparent); padding: 0.8rem; margin: 0; max-height: 180px; overflow-y: auto; }
+
+/* Per-activity override accordion (step 2) */
+.overrideToggle { display: flex; align-items: center; justify-content: space-between; width: 100%; }
+.overrideToggle svg { transition: transform 0.25s ease; }
+.overrideToggle[aria-expanded="true"] svg { transform: rotate(180deg); }
