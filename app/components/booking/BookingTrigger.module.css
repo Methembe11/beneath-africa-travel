@@ -1,0 +1,74 @@
+.trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 1px solid var(--t-heading);
+  background: transparent;
+  color: var(--t-heading);
+  font-family: var(--font-raleway);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.95rem 1.7rem;
+  cursor: pointer;
+  transition: background 0.35s ease, color 0.35s ease, border-color 0.35s ease;
+}
+
+.trigger:hover {
+  background: var(--t-heading);
+  color: var(--cream);
+}
+
+.trigger:focus-visible {
+  outline: 2px solid var(--gold-deep);
+  outline-offset: 3px;
+}
+
+.solid {
+  background: var(--t-heading);
+  color: var(--cream);
+  border-color: var(--t-heading);
+}
+
+.solid:hover {
+  background: var(--gold-deep);
+  border-color: var(--gold-deep);
+  color: var(--ink);
+}
+
+.pill {
+  border-radius: 999px;
+  padding: 0.7rem 1.4rem;
+  font-size: 0.72rem;
+}
+
+.outline {
+  border-color: currentColor;
+}
+
+.added {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--ink);
+}
+
+.added:hover {
+  background: var(--gold-deep);
+  border-color: var(--gold-deep);
+  color: var(--ink);
+}
+
+.compact {
+  padding: 0.45rem 0.8rem;
+  font-size: 0.66rem;
+  letter-spacing: 0.1em;
+  gap: 0.35rem;
+}
+
+@media (max-width: 767px) {
+  .compact {
+    min-height: 44px;
+  }
+}
