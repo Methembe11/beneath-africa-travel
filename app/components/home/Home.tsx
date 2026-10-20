@@ -34,6 +34,7 @@ import PolaroidLineCarousel, {
 import { SwipeCards } from "../ui/image-stack-carousel";
 import SiteFooter from "../SiteFooter";
 import BookingTrigger from "../booking/BookingTrigger";
+import QuickBookStrip from "../booking/QuickBookStrip";
 import styles from "./Home.module.css";
 
 /* ============================================================
@@ -423,6 +424,9 @@ export default function Home() {
             <span className={styles.heroCueLine} aria-hidden="true" />
           </a>
         </section>
+
+        {/* quick-book strip ------------------------------- */}
+        <QuickBookStrip />
 
         {/* §2 — about (split: swipable image stack + read more) */}
         <section id="story" className={styles.about} aria-label="About Beneath Africa">

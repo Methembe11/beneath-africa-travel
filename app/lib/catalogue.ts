@@ -686,6 +686,30 @@ export function findItem(slug: string): BookableItem | undefined {
   return bookableItems.find((item) => item.slug === slug);
 }
 
+/** Slugs featured in the homepage quick-book strip. */
+export const FEATURED_SLUGS = [
+  "guided-tour-of-the-falls",
+  "helicopter-flight",
+  "white-water-rafting",
+  "game-drives",
+  "sunset-cruise",
+  "breakfast-cruise",
+  "boma-dinner",
+  "chobe-day-trip",
+];
+
+export const featuredItems: BookableItem[] = FEATURED_SLUGS.map((slug) =>
+  findItem(slug),
+).filter((item): item is BookableItem => Boolean(item));
+
+/** Bookable items as CardLink-shaped cards pointing at /activities/[slug]. */
+export const bookableCards: CardLink[] = featuredItems.map((item) => ({
+  href: `/activities/${item.slug}`,
+  title: item.title,
+  description: item.summary,
+  image: item.image,
+}));
+
 /**
  * Activity cards across the site use their own wording for the same
  * experience. These are the titles that differ from the canonical item title.
