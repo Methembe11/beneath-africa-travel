@@ -58,8 +58,8 @@ import styles from "./Home.module.css";
 const EASE = [0.16, 1, 0.3, 1] as const;
 const VIEWPORT = { once: true, margin: "-80px" } as const;
 
-const HERO_VIDEO_FALLBACK =
-  "https://ik.imagekit.io/mkhize/Best_Drone_Video_of_African_Wildlife._Wild_Botswana_4K_0s-3m04s.mp4";
+const HERO_VIDEO =
+  "https://ik.imagekit.io/mkhize/Beneath%20Final%20Hero%20Video.mp4";
 
 /* --- hero media -------------------------------------------- */
 
@@ -133,8 +133,7 @@ function HeroMedia() {
             aria-hidden="true"
             tabIndex={-1}
           >
-            <source src="/video/hero.mp4" type="video/mp4" />
-            <source src={HERO_VIDEO_FALLBACK} type="video/mp4" />
+            <source src={HERO_VIDEO} type="video/mp4" />
           </video>
           <button
             type="button"
