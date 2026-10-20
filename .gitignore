@@ -68,3 +68,4 @@ image-library/*.exe
 # Local installer files
 image-library/*.msi
 image-library/*.exe
+!.env.local.example
