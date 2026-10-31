@@ -47,6 +47,7 @@ const GROUPS: Array<{ title: string; links: NavLink[] }> = [
       { label: "Cross-Border", href: "/travel/cross-border" },
       { label: "Driver-Guided", href: "/travel/driver-guided" },
       { label: "Accommodation", href: "/travel/accommodation" },
+      { label: "Tour Packages", href: "/packages" },
     ],
   },
   {
@@ -162,23 +163,16 @@ export default function SiteHeader() {
           aria-label="Beneath Africa Travel & Tours, home"
           onClick={close}
         >
-          <span className={styles.mark} aria-hidden="true">
-            BA
-          </span>
-          <span className={styles.brandName}>Beneath Africa</span>
-        </Link>
-
-        <span className={styles.brandCenter} aria-hidden="true">
           <Image
             src="/image-library/New Beneath Logo.png"
-            alt=""
-            width={1080}
-            height={360}
-            sizes="160px"
-            className={styles.brandLogo}
+            alt="Beneath Africa Travel & Tours"
+            width={220}
+            height={74}
+            sizes="(max-width: 560px) 140px, 220px"
+            className={styles.brandLogoLeft}
             priority
           />
-        </span>
+        </Link>
 
         <button
           type="button"

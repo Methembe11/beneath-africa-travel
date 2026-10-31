@@ -34,7 +34,6 @@ import PolaroidLineCarousel, {
 import { SwipeCards } from "../ui/image-stack-carousel";
 import SiteFooter from "../SiteFooter";
 import BookingTrigger from "../booking/BookingTrigger";
-import QuickBookStrip from "../booking/QuickBookStrip";
 import styles from "./Home.module.css";
 
 /* ============================================================
@@ -425,9 +424,6 @@ export default function Home() {
           </a>
         </section>
 
-        {/* quick-book strip ------------------------------- */}
-        <QuickBookStrip />
-
         {/* §2 — about (split: swipable image stack + read more) */}
         <section id="story" className={styles.about} aria-label="About Beneath Africa">
           <div className={styles.aboutInner}>
@@ -744,6 +740,35 @@ export default function Home() {
               </li>
             ))}
           </ul>
+        </section>
+
+        {/* Group Travel — prepared for client's photograph */}
+        <section id="group-travel" className={styles.groupTravel} aria-label="Group travel">
+          <div className={styles.groupInner}>
+            <div className={styles.groupMedia}>
+              <Image
+                src="/image-library/Beneath people with lion image.jpeg"
+                alt="Group travel experience — temporary imagery until client's group photograph is supplied"
+                fill
+                sizes="(max-width: 900px) 100vw, 50vw"
+                style={{ objectFit: "cover", objectPosition: "center 30%" }}
+              />
+              <span className={styles.groupNote} aria-label="Note">
+                Client group photograph to be inserted here
+              </span>
+            </div>
+            <div className={styles.groupText}>
+              <Eyebrow>Travel Services</Eyebrow>
+              <h2 className={styles.groupTitle}>Group Travel</h2>
+              <p className={styles.groupBody}>
+                From school trips to family reunions and tailor-made group journeys — arranged with a single point of contact from first enquiry to return transfer. We coordinate transport, accommodation and activities so the group holds together.
+              </p>
+              <div className={styles.groupLinks}>
+                <Link href="/travel/group-travel" className={styles.groupCta}>Explore group arrangements</Link>
+                <a href="https://wa.me/263778130264" className={styles.groupCtaGhost} target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* §9 — recognition ----------------------------------- */}

@@ -42,6 +42,7 @@ const COLUMNS: Array<{
       { label: "Cross-border", href: "/travel/cross-border" },
       { label: "Accommodation", href: "/travel/accommodation" },
       { label: "Educational trips", href: "/educational-trips" },
+      { label: "Tour Packages", href: "/packages" },
     ],
   },
   {
@@ -177,15 +178,16 @@ export default function SiteFooter() {
                   required
                   placeholder="Your email"
                   className={styles.subscribeInput}
+                  aria-label="Email address for promotional updates"
                 />
-                <button type="submit" className={styles.subscribeBtn}>
+                <button type="submit" className={styles.subscribeBtn} aria-label="Subscribe to newsletter">
                   Subscribe
                 </button>
               </div>
               <p className={styles.subscribeNote} role="status" aria-live="polite">
                 {sent
-                  ? "Your email app should now open with a ready-to-send note."
-                  : ""}
+                  ? "Your email app should now open with a ready-to-send note. Each promotional email includes an unsubscribe mechanism."
+                  : "Subscribing to promotional updates — discounts, new packages, new routes and upcoming travel experiences. You can unsubscribe at any time."}
               </p>
             </form>
 

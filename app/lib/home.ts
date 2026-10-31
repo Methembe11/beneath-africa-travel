@@ -108,7 +108,7 @@ export const about = {
     { text: "built for the journey.", italicWord: "journey.", variant: "italic" as const },
   ],
   body: [
-    `${company.tradingName} was established in ${company.established} by Ranjisi Nyakusengwa, Bruce and Naume Ndoro as a tourism company based in ${company.base}, with a vision to grow within Zimbabwe.`,
+    `${company.tradingName} was established in ${company.established} by Ranjis, Naume and Bruce Nyakusengwa as a tourism company based in ${company.base}, with a vision to grow within Zimbabwe.`,
     "We specialise in road and water transfers, educational school trips, and tours around Botswana, Namibia, Zambia and Zimbabwe — with accommodation in hotels, lodges and camps, camping, houseboats on Lake Kariba, Chobe day trips and other activities in and around Victoria Falls.",
   ],
   stats: [

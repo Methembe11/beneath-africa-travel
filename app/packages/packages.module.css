@@ -1,0 +1,258 @@
+/* Tour Packages — editorial cards */
+
+.packagesBand {
+  background: var(--cream);
+  padding: clamp(4rem, 8vw, 7rem) 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(1.5rem, 5vw, 3rem);
+}
+
+.introRow {
+  margin-bottom: clamp(3rem, 6vw, 5rem);
+}
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  margin-bottom: 1rem;
+}
+
+.sectionIntro {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: clamp(1rem, 1.3vw, 1.15rem);
+  color: var(--t-body);
+  max-width: 680px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: clamp(2rem, 4vw, 3.5rem);
+  align-items: stretch;
+}
+
+.card {
+  background: var(--bone);
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.cardImage {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.cardImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease;
+}
+
+.card:hover .cardImage img {
+  transform: scale(1.03);
+}
+
+.cardDuration {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  background: var(--ink);
+  color: var(--bone-2);
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  z-index: 2;
+}
+
+.cardTag {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  z-index: 2;
+}
+
+.cardBody {
+  padding: clamp(1.5rem, 3vw, 2.25rem);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTitle {
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.5vw, 1.7rem);
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  margin-bottom: 0.75rem;
+  color: var(--ink);
+}
+
+.cardIntro {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--t-body);
+  margin-bottom: 0.75rem;
+}
+
+.cardMeta {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--t-muted);
+  margin-bottom: 1rem;
+}
+
+.itinerary {
+  margin-bottom: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+  padding-top: 1rem;
+}
+
+.itinerary h4,
+.included h4 {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--t-muted);
+  margin-bottom: 0.6rem;
+}
+
+.itinerary ul,
+.included ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.itinerary li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem 1rem;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.itineraryPlace {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.itineraryNights {
+  color: var(--t-muted);
+  font-size: 0.8rem;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.itineraryDetail {
+  grid-column: 1 / -1;
+  color: var(--t-body);
+  font-size: 0.82rem;
+  font-weight: 300;
+}
+
+.included ul li {
+  font-size: 0.88rem;
+  padding: 0.15rem 0;
+  color: var(--t-body);
+  font-weight: 300;
+}
+
+.pricingNote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 0.92rem;
+  color: var(--t-muted);
+  margin: 1rem 0 0.5rem;
+}
+
+.cardFooter {
+  margin-top: auto;
+}
+
+.enquiryBtn {
+  display: inline-block;
+  background: var(--ink);
+  color: var(--bone-2);
+  text-decoration: none;
+  padding: 0.85rem 1.5rem;
+  border-radius: 999px;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: background 0.25s ease, transform 0.2s ease;
+}
+
+.enquiryBtn:hover {
+  background: var(--orange);
+  color: var(--ink);
+  transform: translateY(-2px);
+}
+
+.noteBand {
+  background: var(--bone);
+  padding: clamp(3rem, 6vw, 5rem) 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.noteBand h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  margin-bottom: 1rem;
+}
+
+.noteBand p {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--t-body);
+  max-width: 760px;
+}
+
+.noteBand a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .cardDuration,
+  .cardTag {
+    font-size: 0.62rem;
+  }
+}

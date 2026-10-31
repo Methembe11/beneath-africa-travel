@@ -86,11 +86,6 @@ export const company = {
       href: "tel:+263778130264",
       note: "Calls & WhatsApp",
     },
-    {
-      label: "+263 71 666 9887",
-      href: "tel:+263716669887",
-      note: "Mobile",
-    },
   ],
   emails: [
     {
@@ -1375,7 +1370,7 @@ export const travelServices: InteriorPageData[] = [
     navDescription: "Planned daily, serviced and licensed",
     eyebrow: "Travel & Transfers · Road",
     title: "Road Transfers",
-    lead: "Road transfers planned daily, with vehicles serviced, fuelled and licensed.",
+    lead: "Road transfers planned daily throughout Zimbabwe, with vehicles serviced, fuelled and licensed.",
     image: "/image-library/Beneath africa travel car  image1.jpeg",
     imageAlt: "Beneath Africa transfer vehicle",
     metaDescription:
@@ -1478,14 +1473,14 @@ export const travelServices: InteriorPageData[] = [
     navDescription: "Zambezi and Lake Kariba logistics",
     eyebrow: "Travel & Transfers · Water",
     title: "Water Transfers",
-    lead: "Water transfers, Chobe River cruises and houseboats on Lake Kariba, arranged as one piece of logistics.",
+    lead: "Water transfers, Chobe River cruises and Lake Kariba houseboat logistics — arranged together as one piece of logistics.",
     image: "/image-library/Beneath Lake site.jpeg",
     imageAlt: "Sunrise over the Zambezi",
     metaDescription:
       "Water transfers, Zambezi cruises, Chobe River journeys and Lake Kariba houseboats arranged from a Victoria Falls base.",
     intro: [
       "Where a trip leaves the road, the timing becomes harder to control, and water transfers are where that matters most. The transfers to the river, the boat bookings and the road legs that meet them are arranged together rather than passed between suppliers.",
-      "That covers the Zambezi cruises at the Falls, the Chobe River in Botswana, and houseboats on Lake Kariba.",
+      "That covers the Zambezi cruises at the Falls, the Chobe River in Botswana, and Lake Kariba houseboat logistics — including boat bookings, river and lake logistics, and houseboat accommodation.",
     ],
     highlights: [
       {
@@ -1898,7 +1893,7 @@ export const aboutPages: InteriorPageData[] = [
     metaDescription:
       "Beneath Africa Travel and Tours, trading as Zeresh Trading Company (Pvt) Ltd, was established in 2013 in Victoria Falls and is registered in Zimbabwe.",
     intro: [
-      "Zeresh Trading Company, trading as Beneath Africa Travel and Tours, was established in 2013 by Naume Ndoro, Bruce Nyakusengwa and Ranjisi Nyakusengwa as a tourism company based in Victoria Falls. The registered company is Zeresh Trading Company Private Limited, company number 845/2013, registered by the Registrar of Companies Zimbabwe.",
+      "Zeresh Trading Company, trading as Beneath Africa Travel and Tours, was established in 2013 by Ranjis, Naume and Bruce Nyakusengwa as a tourism company based in Victoria Falls. The registered company is Zeresh Trading Company Private Limited, company number 845/2013, registered by the Registrar of Companies Zimbabwe.",
       "The vision was to grow within Zimbabwe while specialising in road and water transfers, educational school trips, and tours around Botswana, Namibia, Zambia and Zimbabwe — with accommodation in hotels, lodges and camps, camping, houseboats on Lake Kariba, Chobe day trips and other activities in and around Victoria Falls.",
     ],
     highlights: [
@@ -2051,7 +2046,7 @@ export const aboutPages: InteriorPageData[] = [
     metaDescription:
       "The team behind Beneath Africa Travel and Tours: Ranjis Nyakusengwa, Bruce Nyakusengwa, Naume Ndoro and Brian Muvuti.",
     intro: [
-      "The directors of Zeresh Trading Company Private Limited are Ranjisi Nyakusengwa, Naume Ndoro and Bruce Nyakusengwa. Between them they cover the commercial side, the operations and the day-to-day running of the transfers.",
+      "The directors of Zeresh Trading Company Private Limited are Ranjis, Naume and Bruce Nyakusengwa. Between them they cover the commercial side, the operations and the day-to-day running of the transfers.",
       "It is a small company by design. It means the person you speak to when you ask about a border is the person who arranges them.",
     ],
     people: [
@@ -2249,7 +2244,7 @@ export const educationalTrips: InteriorPageData = {
   slug: "educational-trips",
   navTitle: "Educational Trips",
   navDescription: "School trips from Victoria Falls",
-  eyebrow: "Company · Educational Trips",
+  eyebrow: "Company · Educational Trips · Zimbabwe",
   title: "Educational School Trips",
   lead: "School trips arranged from Victoria Falls, so your staff can focus on their other core activities while the trip is taken care of.",
   image: "/image-library/Beneath chilling people image.jpeg",
