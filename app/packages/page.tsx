@@ -65,6 +65,22 @@ const PACKAGES = [
     enquirySlug: "package-03-apartment",
   },
   {
+  {
+    id: "05",
+    title: "Victoria Falls & Chobe Escape",
+    duration: "4 nights · 5 days",
+    tag: "Zimbabwe & Botswana",
+    intro: "A five-day escape combining time in Victoria Falls with a stay in Kasane and wildlife experiences in Chobe.",
+    groupSize: "Minimum 4 people",
+    image: "/image-library/Chobe river elephants 2026.jpeg",
+    itinerary: [
+      { place: "Victoria Falls", nights: "2 nights", details: "Airport transfers, sunset cruise, guided Falls tour, vulture feeding experience and Victoria Falls experience" },
+      { place: "Kasane", nights: "2 nights", details: "Road transfers, morning game drive and sunset cruise" },
+    ],
+    included: ["Airport transfers", "Guided Victoria Falls tour", "Sunset cruises", "Vulture feeding experience", "Morning game drive", "Road transfers"],
+    enquiryLabel: "Enquire about Package 05",
+    enquirySlug: "package-05-victoria-falls-chobe",
+  },
     id: "04",
     title: "Around Zimbabwe Tour",
     duration: "12 nights",

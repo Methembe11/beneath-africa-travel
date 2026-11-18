@@ -987,6 +987,12 @@ export const experiences: InteriorPageData[] = [
         ],
       },
     ],
+    gallery: [
+      { src: "/image-library/Chobe wildlife lion 2026.jpeg", alt: "Lions resting beneath trees in Chobe" },
+      { src: "/image-library/Chobe wildlife giraffes 2026.jpeg", alt: "Giraffes in the Chobe wilderness" },
+      { src: "/image-library/Chobe wildlife buffalo 2026.jpeg", alt: "Cape buffalo in the Chobe wilderness" },
+      { src: "/image-library/Chobe river elephants 2026.jpeg", alt: "Elephants gathered along the Chobe River" },
+    ],
     related: [
       {
         title: "Botswana",
