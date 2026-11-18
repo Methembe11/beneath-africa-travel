@@ -65,22 +65,6 @@ const PACKAGES = [
     enquirySlug: "package-03-apartment",
   },
   {
-  {
-    id: "05",
-    title: "Victoria Falls & Chobe Escape",
-    duration: "4 nights · 5 days",
-    tag: "Zimbabwe & Botswana",
-    intro: "A five-day escape combining time in Victoria Falls with a stay in Kasane and wildlife experiences in Chobe.",
-    groupSize: "Minimum 4 people",
-    image: "/image-library/Chobe river elephants 2026.jpeg",
-    itinerary: [
-      { place: "Victoria Falls", nights: "2 nights", details: "Airport transfers, sunset cruise, guided Falls tour, vulture feeding experience and Victoria Falls experience" },
-      { place: "Kasane", nights: "2 nights", details: "Road transfers, morning game drive and sunset cruise" },
-    ],
-    included: ["Airport transfers", "Guided Victoria Falls tour", "Sunset cruises", "Vulture feeding experience", "Morning game drive", "Road transfers"],
-    enquiryLabel: "Enquire about Package 05",
-    enquirySlug: "package-05-victoria-falls-chobe",
-  },
     id: "04",
     title: "Around Zimbabwe Tour",
     duration: "12 nights",
@@ -101,6 +85,99 @@ const PACKAGES = [
     enquiryLabel: "Enquire about Package 04",
     enquirySlug: "package-04-around-zimbabwe",
   },
+  {
+    id: "05",
+    title: "Victoria Falls & Chobe Escape",
+    duration: "4 nights / 5 days",
+    tag: "Zimbabwe & Botswana",
+    intro:
+      "Four nights split between Victoria Falls and Kasane, with guided experiences on both sides of the border.",
+    groupSize: "Minimum 4 people",
+    image: "/image-library/Chobe river elephants 2026.jpeg",
+    itinerary: [
+      {
+        place: "Victoria Falls",
+        nights: "2 nights",
+        details:
+          "Airport transfers, sunset cruise, Falls guided tour, vulture feeding experience and tour/village experience",
+      },
+      {
+        place: "Kasane",
+        nights: "2 nights",
+        details: "Road transfers, morning game drive and sunset cruise",
+      },
+    ],
+    included: [
+      "Airport transfers",
+      "Sunset cruise",
+      "Falls guided tour",
+      "Vulture feeding experience",
+      "Tour/village experience",
+      "Road transfers",
+      "Morning game drive",
+      "Sunset cruise in Kasane",
+    ],
+    enquiryLabel: "Enquire about Package 05",
+    enquirySlug: "package-05-victoria-falls-chobe",
+  },
+  {
+    id: "06",
+    title: "Victoria Falls & Great Zimbabwe Discovery",
+    duration: "10 nights / 10 days",
+    tag: "Zimbabwe · Victoria Falls, Hwange, Matobo & Great Zimbabwe",
+    intro:
+      "A multi-stop Zimbabwe journey combining Victoria Falls, wildlife experiences in Hwange, the landscapes and activities of Matobo, Great Zimbabwe and a final night in Bulawayo.",
+    groupSize: "Minimum 4 people",
+    image: "/image-library/DISCOVER SOUTHERN AFRICA image1.jpg",
+    itinerary: [
+      {
+        place: "Victoria Falls",
+        nights: "3 nights",
+        details:
+          "Airport transfers, sunset cruise, Falls guided tour, vulture feeding experience, village experience and Chobe day trip",
+      },
+      {
+        place: "Hwange National Park",
+        nights: "2 nights",
+        details: "Night game drive and full-day game drive",
+      },
+      {
+        place: "Matobo",
+        nights: "2 nights",
+        details: "Road transfers, rock climbing, rhino tracking and Rhodes' Grave",
+      },
+      {
+        place: "Great Zimbabwe",
+        nights: "2 nights",
+        details: "Sunset cruise and mountain guided tour",
+      },
+      {
+        place: "Bulawayo City",
+        nights: "1 night",
+        details: "City tour, museum, airport transfer and flight from Bulawayo",
+      },
+    ],
+    included: [
+      "Airport transfers",
+      "Sunset cruise",
+      "Falls guided tour",
+      "Vulture feeding experience",
+      "Village experience",
+      "Chobe day trip",
+      "Night game drive",
+      "Full-day game drive",
+      "Road transfers",
+      "Rock climbing",
+      "Rhino tracking",
+      "Rhodes' Grave visit",
+      "Mountain guided tour",
+      "Bulawayo city tour and museum",
+      "Airport transfer and flight from Bulawayo",
+    ],
+    enquiryLabel: "Enquire about Package 06",
+    enquirySlug: "package-06-victoria-falls-great-zimbabwe",
+  },
+
 ];
 
 export default function PackagesPage() {
@@ -109,7 +186,7 @@ export default function PackagesPage() {
       <PageHero
         eyebrow="Tour Packages"
         title="Curated Journeys Around Southern Africa"
-        lead="Four carefully arranged packages — from multi-destination safari and water experiences to budget-friendly self-catering stays and an extended Zimbabwe discovery tour. All arranged from our Victoria Falls office. Price available upon inquiry."
+        lead="Six carefully arranged packages — from multi-destination safari and water experiences to budget-friendly self-catering stays and extended Zimbabwe journeys. All arranged from our Victoria Falls office. Price available upon inquiry."
         image="/image-library/Helicopter Flights image1.jpg"
         imageAlt="Victoria Falls mist"
       />
