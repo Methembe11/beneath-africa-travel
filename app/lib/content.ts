@@ -62,6 +62,8 @@ export type InteriorPageData = {
   timeline?: TimelineEntry[];
   quotes?: Quote[];
   gallery?: GalleryImage[];
+  galleryTitle?: string;
+  galleryIntro?: string;
   pills?: string[];
   note?: string;
   related?: CardLink[];
@@ -987,6 +989,8 @@ export const experiences: InteriorPageData[] = [
         ],
       },
     ],
+    galleryTitle: "A Closer Look At Chobe",
+    galleryIntro: "A glimpse of the wildlife and river landscapes that make a Chobe day trip memorable.",
     gallery: [
       { src: "/image-library/Chobe wildlife lion 2026.jpeg", alt: "Lions resting beneath trees in Chobe" },
       { src: "/image-library/Chobe wildlife giraffes 2026.jpeg", alt: "Giraffes in the Chobe wilderness" },

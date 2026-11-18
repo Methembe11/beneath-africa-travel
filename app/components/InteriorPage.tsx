@@ -91,6 +91,42 @@ export default function InteriorPage({ page, enquirySlug }: InteriorPageProps) {
           </div>
         </section>
       )}
+      {page.gallery && page.gallery.length > 0 && (
+        <section className={styles.gallerySection}>
+          <div className={styles.wide}>
+            <motion.div
+              className={styles.galleryIntro}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={VIEWPORT}
+              transition={{ duration: 0.8, ease: EASE }}
+            >
+              {page.galleryTitle && <h2>{page.galleryTitle}</h2>}
+              {page.galleryIntro && <p>{page.galleryIntro}</p>}
+            </motion.div>
+            <div className={styles.gallery}>
+              {page.gallery.map((image, i) => (
+                <motion.div
+                  key={image.src}
+                  className={styles.galleryItem}
+                  initial={{ opacity: 0, y: 24 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={VIEWPORT}
+                  transition={{ duration: 0.9, ease: EASE, delay: i * 0.05 }}
+                >
+                  <Image
+                    src={image.src}
+                    alt={image.alt}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    style={{ objectFit: "cover" }}
+                  />
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {page.highlights && page.highlights.length > 0 && (
         <section className={styles.highlights}>
@@ -306,32 +342,6 @@ export default function InteriorPage({ page, enquirySlug }: InteriorPageProps) {
         </section>
       )}
 
-      {page.gallery && page.gallery.length > 0 && (
-        <section className={styles.bandWhite}>
-          <div className={styles.wide}>
-            <div className={styles.gallery}>
-              {page.gallery.map((image, i) => (
-                <motion.div
-                  key={image.src}
-                  className={styles.galleryItem}
-                  initial={{ opacity: 0, y: 24 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={VIEWPORT}
-                  transition={{ duration: 0.9, ease: EASE, delay: i * 0.05 }}
-                >
-                  <Image
-                    src={image.src}
-                    alt={image.alt}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    style={{ objectFit: "cover" }}
-                  />
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
 
       {page.pills && page.pills.length > 0 && (
         <section className={styles.extras}>
