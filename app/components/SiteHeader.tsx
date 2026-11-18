@@ -164,7 +164,7 @@ export default function SiteHeader() {
           onClick={close}
         >
           <Image
-            src="/image-library/New Beneath Logo 2026.jpeg"
+            src="/image-library/New Beneath Logo Transparent.png"
             alt="Beneath Africa Travel & Tours"
             width={220}
             height={74}

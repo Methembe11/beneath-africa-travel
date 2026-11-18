@@ -73,7 +73,7 @@ const structuredData = {
       legalName: company.registeredName,
       registrationNumber: company.registrationNumber,
       url: `${SITE_URL}/`,
-      logo: `${SITE_URL}/image-library/New%20Beneath%20Logo%202026.jpeg`,
+      logo: `${SITE_URL}/image-library/New%20Beneath%20Logo%20Transparent.png`,
       image: `${SITE_URL}${DEFAULT_OG_IMAGE}`,
       telephone: "+263778130264",
       email: company.emails[0].label,
